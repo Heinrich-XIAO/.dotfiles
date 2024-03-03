@@ -4,9 +4,10 @@ export SHELL="/bin/zsh"
 # Enable vi mode
 bindkey -v
 
-# Set the prompt
-PROMPT='%B%m%~%b %# '
 
+# Set the prompt
+PROMPT='%(?:%{[01;32m%}%1{➜%} :%{[01;31m%}%1{➜%} )  %{[36m%}%~%{[00m%} %# '
+#PROMPT='%B%m%~%b %# '
 # Enable syntax highlighting
 if command -v zinit >/dev/null 2>&1; then
     zinit light zdharma/fast-syntax-highlighting
@@ -21,6 +22,7 @@ fi
 if command -v zinit >/dev/null 2>&1; then
     zinit light zsh-users/zsh-history-substring-search
 fi
+
 
 # Set the editor (change it to your preferred editor)
 export VISUAL=vim
@@ -60,17 +62,19 @@ zinit light-mode for \
 ### End of Zinit's installer chunk
 #
 
-
-clear
+export PATH="${PATH}:${HOME}/Documents/programs/swww/target/release"
+export PATH="$HOME/haskell/music:$PATH"
+export PATH="$HOME/Documents/programs/vesktop:$PATH"
 
 # Aliasies
 alias l='ls -lhAFa'
+alias py='python'
 
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 eval "$(zoxide init --cmd cd zsh)"
 eval "$(~/.rbenv/bin/rbenv init - zsh)"
 
-neofetch
+neofetch 
 
 

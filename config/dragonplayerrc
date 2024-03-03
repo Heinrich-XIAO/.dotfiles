@@ -1,0 +1,35 @@
+[General]
+ColorSchemeHash[$d]
+File1[$e]=$HOME/Downloads/Heritage Minute The Discovery of Insulin(1).mp4
+File2[$e]=$HOME/haskell/music/songs/y2mate.com - Dimrain47 At the Speed of Light.mp3
+Name1[$e]=Heritage Minute The Discovery of Insulin(1).mp4
+Name2[$e]=y2mate.com - Dimrain47 At the Speed of Light.mp3
+TimeFormat=1
+Volume=0
+toolBarFont[$d]
+
+[MainWindow]
+1280x800 screen: Window-Maximized=true
+State=AAAA/wAAAAD9AAAAAAAABNQAAAKEAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+
+[file:///home/heinrich/Downloads/Heritage Minute The Discovery of Insulin(1).mp4]
+Brightness=0
+Contrast=0
+Date=2024,2,29
+Hue=0
+IsVideo=true
+Position=2263
+Preferred Size=657,644
+Saturation=0
+Subtitle=0
+
+[file:///home/heinrich/haskell/music/songs/y2mate.com - Dimrain47 At the Speed of Light.mp3]
+Brightness=0
+Contrast=0
+Date=2024,3,3
+Hue=0
+IsVideo=false
+Position=16186
+Preferred Size=100,30
+Saturation=0

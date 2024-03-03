@@ -1,0 +1,6 @@
+2024/03/03-08:02:12.997 f85 Reusing MANIFEST /home/heinrich/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
+2024/03/03-08:02:13.002 f85 Recovering log #10
+2024/03/03-08:02:13.002 f85 Reusing old log /home/heinrich/.config/vesktop/sessionData/Local Storage/leveldb/000010.log 
+2024/03/03-08:58:50.970 f86 Level-0 table #14: started
+2024/03/03-08:58:50.979 f86 Level-0 table #14: 24802 bytes OK
+2024/03/03-08:58:50.983 f86 Delete type=0 #10

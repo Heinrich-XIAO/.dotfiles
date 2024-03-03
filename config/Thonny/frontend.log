@@ -1,0 +1,12 @@
+18:03:41.172 INFO    thonny: Thonny version: 4.0.2
+18:03:41.172 INFO    thonny: cwd: /dev
+18:03:41.172 INFO    thonny: original argv: ['/usr/bin/python3', '-sP', '/usr/bin/thonny']
+18:03:41.172 INFO    thonny: sys.executable: /usr/bin/python3
+18:03:41.172 INFO    thonny: sys.argv: ['/usr/bin/thonny']
+18:03:41.172 INFO    thonny: sys.path: ['/usr/lib64/python312.zip', '/usr/lib64/python3.12', '/usr/lib64/python3.12/lib-dynload', '/usr/lib64/python3.12/site-packages', '/usr/lib/python3.12/site-packages']
+18:03:41.172 INFO    thonny: sys.flags: sys.flags(debug=0, inspect=0, interactive=0, optimize=0, dont_write_bytecode=0, no_user_site=1, no_site=0, ignore_environment=0, verbose=0, bytes_warning=0, quiet=0, hash_randomization=1, isolated=0, dev_mode=False, utf8_mode=0, warn_default_encoding=0, safe_path=True, int_max_str_digits=4300)
+18:03:41.594 INFO    thonny.plugins.cpython_frontend.cp_front: Creating LocalCPythonProxy
+18:03:41.595 INFO    thonny.running: Starting the backend: ['/usr/bin/python3', '-u', '-B', '-m', 'thonny.plugins.cpython_backend.cp_launcher', '/home/heinrich'] /home/heinrich
+18:03:42.911 INFO    thonny.running: Killing backend process
+18:03:42.912 INFO    thonny.shell: BaseShellText._on_backend_terminated
+18:03:42.912 INFO    thonny.running: Reader got EOF

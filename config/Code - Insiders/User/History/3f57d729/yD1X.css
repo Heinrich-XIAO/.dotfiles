@@ -1,0 +1,4 @@
+/* Force Hack Nerd Font Mono as the monospaced font */
+* {
+    font-family: 'Hack Nerd Font Mono' !important;
+}
