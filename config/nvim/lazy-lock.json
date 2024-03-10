@@ -1,0 +1,4 @@
+{
+  "lazy.nvim": { "branch": "main", "commit": "83493db50a434a4c5c648faf41e2ead80f96e478" },
+  "tetris.nvim": { "branch": "main", "commit": "b5a8b05108b823254c70da4d8bfb53b70b7376b3" }
+}

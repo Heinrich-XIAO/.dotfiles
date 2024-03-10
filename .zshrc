@@ -65,11 +65,15 @@ zinit light-mode for \
 export PATH="${PATH}:${HOME}/Documents/programs/swww/target/release"
 export PATH="$HOME/haskell/music:$PATH"
 export PATH="$HOME/Documents/programs/vesktop:$PATH"
+export PATH="$HOME/Documents/programs/zig:$PATH"
+export PATH="$HOME/Documents/programs/julia/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
 
 # Aliasies
 alias l='ls -lhAFa'
 alias py='python'
-
+alias dog='cat'
+alias vim='nvim'
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 eval "$(zoxide init --cmd cd zsh)"
@@ -78,3 +82,12 @@ eval "$(~/.rbenv/bin/rbenv init - zsh)"
 neofetch 
 
 
+
+# >>> juliaup initialize >>>
+
+# !! Contents within this block are managed by juliaup !!
+
+path=('/home/heinrich/.juliaup/bin' $path)
+export PATH
+
+# <<< juliaup initialize <<<

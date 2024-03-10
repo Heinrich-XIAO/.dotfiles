@@ -1,2 +1,3 @@
-2024/02/29-18:07:29.777 a269 Creating DB /home/heinrich/.config/chromium/Default/Sync Data/LevelDB since it was missing.
-2024/02/29-18:07:29.777 a269 Reusing MANIFEST /home/heinrich/.config/chromium/Default/Sync Data/LevelDB/MANIFEST-000001
+2024/03/10-10:46:27.381 32f6 Reusing MANIFEST /home/heinrich/.config/chromium/Default/Sync Data/LevelDB/MANIFEST-000001
+2024/03/10-10:46:27.381 32f6 Recovering log #3
+2024/03/10-10:46:27.382 32f6 Reusing old log /home/heinrich/.config/chromium/Default/Sync Data/LevelDB/000003.log 

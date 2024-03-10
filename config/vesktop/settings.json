@@ -1,4 +1,6 @@
 {
     "splashColor": "rgb(219, 222, 225)",
-    "splashBackground": "rgb(49, 51, 56)"
+    "splashBackground": "rgb(49, 51, 56)",
+    "customTitleBar": false,
+    "arRPC": true
 }

@@ -1,0 +1,3 @@
+2024-03-03 11:47:19.938 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/heinrich/.cache/gnome-boxes/logs/boxes-unknown.logs","scheme":"file"},"type":1,"exists":true,"options":{}}],"filesToDiff":[],"filesToMerge":[]}
+2024-03-03 11:47:20.252 [info] Started local extension host with pid 8455.
+2024-03-03 11:47:22.778 [info] [perf] Render performance baseline is 22ms

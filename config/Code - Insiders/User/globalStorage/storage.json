@@ -4,19 +4,21 @@
         "workspaces": {
             "file:///home/heinrich/.mozilla/firefox/3yvp1owx.default-release": "__default__profile__"
         },
-        "emptyWindows": {}
+        "emptyWindows": {
+            "1709484439891": "__default__profile__"
+        }
     },
     "profileAssociationsMigration": true,
     "telemetry.sqmId": "",
     "telemetry.machineId": "dd0ad856011b5d1aa8bfd2d518df5cfebd34db531927fd0595e161ec91950f3d",
     "backupWorkspaces": {
         "workspaces": [],
-        "folders": [
+        "folders": [],
+        "emptyWindows": [
             {
-                "folderUri": "file:///home/heinrich/.mozilla/firefox/3yvp1owx.default-release"
+                "backupFolder": "1709484439891"
             }
-        ],
-        "emptyWindows": []
+        ]
     },
     "lastKnownMenubarData": {
         "menus": {
@@ -72,6 +74,20 @@
                                     },
                                     "enabled": true,
                                     "label": "~/.mozilla/firefox/3yvp1owx.default-release"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/heinrich/.cache/gnome-boxes/logs/boxes-unknown.logs",
+                                        "path": "/home/heinrich/.cache/gnome-boxes/logs/boxes-unknown.logs",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.cache/gnome-boxes/logs/boxes-unknown.logs"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -262,10 +278,6 @@
                     {
                         "id": "workbench.action.closeActiveEditor",
                         "label": "&&Close Editor"
-                    },
-                    {
-                        "id": "workbench.action.closeFolder",
-                        "label": "Close &&Folder"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -461,8 +473,7 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "&&Primary Side Bar",
-                                    "checked": true
+                                    "label": "&&Primary Side Bar"
                                 },
                                 {
                                     "id": "workbench.action.toggleAuxiliaryBar",
@@ -781,7 +792,8 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back"
+                        "label": "&&Back",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -790,7 +802,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1307,11 +1320,6 @@
                 "label": "Ctrl+W",
                 "userSettingsLabel": "ctrl+w"
             },
-            "workbench.action.closeFolder": {
-                "label": "Ctrl+K F",
-                "isNative": false,
-                "userSettingsLabel": "ctrl+k f"
-            },
             "workbench.action.closeWindow": {
                 "label": "Alt+F4",
                 "userSettingsLabel": "alt+f4"
@@ -1708,18 +1716,17 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 170,
+            "sideBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/heinrich/.mozilla/firefox/3yvp1owx.default-release",
-            "backupPath": "/home/heinrich/.config/Code - Insiders/Backups/07d3dbcd132770bb3cb09b233a415469",
+            "backupPath": "/home/heinrich/.config/Code - Insiders/Backups/1709484439891",
             "uiState": {
                 "mode": 1,
-                "x": 22,
+                "x": 647,
                 "y": 72,
                 "width": 611,
                 "height": 706
