@@ -23,10 +23,13 @@ if command -v zinit >/dev/null 2>&1; then
     zinit light zsh-users/zsh-history-substring-search
 fi
 
+if command -v zinit >/dev/null 2>&1; then
+    zinit light johnhamelink/env-zsh
+fi
 
 # Set the editor (change it to your preferred editor)
-export VISUAL=vim
-export EDITOR=vim
+export VISUAL=nvim
+export EDITOR=nvim
 
 # Add your customizations or additional plugins here
 
@@ -35,7 +38,6 @@ export EDITOR=vim
 # Load zinit
 if command -v zinit >/dev/null 2>&1; then
     zinit self-update
-    zinit load --no-pager
 fi
 
 ### Added by Zinit's installer
@@ -68,6 +70,7 @@ export PATH="$HOME/Documents/programs/vesktop:$PATH"
 export PATH="$HOME/Documents/programs/zig:$PATH"
 export PATH="$HOME/Documents/programs/julia/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
+export PATH="/home/heinrich/.cargo/bin:$PATH"
 
 # Aliasies
 alias l='ls -lhAFa'
@@ -78,6 +81,8 @@ alias vim='nvim'
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 eval "$(zoxide init --cmd cd zsh)"
 eval "$(~/.rbenv/bin/rbenv init - zsh)"
+
+plugins=(git env)
 
 neofetch 
 
@@ -91,3 +96,4 @@ path=('/home/heinrich/.juliaup/bin' $path)
 export PATH
 
 # <<< juliaup initialize <<<
+

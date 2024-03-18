@@ -1,0 +1,16 @@
+version = 1
+default_cpus = 2
+default_mem = 1024
+default_dns = '1.1.1.1'
+storage_volume = ''
+[vmconfig_map.asahi-krun]
+name = 'asahi-krun'
+cpus = 6
+mem = 6144
+container = 'asahi-krun-working-container'
+workdir = ''
+dns = '1.1.1.1'
+
+[vmconfig_map.asahi-krun.mapped_volumes]
+
+[vmconfig_map.asahi-krun.mapped_ports]

@@ -1,0 +1,182 @@
+2024-03-18 16:44:00.076 [info] Extension host with pid 6879 started
+2024-03-18 16:44:00.116 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-03-18 16:44:00.126 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-03-18 16:44:00.128 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-03-18 16:44:00.137 [info] Eager extensions activated
+2024-03-18 16:44:00.138 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-03-18 16:44:00.139 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-03-18 16:44:13.025 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-containers, startup: false, activationEvent: 'onStartupFinished'
+2024-03-18 16:50:55.694 [info] Extension host terminating: renderer closed the MessagePort
+2024-03-18 16:50:55.720 [info] Extension host with pid 6879 exiting with code 0
+2024-03-18 16:50:56.547 [info] Extension host with pid 11024 started
+2024-03-18 16:50:56.547 [info] Skipping acquiring lock for /home/heinrich/.config/Code - Insiders/User/workspaceStorage/2a0bd28d99ad4e5e994f43d646774c3a.
+2024-03-18 16:50:56.593 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-03-18 16:50:56.595 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2024-03-18 16:50:56.636 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-03-18 16:50:56.656 [info] Eager extensions activated
+2024-03-18 16:50:56.656 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-03-18 16:50:56.658 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-03-18 16:50:56.662 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-containers, startup: false, activationEvent: 'onStartupFinished'
+2024-03-18 16:50:58.248 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2024-03-18 16:51:04.066 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-03-18 16:51:10.299 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2024-03-18 16:51:11.410 [error] Error: ENOENT: no such file or directory, open '/home/heinrich/.config/Code - Insiders/User/globalStorage/vscodevim.vim/.registers'
+2024-03-18 16:51:21.593 [info] Extension host terminating: renderer closed the MessagePort
+2024-03-18 16:51:21.633 [error] Canceled: Canceled
+	at new h (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:45184)
+	at d.U (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:5556)
+	at j.<computed>.F.charCodeAt.j.<computed> (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:3007)
+	at o.g (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174456)
+	at o.executeCommand (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:173894)
+	at f.registerCommand.description (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:173218)
+	at o.h (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174995)
+	at o.g (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:173987)
+	at o.executeCommand (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:173894)
+	at Object.executeCommand (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:21632)
+	at m.I [as value] (/usr/share/code-insiders/resources/app/extensions/git/dist/main.js:2:926663)
+	at n.y (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.z (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at n.fire (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at Object.m [as dispose] (/usr/share/code-insiders/resources/app/extensions/git/dist/main.js:2:942455)
+	at /usr/share/code-insiders/resources/app/extensions/git/dist/main.js:2:947311
+	at Array.forEach (<anonymous>)
+	at p.dispose (/usr/share/code-insiders/resources/app/extensions/git/dist/main.js:2:947297)
+	at c.<anonymous> (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:148:3650)
+	at c.dispose (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:148:3747)
+	at c.<anonymous> (/usr/share/code-insiders/resources/app/extensions/git/dist/main.js:2:928675)
+	at c.dispose (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:148:3747)
+	at a (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at m.cb (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:9877)
+	at /usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:7812
+	at Array.map (<anonymous>)
+	at m.Y (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:7799)
+	at m.terminate (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:8072)
+	at a.terminate (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:1513)
+	at t (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:9946)
+	at MessagePortMain.<anonymous> (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:6371)
+	at MessagePortMain.emit (node:events:514:28)
+	at Object.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-03-18 16:51:21.634 [error] Canceled: Canceled
+	at new h (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:45184)
+	at d.U (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:5556)
+	at j.<computed>.F.charCodeAt.j.<computed> (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:3007)
+	at o.g (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174456)
+	at o.executeCommand (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:173894)
+	at f.registerCommand.description (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:173218)
+	at o.h (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174995)
+	at o.g (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:173987)
+	at o.executeCommand (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:173894)
+	at Object.executeCommand (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:21632)
+	at set b [as b] (/usr/share/code-insiders/resources/app/extensions/github/dist/extension.js:2:322364)
+	at /usr/share/code-insiders/resources/app/extensions/github/dist/extension.js:2:323005
+	at m.value (/usr/share/code-insiders/resources/app/extensions/git/dist/main.js:2:1018036)
+	at n.y (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.z (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at n.fire (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at Object.m [as dispose] (/usr/share/code-insiders/resources/app/extensions/git/dist/main.js:2:942455)
+	at /usr/share/code-insiders/resources/app/extensions/git/dist/main.js:2:947311
+	at Array.forEach (<anonymous>)
+	at p.dispose (/usr/share/code-insiders/resources/app/extensions/git/dist/main.js:2:947297)
+	at c.<anonymous> (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:148:3650)
+	at c.dispose (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:148:3747)
+	at c.<anonymous> (/usr/share/code-insiders/resources/app/extensions/git/dist/main.js:2:928675)
+	at c.dispose (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:148:3747)
+	at a (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at m.cb (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:9877)
+	at /usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:7812
+	at Array.map (<anonymous>)
+	at m.Y (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:7799)
+	at m.terminate (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:8072)
+	at a.terminate (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:1513)
+	at t (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:9946)
+	at MessagePortMain.<anonymous> (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:6371)
+	at MessagePortMain.emit (node:events:514:28)
+	at Object.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-03-18 16:51:21.634 [error] Error: ENOENT: no such file or directory, open '/home/heinrich/.config/Code - Insiders/User/globalStorage/vscodevim.vim/.registers'
+2024-03-18 16:51:21.634 [info] Extension host with pid 11024 exiting with code 0
+2024-03-18 16:51:22.172 [info] Extension host with pid 11351 started
+2024-03-18 16:51:22.172 [info] Skipping acquiring lock for /home/heinrich/.config/Code - Insiders/User/workspaceStorage/2a0bd28d99ad4e5e994f43d646774c3a.
+2024-03-18 16:51:22.202 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-03-18 16:51:22.215 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-03-18 16:51:22.216 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2024-03-18 16:51:22.220 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-03-18 16:51:22.230 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-03-18 16:51:22.306 [info] Eager extensions activated
+2024-03-18 16:51:22.331 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-03-18 16:51:22.332 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-03-18 16:51:22.335 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-containers, startup: false, activationEvent: 'onStartupFinished'
+2024-03-18 16:51:22.354 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2024-03-18 16:51:23.426 [error] Error: ENOENT: no such file or directory, open '/home/heinrich/.config/Code - Insiders/User/globalStorage/vscodevim.vim/.registers'
+2024-03-18 16:52:16.242 [info] Extension host terminating: renderer closed the MessagePort
+2024-03-18 16:52:16.288 [error] Canceled: Canceled
+	at new h (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:45184)
+	at d.U (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:5556)
+	at j.<computed>.F.charCodeAt.j.<computed> (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:3007)
+	at o.g (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174456)
+	at o.executeCommand (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:173894)
+	at f.registerCommand.description (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:173218)
+	at o.h (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174995)
+	at o.g (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:173987)
+	at o.executeCommand (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:173894)
+	at Object.executeCommand (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:21632)
+	at m.I [as value] (/usr/share/code-insiders/resources/app/extensions/git/dist/main.js:2:926663)
+	at n.y (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.z (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at n.fire (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at Object.m [as dispose] (/usr/share/code-insiders/resources/app/extensions/git/dist/main.js:2:942455)
+	at /usr/share/code-insiders/resources/app/extensions/git/dist/main.js:2:947311
+	at Array.forEach (<anonymous>)
+	at p.dispose (/usr/share/code-insiders/resources/app/extensions/git/dist/main.js:2:947297)
+	at c.<anonymous> (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:148:3650)
+	at c.dispose (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:148:3747)
+	at c.<anonymous> (/usr/share/code-insiders/resources/app/extensions/git/dist/main.js:2:928675)
+	at c.dispose (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:148:3747)
+	at a (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at m.cb (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:9877)
+	at /usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:7812
+	at Array.map (<anonymous>)
+	at m.Y (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:7799)
+	at m.terminate (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:8072)
+	at a.terminate (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:1513)
+	at t (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:9946)
+	at MessagePortMain.<anonymous> (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:6371)
+	at MessagePortMain.emit (node:events:514:28)
+	at Object.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-03-18 16:52:16.290 [error] Canceled: Canceled
+	at new h (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:45184)
+	at d.U (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:5556)
+	at j.<computed>.F.charCodeAt.j.<computed> (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:3007)
+	at o.g (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174456)
+	at o.executeCommand (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:173894)
+	at f.registerCommand.description (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:173218)
+	at o.h (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174995)
+	at o.g (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:173987)
+	at o.executeCommand (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:173894)
+	at Object.executeCommand (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:21632)
+	at set b [as b] (/usr/share/code-insiders/resources/app/extensions/github/dist/extension.js:2:322364)
+	at /usr/share/code-insiders/resources/app/extensions/github/dist/extension.js:2:323005
+	at m.value (/usr/share/code-insiders/resources/app/extensions/git/dist/main.js:2:1018036)
+	at n.y (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.z (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at n.fire (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at Object.m [as dispose] (/usr/share/code-insiders/resources/app/extensions/git/dist/main.js:2:942455)
+	at /usr/share/code-insiders/resources/app/extensions/git/dist/main.js:2:947311
+	at Array.forEach (<anonymous>)
+	at p.dispose (/usr/share/code-insiders/resources/app/extensions/git/dist/main.js:2:947297)
+	at c.<anonymous> (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:148:3650)
+	at c.dispose (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:148:3747)
+	at c.<anonymous> (/usr/share/code-insiders/resources/app/extensions/git/dist/main.js:2:928675)
+	at c.dispose (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:148:3747)
+	at a (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at m.cb (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:9877)
+	at /usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:7812
+	at Array.map (<anonymous>)
+	at m.Y (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:7799)
+	at m.terminate (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:8072)
+	at a.terminate (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:1513)
+	at t (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:9946)
+	at MessagePortMain.<anonymous> (/usr/share/code-insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:6371)
+	at MessagePortMain.emit (node:events:514:28)
+	at Object.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-03-18 16:52:16.291 [error] Error: ENOENT: no such file or directory, open '/home/heinrich/.config/Code - Insiders/User/globalStorage/vscodevim.vim/.registers'
+2024-03-18 16:52:16.291 [info] Extension host with pid 11351 exiting with code 0

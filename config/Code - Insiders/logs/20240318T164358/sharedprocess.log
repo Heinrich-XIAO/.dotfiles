@@ -1,0 +1,97 @@
+2024-03-18 16:43:59.756 [error] [uncaught exception in sharedProcess]: Event not found: onDidChange: CodeExpectedError: Event not found: onDidChange
+    at Object.listen (/usr/share/code-insiders/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:45:4960)
+    at E.t (/usr/share/code-insiders/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:44:251)
+    at E.q (/usr/share/code-insiders/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:43:4371)
+    at y.value (/usr/share/code-insiders/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:43:3602)
+    at d.y (/usr/share/code-insiders/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:38:1902)
+    at d.z (/usr/share/code-insiders/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:38:1972)
+    at d.fire (/usr/share/code-insiders/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:38:2188)
+    at MessagePortMain.fe (/usr/share/code-insiders/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:36:30382)
+    at MessagePortMain.emit (node:events:514:28)
+    at Object.emit (node:electron/js2c/utility_init:2:2285)
+2024-03-18 16:44:10.820 [info] Getting Manifest... ms-azuretools.vscode-docker
+2024-03-18 16:44:11.042 [info] Getting Manifest... ms-vscode-remote.remote-containers
+2024-03-18 16:44:11.081 [info] Installing extension: ms-azuretools.vscode-docker
+2024-03-18 16:44:11.081 [info] Installing extension: ms-vscode-remote.remote-containers
+2024-03-18 16:44:12.536 [info] Extension signature is verified: ms-azuretools.vscode-docker
+2024-03-18 16:44:12.542 [info] Extension signature is verified: ms-vscode-remote.remote-containers
+2024-03-18 16:44:12.755 [info] Extracted extension to file:///home/heinrich/.vscode-insiders/extensions/ms-azuretools.vscode-docker-1.29.0: ms-azuretools.vscode-docker
+2024-03-18 16:44:12.761 [info] Renamed to /home/heinrich/.vscode-insiders/extensions/ms-azuretools.vscode-docker-1.29.0
+2024-03-18 16:44:12.769 [info] Extracting extension completed. ms-azuretools.vscode-docker
+2024-03-18 16:44:12.836 [info] Extracted extension to file:///home/heinrich/.vscode-insiders/extensions/ms-vscode-remote.remote-containers-0.348.0: ms-vscode-remote.remote-containers
+2024-03-18 16:44:12.839 [info] Renamed to /home/heinrich/.vscode-insiders/extensions/ms-vscode-remote.remote-containers-0.348.0
+2024-03-18 16:44:12.844 [info] Extracting extension completed. ms-vscode-remote.remote-containers
+2024-03-18 16:44:12.852 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/heinrich/.vscode-insiders/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/heinrich/.vscode-insiders/extensions/extensions.json.vsctmp'
+    at r.create (/usr/share/code-insiders/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30083)
+    at a (/usr/share/code-insiders/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30198)
+    at i.fb (/usr/share/code-insiders/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36631)
+    at i.stat (/usr/share/code-insiders/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29077)
+    at async v.stat (/usr/share/code-insiders/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16223)
+    at async Q.sb (/usr/share/code-insiders/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:107729)
+2024-03-18 16:44:12.860 [info] Extension installed successfully: ms-azuretools.vscode-docker
+2024-03-18 16:44:12.861 [info] Extension installed successfully: ms-vscode-remote.remote-containers
+2024-03-18 16:44:13.332 [info] Getting Manifest... ms-vscode-remote.remote-containers
+2024-03-18 16:44:13.338 [info] Installing extension: ms-vscode-remote.remote-containers
+2024-03-18 16:44:14.112 [info] Extension signature is verified: ms-vscode-remote.remote-containers
+2024-03-18 16:44:14.371 [info] Extracted extension to file:///home/heinrich/.vscode-insiders/extensions/ms-vscode-remote.remote-containers-0.349.0: ms-vscode-remote.remote-containers
+2024-03-18 16:44:14.375 [info] Renamed to /home/heinrich/.vscode-insiders/extensions/ms-vscode-remote.remote-containers-0.349.0
+2024-03-18 16:44:14.382 [info] Extracting extension completed. ms-vscode-remote.remote-containers
+2024-03-18 16:44:14.392 [info] Extension installed successfully: ms-vscode-remote.remote-containers
+2024-03-18 16:44:14.397 [info] Marked extension as uninstalled ms-vscode-remote.remote-containers-0.348.0
+2024-03-18 16:44:14.463 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/heinrich/.vscode-insiders/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/heinrich/.vscode-insiders/extensions/extensions.json.vsctmp'
+    at r.create (/usr/share/code-insiders/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30083)
+    at a (/usr/share/code-insiders/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30198)
+    at i.fb (/usr/share/code-insiders/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36631)
+    at i.stat (/usr/share/code-insiders/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29077)
+    at async v.stat (/usr/share/code-insiders/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16223)
+    at async Q.sb (/usr/share/code-insiders/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:107729)
+2024-03-18 16:44:22.873 [info] Getting Manifest... ms-vscode.js-debug
+2024-03-18 16:44:22.911 [info] Installing extension: ms-vscode.js-debug
+2024-03-18 16:44:23.736 [info] Extension signature is verified: ms-vscode.js-debug
+2024-03-18 16:44:23.873 [info] Extracted extension to file:///home/heinrich/.vscode-insiders/extensions/ms-vscode.js-debug-1.87.0: ms-vscode.js-debug
+2024-03-18 16:44:23.889 [info] Renamed to /home/heinrich/.vscode-insiders/extensions/ms-vscode.js-debug-1.87.0
+2024-03-18 16:44:23.923 [info] Extracting extension completed. ms-vscode.js-debug
+2024-03-18 16:44:23.953 [info] Extension installed successfully: ms-vscode.js-debug
+2024-03-18 16:44:24.014 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/heinrich/.vscode-insiders/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/heinrich/.vscode-insiders/extensions/extensions.json.vsctmp'
+    at r.create (/usr/share/code-insiders/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30083)
+    at a (/usr/share/code-insiders/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30198)
+    at i.fb (/usr/share/code-insiders/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36631)
+    at i.stat (/usr/share/code-insiders/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29077)
+    at async v.stat (/usr/share/code-insiders/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16223)
+    at async Q.sb (/usr/share/code-insiders/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:107729)
+2024-03-18 16:50:56.511 [error] [uncaught exception in sharedProcess]: Event not found: onDidChange: CodeExpectedError: Event not found: onDidChange
+    at Object.listen (/usr/share/code-insiders/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:45:4960)
+    at E.t (/usr/share/code-insiders/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:44:251)
+    at E.q (/usr/share/code-insiders/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:43:4371)
+    at y.value (/usr/share/code-insiders/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:43:3602)
+    at d.y (/usr/share/code-insiders/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:38:1902)
+    at d.z (/usr/share/code-insiders/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:38:1972)
+    at d.fire (/usr/share/code-insiders/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:38:2188)
+    at MessagePortMain.fe (/usr/share/code-insiders/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:36:30382)
+    at MessagePortMain.emit (node:events:514:28)
+    at Object.emit (node:electron/js2c/utility_init:2:2285)
+2024-03-18 16:51:09.064 [info] Getting Manifest... vscodevim.vim
+2024-03-18 16:51:09.074 [info] Installing extension: vscodevim.vim
+2024-03-18 16:51:09.997 [info] Extension signature is verified: vscodevim.vim
+2024-03-18 16:51:10.116 [info] Extracted extension to file:///home/heinrich/.vscode-insiders/extensions/vscodevim.vim-1.27.2: vscodevim.vim
+2024-03-18 16:51:10.121 [info] Renamed to /home/heinrich/.vscode-insiders/extensions/vscodevim.vim-1.27.2
+2024-03-18 16:51:10.124 [info] Extracting extension completed. vscodevim.vim
+2024-03-18 16:51:10.141 [info] Extension installed successfully: vscodevim.vim
+2024-03-18 16:51:10.188 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/heinrich/.vscode-insiders/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/heinrich/.vscode-insiders/extensions/extensions.json.vsctmp'
+    at r.create (/usr/share/code-insiders/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30083)
+    at a (/usr/share/code-insiders/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30198)
+    at i.fb (/usr/share/code-insiders/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36631)
+    at i.stat (/usr/share/code-insiders/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29077)
+    at async v.stat (/usr/share/code-insiders/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16223)
+    at async Q.sb (/usr/share/code-insiders/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:107729)
+2024-03-18 16:51:22.021 [error] [uncaught exception in sharedProcess]: Event not found: onDidChange: CodeExpectedError: Event not found: onDidChange
+    at Object.listen (/usr/share/code-insiders/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:45:4960)
+    at E.t (/usr/share/code-insiders/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:44:251)
+    at E.q (/usr/share/code-insiders/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:43:4371)
+    at y.value (/usr/share/code-insiders/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:43:3602)
+    at d.y (/usr/share/code-insiders/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:38:1902)
+    at d.z (/usr/share/code-insiders/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:38:1972)
+    at d.fire (/usr/share/code-insiders/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:38:2188)
+    at MessagePortMain.fe (/usr/share/code-insiders/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:36:30382)
+    at MessagePortMain.emit (node:events:514:28)
+    at Object.emit (node:electron/js2c/utility_init:2:2285)

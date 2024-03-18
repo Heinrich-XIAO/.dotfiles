@@ -3,34 +3,37 @@ update_info=gwenview.upd:SideBar_StatusBar_Rename,gwenview.upd:ImageView_AlphaBa
 
 [General]
 LastUsedVersion=210800
+SideBarPage=operations
 
 [MainWindow]
 1280x800 screen: Window-Maximized=true
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAAAmMAAAE1AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAAAoAAAAG7AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 
 [Recent Files]
-File1[$e]=$HOME/Documents/keyboard/3383.png
-File10[$e]=$HOME/Documents/keyboard/final.png
-File2[$e]=$HOME/Documents/keyboard/3391.png
-File3[$e]=$HOME/Documents/keyboard/3399.png
-File4[$e]=$HOME/Documents/keyboard/3520.png
-File5[$e]=$HOME/Documents/keyboard/3766.png
-File6[$e]=$HOME/Documents/keyboard/3844.png
-File7[$e]=$HOME/Documents/keyboard/3845.png
-File8[$e]=$HOME/Documents/keyboard/3852.png
-File9[$e]=$HOME/Documents/keyboard/4045.png
-Name1[$e]=3383.png
-Name10[$e]=final.png
-Name2[$e]=3391.png
-Name3[$e]=3399.png
-Name4[$e]=3520.png
-Name5[$e]=3766.png
-Name6[$e]=3844.png
-Name7[$e]=3845.png
-Name8[$e]=3852.png
-Name9[$e]=4045.png
+File1[$e]=$HOME/Documents/keyboard/3391.png
+File10[$e]=$HOME/.dotfiles/config/waybar/discord.png
+File2[$e]=$HOME/Documents/keyboard/3399.png
+File3[$e]=$HOME/Documents/keyboard/3520.png
+File4[$e]=$HOME/Documents/keyboard/3766.png
+File5[$e]=$HOME/Documents/keyboard/3844.png
+File6[$e]=$HOME/Documents/keyboard/3845.png
+File7[$e]=$HOME/Documents/keyboard/3852.png
+File8[$e]=$HOME/Documents/keyboard/4045.png
+File9[$e]=$HOME/Documents/keyboard/final.png
+Name1[$e]=3391.png
+Name10[$e]=discord.png
+Name2[$e]=3399.png
+Name3[$e]=3520.png
+Name4[$e]=3766.png
+Name5[$e]=3844.png
+Name6[$e]=3845.png
+Name7[$e]=3852.png
+Name8[$e]=4045.png
+Name9[$e]=final.png
 
 [SideBar]
 InformationSplitterSizes=206,247
+IsVisible ViewMode=true
+SideBarSplitterSizes=206,430

@@ -1,2 +1,3 @@
-2024/02/29-18:50:25.423 13d6 Creating DB /home/heinrich/.config/Code - Insiders/Session Storage since it was missing.
-2024/02/29-18:50:25.430 13d6 Reusing MANIFEST /home/heinrich/.config/Code - Insiders/Session Storage/MANIFEST-000001
+2024/03/17-09:19:17.916 8f70 Reusing MANIFEST /home/heinrich/.config/Code - Insiders/Session Storage/MANIFEST-000001
+2024/03/17-09:19:17.916 8f70 Recovering log #3
+2024/03/17-09:19:17.917 8f70 Reusing old log /home/heinrich/.config/Code - Insiders/Session Storage/000003.log 

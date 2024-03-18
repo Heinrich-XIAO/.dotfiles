@@ -2,10 +2,11 @@
     "userDataProfilesMigration": true,
     "profileAssociations": {
         "workspaces": {
-            "file:///home/heinrich/.mozilla/firefox/3yvp1owx.default-release": "__default__profile__"
+            "file:///home/heinrich/.mozilla/firefox/3yvp1owx.default-release": "__default__profile__",
+            "file:///home/heinrich/Documents/tuxlingo": "__default__profile__"
         },
         "emptyWindows": {
-            "1709484439891": "__default__profile__"
+            "1710681556669": "__default__profile__"
         }
     },
     "profileAssociationsMigration": true,
@@ -13,10 +14,14 @@
     "telemetry.machineId": "dd0ad856011b5d1aa8bfd2d518df5cfebd34db531927fd0595e161ec91950f3d",
     "backupWorkspaces": {
         "workspaces": [],
-        "folders": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/heinrich/Documents/tuxlingo"
+            }
+        ],
         "emptyWindows": [
             {
-                "backupFolder": "1709484439891"
+                "backupFolder": "1710681556669"
             }
         ]
     },
@@ -68,6 +73,17 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///home/heinrich/Documents/tuxlingo",
+                                        "path": "/home/heinrich/Documents/tuxlingo",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/tuxlingo"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/heinrich/.mozilla/firefox/3yvp1owx.default-release",
                                         "path": "/home/heinrich/.mozilla/firefox/3yvp1owx.default-release",
                                         "scheme": "file"
@@ -77,6 +93,17 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/heinrich/.dotfiles/config/nvim/after/plugin/telescope.lua",
+                                        "path": "/home/heinrich/.dotfiles/config/nvim/after/plugin/telescope.lua",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.dotfiles/config/nvim/after/plugin/telescope.lua"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -126,11 +153,13 @@
                     },
                     {
                         "id": "workbench.action.files.save",
-                        "label": "&&Save"
+                        "label": "&&Save",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.files.saveAs",
-                        "label": "Save &&As..."
+                        "label": "Save &&As...",
+                        "enabled": false
                     },
                     {
                         "id": "saveAll",
@@ -273,11 +302,17 @@
                     },
                     {
                         "id": "workbench.action.files.revert",
-                        "label": "Re&&vert File"
+                        "label": "Re&&vert File",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.closeActiveEditor",
-                        "label": "&&Close Editor"
+                        "label": "&&Close Editor",
+                        "enabled": false
+                    },
+                    {
+                        "id": "workbench.action.closeFolder",
+                        "label": "Close &&Folder"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -322,11 +357,13 @@
                     },
                     {
                         "id": "actions.find",
-                        "label": "&&Find"
+                        "label": "&&Find",
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.startFindReplaceAction",
-                        "label": "&&Replace"
+                        "label": "&&Replace",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -473,7 +510,8 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "&&Primary Side Bar"
+                                    "label": "&&Primary Side Bar",
+                                    "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleAuxiliaryBar",
@@ -784,7 +822,8 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap"
+                        "label": "&&Word Wrap",
+                        "enabled": false
                     }
                 ]
             },
@@ -1320,6 +1359,11 @@
                 "label": "Ctrl+W",
                 "userSettingsLabel": "ctrl+w"
             },
+            "workbench.action.closeFolder": {
+                "label": "Ctrl+K F",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k f"
+            },
             "workbench.action.closeWindow": {
                 "label": "Alt+F4",
                 "userSettingsLabel": "alt+f4"
@@ -1716,20 +1760,22 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 0,
+            "sideBarWidth": 170,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/heinrich/.config/Code - Insiders/Backups/1709484439891",
+            "folder": "file:///home/heinrich/Documents/tuxlingo",
+            "backupPath": "/home/heinrich/.config/Code - Insiders/Backups/ea4b03c4ea23af8468d2529bafdf41be",
             "uiState": {
                 "mode": 1,
-                "x": 647,
-                "y": 72,
+                "x": 22,
+                "y": 50,
                 "width": 611,
-                "height": 706
+                "height": 728,
+                "zoomLevel": -1
             }
         },
         "openedWindows": []
