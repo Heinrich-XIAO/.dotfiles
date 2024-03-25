@@ -54,7 +54,11 @@
             "(?!.*Github).* — Mozilla Firefox": "Mozilla Firefox",
             "(.*) - Brave Search": "$1",
             "(.*) - Outlook": "$1",
-            "(.*) Microsoft Teams": "$1"
+            "(.*) Microsoft Teams": "$1",
+						"cat": "dog",
+						"heinrich@heinrich-macbookair:~(.*)": "/home/heinrich$1 - Alacritty",
+						"nvim (.*)": "$1 - Neovim",
+						"(.*) — Strawberry Music Player": "$1"
         },
         "separate-outputs": true
     },

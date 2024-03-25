@@ -3,16 +3,18 @@ ColorSchemeHash[$d]
 File1[$e]=$HOME/Downloads/Heritage Minute The Discovery of Insulin(1).mp4
 File2[$e]=$HOME/haskell/music/songs/y2mate.com - Dimrain47 At the Speed of Light.mp3
 File3[$e]=$HOME/Downloads/THE MUFFIN SONG (asdfmovie feat. Schmoyoho).mp4
+File4[$e]=$HOME/Downloads/If Shark Tank Was Asian.mp4
 Name1[$e]=Heritage Minute The Discovery of Insulin(1).mp4
 Name2[$e]=y2mate.com - Dimrain47 At the Speed of Light.mp3
 Name3[$e]=THE MUFFIN SONG (asdfmovie feat. Schmoyoho).mp4
+Name4[$e]=If Shark Tank Was Asian.mp4
 TimeFormat=1
 Volume=0
 toolBarFont[$d]
 
 [MainWindow]
 1280x800 screen: Window-Maximized=true
-State=AAAA/wAAAAD9AAAAAAAAApEAAAKEAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAABNQAAAKaAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 
 [file:///home/heinrich/Downloads/Heritage Minute The Discovery of Insulin(1).mp4]
@@ -23,6 +25,17 @@ Hue=0
 IsVideo=true
 Position=2263
 Preferred Size=657,644
+Saturation=0
+Subtitle=0
+
+[file:///home/heinrich/Downloads/If Shark Tank Was Asian.mp4]
+Brightness=0
+Contrast=0
+Date=2024,3,22
+Hue=0
+IsVideo=true
+Position=44303
+Preferred Size=1236,666
 Saturation=0
 Subtitle=0
 

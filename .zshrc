@@ -4,7 +4,6 @@ export SHELL="/bin/zsh"
 # Enable vi mode
 bindkey -v
 
-
 # Set the prompt
 PROMPT='%(?:%{[01;32m%}%1{➜%} :%{[01;31m%}%1{➜%} )  %{[36m%}%~%{[00m%} %# '
 #PROMPT='%B%m%~%b %# '
@@ -70,6 +69,8 @@ export PATH="$HOME/Documents/programs/vesktop:$PATH"
 export PATH="$HOME/Documents/programs/zig:$PATH"
 export PATH="$HOME/Documents/programs/julia/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
+export DENO_INSTALL="/home/heinrich/.deno"
+export PATH="$DENO_INSTALL/bin:$PATH"
 export PATH="/home/heinrich/.cargo/bin:$PATH"
 
 # Aliasies
@@ -82,7 +83,7 @@ alias vim='nvim'
 eval "$(zoxide init --cmd cd zsh)"
 eval "$(~/.rbenv/bin/rbenv init - zsh)"
 
-plugins=(git env)
+plugins=(git env wakatime autosuggestions)
 
 neofetch 
 

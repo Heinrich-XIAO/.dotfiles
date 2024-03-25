@@ -1,3 +1,21 @@
-2024/03/18-16:42:09.133 15cf Reusing MANIFEST /home/heinrich/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
-2024/03/18-16:42:09.137 15cf Recovering log #52
-2024/03/18-16:42:09.139 15cf Reusing old log /home/heinrich/.config/vesktop/sessionData/Local Storage/leveldb/000052.log 
+2024/03/25-15:47:33.012 2835 Reusing MANIFEST /home/heinrich/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
+2024/03/25-15:47:33.012 2835 Recovering log #26
+2024/03/25-15:47:33.013 2835 Reusing old log /home/heinrich/.config/vesktop/sessionData/Local Storage/leveldb/000026.log 
+2024/03/25-17:27:54.987 2837 Level-0 table #30: started
+2024/03/25-17:27:54.994 2837 Level-0 table #30: 23281 bytes OK
+2024/03/25-17:27:54.996 2837 Delete type=0 #26
+2024/03/25-17:27:54.996 2837 Compacting 4@0 + 1@1 files
+2024/03/25-17:27:54.999 2837 Generated table #31@0: 53 keys, 18285 bytes
+2024/03/25-17:27:54.999 2837 Compacted 4@0 + 1@1 files => 18285 bytes
+2024/03/25-17:27:55.000 2837 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/03/25-17:27:55.000 2837 Delete type=2 #20
+2024/03/25-17:27:55.000 2837 Delete type=2 #22
+2024/03/25-17:27:55.000 2837 Delete type=2 #24
+2024/03/25-17:27:55.000 2837 Delete type=2 #27
+2024/03/25-17:27:55.000 2837 Delete type=2 #30
+2024/03/25-17:59:21.348 2837 Level-0 table #33: started
+2024/03/25-17:59:21.351 2837 Level-0 table #33: 25322 bytes OK
+2024/03/25-17:59:21.353 2837 Delete type=0 #29
+2024/03/25-18:55:23.501 2837 Level-0 table #35: started
+2024/03/25-18:55:23.509 2837 Level-0 table #35: 23430 bytes OK
+2024/03/25-18:55:23.511 2837 Delete type=0 #32

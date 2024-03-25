@@ -1,6 +1,6 @@
 {
     "notifyAboutUpdates": true,
-    "autoUpdate": true,
+    "autoUpdate": false,
     "autoUpdateNotification": true,
     "useQuickCss": true,
     "themeLinks": [],
@@ -82,6 +82,9 @@
         "BetterNotesBox": {
             "enabled": false
         },
+        "BetterRoleContext": {
+            "enabled": false
+        },
         "BetterRoleDot": {
             "enabled": false
         },
@@ -161,6 +164,9 @@
             "enabled": false
         },
         "FriendInvites": {
+            "enabled": false
+        },
+        "FriendsSince": {
             "enabled": false
         },
         "GameActivityToggle": {
@@ -322,6 +328,9 @@
         "RelationshipNotifier": {
             "enabled": false
         },
+        "ResurrectHome": {
+            "enabled": false
+        },
         "RevealAllSpoilers": {
             "enabled": false
         },
@@ -472,6 +481,6 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1709585311938
+        "settingsSyncVersion": 1711061165679
     }
 }

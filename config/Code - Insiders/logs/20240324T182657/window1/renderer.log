@@ -1,0 +1,4 @@
+2024-03-24 18:26:58.868 [warning] No search provider registered for scheme: file, waiting
+2024-03-24 18:26:59.413 [info] Started local extension host with pid 2677663.
+2024-03-24 18:27:00.773 [info] [perf] Render performance baseline is 34ms
+2024-03-24 18:27:01.076 [error] ENOENT: no such file or directory, open '/home/heinrich/.config/Code - Insiders/User/globalStorage/vscodevim.vim/.registers': Error: ENOENT: no such file or directory, open '/home/heinrich/.config/Code - Insiders/User/globalStorage/vscodevim.vim/.registers'
