@@ -1,0 +1,14 @@
+2024-04-01 14:24:23.433 [info] Extension host with pid 10026 started
+2024-04-01 14:24:23.436 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-04-01 14:24:23.440 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onLanguage:Vimscript'
+2024-04-01 14:24:23.541 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-04-01 14:24:23.544 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-04-01 14:24:23.556 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-04-01 14:24:23.584 [info] Eager extensions activated
+2024-04-01 14:24:23.605 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-04-01 14:24:23.607 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-04-01 14:24:23.611 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-containers, startup: false, activationEvent: 'onStartupFinished'
+2024-04-01 14:24:24.479 [error] Error: ENOENT: no such file or directory, open '/home/heinrich/.config/Code - Insiders/User/globalStorage/vscodevim.vim/.registers'
+2024-04-01 14:24:30.896 [info] Extension host terminating: renderer closed the MessagePort
+2024-04-01 14:24:30.930 [error] Error: ENOENT: no such file or directory, open '/home/heinrich/.config/Code - Insiders/User/globalStorage/vscodevim.vim/.registers'
+2024-04-01 14:24:30.930 [info] Extension host with pid 10026 exiting with code 0

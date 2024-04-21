@@ -1,0 +1,18 @@
+{
+    "BurnCapacityAttribute": {
+        "loop4": {
+            "BurnCapacityStatus": 0,
+            "BurnCapacityTotalSize": 0,
+            "BurnCapacityUsedSize": 0
+        },
+        "sda1": {
+            "BurnCapacityStatus": 0,
+            "BurnCapacityTotalSize": 0,
+            "BurnCapacityUsedSize": 0
+        }
+    },
+    "GenericAttribute": {
+        "HiddenSystemPartition": false,
+        "MergeTheEntriesOfSambaSharedFolders": true
+    }
+}

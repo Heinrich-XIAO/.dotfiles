@@ -1,0 +1,17 @@
+[Desktop Entry]
+FullScreen=false
+
+[General]
+LockSidebar=true
+ShowSidebar=true
+
+[MainWindow]
+1280x800 screen: Window-Maximized=true
+State=AAAA/wAAAAD9AAAAAQAAAAAAAACDAAADdPwCAAAAAfsAAAAcAG8AawB1AGwAYQByAF8AcwBpAGQAZQBiAGEAcgEAAABMAAADdAAAAQ4BAAACAAAFfAAAA3QAAAAEAAAABAAAAAgAAAAI/AAAAAMAAAABAAAAAQAAACwAcQB1AGkAYwBrAEEAbgBuAG8AdABhAHQAaQBvAG4AVABvAG8AbABCAGEAcgIAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAAAiAGEAbgBuAG8AdABhAHQAaQBvAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+
+[Recent Files]
+File1[$e]=$HOME/Downloads/Ontario Student Achievement 2018–2019-sample pages junior.pdf
+File2[$e]=$HOME/Documents/school/dumbmaththing.md
+Name1[$e]=Ontario Student Achievement 2018–2019-sample pages junior.pdf
+Name2[$e]=dumbmaththing.md

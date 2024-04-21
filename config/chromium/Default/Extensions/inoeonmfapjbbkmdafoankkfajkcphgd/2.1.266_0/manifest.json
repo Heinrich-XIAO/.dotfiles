@@ -1,0 +1,121 @@
+{
+   "action": {
+      "default_title": "__MSG_appName__"
+   },
+   "background": {
+      "service_worker": "serviceworker.bundle.js"
+   },
+   "commands": {
+      "_execute_action": {
+         "suggested_key": {
+            "default": "Alt+Shift+R"
+         }
+      },
+      "set-focus": {
+         "description": "__MSG_commandFocus__",
+         "suggested_key": {
+            "chromeos": "Alt+Shift+K",
+            "linux": "Alt+Shift+K",
+            "mac": "Alt+Shift+K",
+            "windows": "Alt+Shift+K"
+         }
+      }
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "js": [ "pra/pra.content.js" ],
+      "matches": [ "http://localhost:10901/*", "https://pra.dev.texthelp.com/*", "https://pra.texthelp.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": false,
+      "js": [ "init.bundle.js" ],
+      "matches": [ "*://teams.microsoft.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": false,
+      "js": [ "mslogin.content.bundle.js" ],
+      "matches": [ "https://thzbf.texthelp.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "js": [ "google-docs-preloader.js" ],
+      "matches": [ "*://docs.google.com/document/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "js": [ "framestart.bundle.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_idle"
+   }, {
+      "all_frames": true,
+      "js": [ "frame.bundle.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_idle"
+   }, {
+      "all_frames": true,
+      "js": [ "domdistiller.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_idle"
+   }, {
+      "all_frames": false,
+      "js": [ "startup.bundle.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_idle"
+   }, {
+      "all_frames": true,
+      "js": [ "core-lib-utils.umd.js", "core-lib-text-mapper.umd.js", "rewordify-bundle.umd.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_idle"
+   } ],
+   "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self';",
+      "sandbox": "sandbox allow-scripts allow-forms allow-popups allow-modals; script-src 'self' 'unsafe-inline' 'unsafe-eval'; child-src 'self';"
+   },
+   "default_locale": "en_US",
+   "description": "__MSG_appDesc__",
+   "externally_connectable": {
+      "ids": [ "enfolipbjmnmleonhhebhalojdpcpdoo" ],
+      "matches": [ "*://reading.texthelp.com/*", "*://fluency.texthelp.com/*", "*://docs.google.com/*" ]
+   },
+   "host_permissions": [ "\u003Call_urls>" ],
+   "icons": {
+      "128": "assets/128.png",
+      "16": "assets/16.png",
+      "48": "assets/48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDLBaO9m2ve1RF0fEwdLksh4Xq/Ai+znB8Hf7/jWoewjYNQC4tHugCzANRe+4HEPdixIWaqnxgASXGRJ2dMsIZAZj26pHJPOZXElGvJwXpUd3zIrNYDL6UaL/2ntftFKzHbyi2xuEgFZ9Rfa7FAViyU96nsDSAqSqaZa4ABro3dbwIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_appName__",
+   "oauth2": {
+      "client_id": "982754197589-tc0v270qkg0fot152bmthid3l35bsm4t.apps.googleusercontent.com",
+      "scopes": [ "https://www.googleapis.com/auth/userinfo.email", "https://www.googleapis.com/auth/userinfo.profile", "https://www.googleapis.com/auth/drive.file", "https://www.googleapis.com/auth/drive.install", "https://www.googleapis.com/auth/drive.appdata", "https://www.googleapis.com/auth/drive.appfolder" ]
+   },
+   "permissions": [ "activeTab", "storage", "tabs", "identity", "identity.email", "scripting", "management", "search", "alarms", "gcm" ],
+   "storage": {
+      "managed_schema": "preferences_schema.json"
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.1.266",
+   "web_accessible_resources": [ {
+      "matches": [ "*://docs.google.com/*", "*://classroom.google.com/*" ],
+      "resources": [ "google-docs-integration.js", "texthelp-wrapper.js", "gdi.bundle.js", "functions/getIfInserted.js", "functions/getIfFrameInitialised.js", "functions/getIfInstalled.js", "functions/getSelector.js" ]
+   }, {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "gdocs.page.bundle.js" ]
+   }, {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "wordonline.page.bundle.js" ]
+   }, {
+      "matches": [ "https://openstax.org/*" ],
+      "resources": [ "mathjax/mathjaxv2hook.page.js" ]
+   }, {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "text-mml-chtml.js", "mathjax/*", "mathjax/fonts/*", "mathjax/a11y/*", "mathjax/sre/mathmaps/*" ]
+   }, {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "rewordify-worker.js", "sr-rewordify.wasm", "sr-rewordify.pvfs", "rewordify.html" ]
+   }, {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "onboarding/onboarding.html", "onboarding/onboarding.js" ]
+   } ]
+}
