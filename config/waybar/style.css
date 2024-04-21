@@ -35,7 +35,7 @@
 }
 
 window#waybar {
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0,0,0,0);
     border-bottom: 0px solid #ffffff;
     /* color: #FFFFFF; */
     transition-property: background-color;
@@ -46,29 +46,27 @@ window#waybar {
  * Workspaces 
  * ----------------------------------------------------- */
 
- #workspaces {
-    margin: 3px 7px 3px 3px;
-    border: 0px;
+#workspaces {
+    margin: 3px 3px 3px 7px;
     font-size: 14px;
-    color: @textcolor1;
 }
 
 #workspaces button {
     border: 0px;
+		border-radius: 50%;
     margin:4px 5px 4px 0px;
     padding:0px 4px 0px 4px;
-    color: @textcolor3;
     transition: all 0.5s ease-in-out;
+    background: #2859D4;
 }
 
 #workspaces button.active {
     color: @textcolor1;
-    background: @workspacesbackground2;
+    background: #06F396;
 }
 
 #workspaces button:hover {
     color: @textcolor1;
-    background: @workspacesbackground2;
     border-radius: 15px;
 }
 
@@ -96,6 +94,7 @@ tooltip label {
     margin: 0px 15px 0px 0px;
     border-radius: 12px;
     color:@textcolor;
+
     font-size:14px;
     font-weight:normal;
 }
@@ -108,14 +107,27 @@ window#waybar.empty #window {
  * Modules
  * ----------------------------------------------------- */
 
-.modules-left > widget:first-child > #workspaces {
-    margin-left: 0;
+.modules-left {
+	margin-left:20px;
 }
 
-.modules-right > widget:last-child > #workspaces {
-    margin-right: 0;
+.modules-center {
+	padding:0px;
 }
 
+.modules-right {
+	margin-right: 20px;
+}
+
+.modules-left, .modules-center, .modules-right {
+	border: 3px solid;
+	border-radius: 12px;
+	border-color: #30C0EF;
+}
+
+#window {
+	margin: 10px;
+}
 /* -----------------------------------------------------
  * Custom Quicklinks
  * ----------------------------------------------------- */
@@ -350,6 +362,7 @@ window#waybar.empty #window {
 
 
 
+
 /* -----------------------------------------------------
  * Tray
  * ----------------------------------------------------- */
@@ -374,4 +387,7 @@ window#waybar.empty #window {
 label:focus {
     background-color: #000000;
 }
+
+
+
 
