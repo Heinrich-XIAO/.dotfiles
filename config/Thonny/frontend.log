@@ -1,14 +1,44 @@
-10:36:45.120 INFO    thonny: Thonny version: 4.0.2
-10:36:45.120 INFO    thonny: cwd: /home/heinrich
-10:36:45.120 INFO    thonny: original argv: ['/usr/bin/python3', '-sP', '/usr/bin/thonny']
-10:36:45.120 INFO    thonny: sys.executable: /usr/bin/python3
-10:36:45.120 INFO    thonny: sys.argv: ['/usr/bin/thonny']
-10:36:45.120 INFO    thonny: sys.path: ['/usr/lib64/python312.zip', '/usr/lib64/python3.12', '/usr/lib64/python3.12/lib-dynload', '/usr/lib64/python3.12/site-packages', '/usr/lib/python3.12/site-packages']
-10:36:45.120 INFO    thonny: sys.flags: sys.flags(debug=0, inspect=0, interactive=0, optimize=0, dont_write_bytecode=0, no_user_site=1, no_site=0, ignore_environment=0, verbose=0, bytes_warning=0, quiet=0, hash_randomization=1, isolated=0, dev_mode=False, utf8_mode=0, warn_default_encoding=0, safe_path=True, int_max_str_digits=4300)
-10:36:45.328 INFO    thonny.plugins.cpython_frontend.cp_front: Creating LocalCPythonProxy
-10:36:45.328 INFO    thonny.running: Starting the backend: ['/usr/bin/python3', '-u', '-B', '-m', 'thonny.plugins.cpython_backend.cp_launcher', '/home/heinrich'] /home/heinrich
-10:36:49.192 INFO    thonny.ui_utils: Parent y: 82, rooty: 82, vrooty: 0
-10:36:49.192 INFO    thonny.ui_utils: Placing .!configurationdialog with geometry +301+135
-10:37:40.936 INFO    thonny.running: Killing backend process
-10:37:40.936 INFO    thonny.shell: BaseShellText._on_backend_terminated
-10:37:40.937 INFO    thonny.running: Reader got EOF
+18:10:20.903 INFO    thonny: Thonny version: 4.0.2
+18:10:20.903 INFO    thonny: cwd: /home/heinrich
+18:10:20.904 INFO    thonny: original argv: ['/usr/bin/python3', '-sP', '/usr/bin/thonny']
+18:10:20.904 INFO    thonny: sys.executable: /usr/bin/python3
+18:10:20.904 INFO    thonny: sys.argv: ['/usr/bin/thonny']
+18:10:20.904 INFO    thonny: sys.path: ['/usr/lib64/python312.zip', '/usr/lib64/python3.12', '/usr/lib64/python3.12/lib-dynload', '/usr/lib64/python3.12/site-packages', '/usr/lib/python3.12/site-packages']
+18:10:20.904 INFO    thonny: sys.flags: sys.flags(debug=0, inspect=0, interactive=0, optimize=0, dont_write_bytecode=0, no_user_site=1, no_site=0, ignore_environment=0, verbose=0, bytes_warning=0, quiet=0, hash_randomization=1, isolated=0, dev_mode=False, utf8_mode=0, warn_default_encoding=0, safe_path=True, int_max_str_digits=4300)
+18:10:22.103 INFO    thonny.plugins.cpython_frontend.cp_front: Creating LocalCPythonProxy
+18:10:22.104 INFO    thonny.running: Starting the backend: ['/usr/bin/python3', '-u', '-B', '-m', 'thonny.plugins.cpython_backend.cp_launcher', '/home/heinrich'] /home/heinrich
+18:10:38.207 INFO    thonny.running: Killing backend process
+18:10:38.208 INFO    thonny.shell: BaseShellText._on_backend_terminated
+18:10:38.213 INFO    thonny.running: Reader got EOF
+18:10:38.267 INFO    thonny.plugins.cpython_frontend.cp_front: Creating LocalCPythonProxy
+18:10:38.268 INFO    thonny.running: Starting the backend: ['/usr/bin/python3', '-u', '-B', '-m', 'thonny.plugins.cpython_backend.cp_launcher', '/home/heinrich'] /home/heinrich
+18:10:38.272 INFO    thonny.shell: BaseShellText.restart(False)
+18:10:39.791 INFO    thonny.running: Killing backend process
+18:10:39.792 INFO    thonny.shell: BaseShellText._on_backend_terminated
+18:10:39.800 INFO    thonny.running: Reader got EOF
+18:10:39.863 INFO    thonny.running: Starting the backend: ['/usr/bin/python3', '-u', '-B', '/usr/lib/python3.12/site-packages/thonny/plugins/circuitpython/cirpy_back.py', "{'clean': False, 'port': '/dev/ttyACM0', 'dtr': None, 'rts': None, 'submit_mode': None, 'interrupt_on_connect': True, 'write_block_size': None, 'write_block_delay': None, 'proxy_class': 'CircuitPythonProxy', 'sync_time': True, 'validate_time': False, 'local_rtc': True}"] /home/heinrich
+18:10:39.866 INFO    thonny.shell: BaseShellText.restart(False)
+18:10:50.144 INFO    thonny.ui_utils: Parent y: 88, rooty: 88, vrooty: 0
+18:10:50.144 INFO    thonny.ui_utils: Placing .!configurationdialog with geometry +621+278
+18:11:02.774 INFO    thonny.plugins.micropython.uf2dialog: Downloading 'https://raw.githubusercontent.com/thonny/thonny/master/data/micropython-variants-uf2.json'
+18:11:02.848 INFO    thonny.ui_utils: Parent y: 245, rooty: 245, vrooty: 0
+18:11:02.849 INFO    thonny.ui_utils: Placing .!configurationdialog.!frame3.!backendconfigurationpage.!labelframe.!raspberrypipicobackendconfigpage.!uf2flashingdialog with geometry +681+299
+18:11:03.066 INFO    thonny.plugins.micropython.uf2dialog: Got 60 variants
+18:11:03.067 INFO    thonny.plugins.micropython.uf2dialog: Downloading 'https://micropython.org/download/ADAFRUIT_FEATHER_M0_EXPRESS'
+18:11:04.751 INFO    thonny.plugins.micropython.uf2dialog: Using '20240425-v1.23.0-preview.342.g7b050b366' as prerelease substitute
+18:11:09.027 INFO    thonny.running: Reader got EOF
+18:11:09.133 INFO    thonny.shell: BaseShellText._on_backend_terminated
+18:11:46.012 INFO    thonny.plugins.micropython.uf2dialog: Downloading 'https://raw.githubusercontent.com/thonny/thonny/master/data/micropython-variants-uf2.json'
+18:11:46.076 INFO    thonny.plugins.micropython.uf2dialog: Got 60 variants
+18:11:46.076 INFO    thonny.plugins.micropython.uf2dialog: Downloading 'https://micropython.org/download/ADAFRUIT_FEATHER_M0_EXPRESS'
+18:11:46.082 INFO    thonny.ui_utils: Parent y: 245, rooty: 245, vrooty: 0
+18:11:46.082 INFO    thonny.ui_utils: Placing .!configurationdialog.!frame3.!backendconfigurationpage.!labelframe.!raspberrypipicobackendconfigpage.!uf2flashingdialog2 with geometry +681+299
+18:11:47.246 INFO    thonny.plugins.micropython.uf2dialog: Using '20240425-v1.23.0-preview.342.g7b050b366' as prerelease substitute
+18:13:12.929 INFO    thonny.running: Starting the backend: ['/usr/bin/python3', '-u', '-B', '/usr/lib/python3.12/site-packages/thonny/plugins/rp2040/rp2040_back.py', "{'clean': False, 'port': '/dev/ttyACM0', 'dtr': None, 'rts': None, 'submit_mode': 'raw_paste', 'interrupt_on_connect': True, 'write_block_size': 64, 'write_block_delay': None, 'proxy_class': 'RaspberryPiPicoBackendProxy', 'sync_time': True, 'validate_time': False, 'local_rtc': True}"] /home/heinrich
+18:13:12.934 INFO    thonny.shell: BaseShellText.restart(False)
+18:13:48.883 INFO    thonny.ui_utils: Parent y: 88, rooty: 88, vrooty: 0
+18:13:48.884 INFO    thonny.ui_utils: Placing .!nodechoicedialog with geometry +826+474
+18:13:50.294 INFO    thonny.ui_utils: Parent y: 88, rooty: 88, vrooty: 0
+18:13:50.295 INFO    thonny.ui_utils: Placing .!backendfiledialog with geometry +607+255
+18:36:26.725 INFO    thonny.running: Reader got EOF
+18:36:26.844 INFO    thonny.shell: BaseShellText._on_backend_terminated

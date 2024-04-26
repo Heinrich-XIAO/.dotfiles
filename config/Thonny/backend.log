@@ -1,31 +1,60 @@
-10:36:45.359 INFO    thonny: Thonny version: 4.0.2
-10:36:45.359 INFO    thonny: cwd: /usr/lib/python3.12/site-packages
-10:36:45.359 INFO    thonny: original argv: ['/usr/bin/python3', '-u', '-B', '-m', 'thonny.plugins.cpython_backend.cp_launcher', '/home/heinrich']
-10:36:45.359 INFO    thonny: sys.executable: /usr/bin/python3
-10:36:45.359 INFO    thonny: sys.argv: ['/usr/lib/python3.12/site-packages/thonny/plugins/cpython_backend/cp_launcher.py', '/home/heinrich']
-10:36:45.359 INFO    thonny: sys.path: ['/usr/lib/python3.12/site-packages', '/usr/lib64/python312.zip', '/usr/lib64/python3.12', '/usr/lib64/python3.12/lib-dynload', '/home/heinrich/.local/lib/python3.12/site-packages', '/usr/local/lib64/python3.12/site-packages', '/usr/local/lib/python3.12/site-packages', '/usr/lib64/python3.12/site-packages', '/usr/lib/python3.12/site-packages']
-10:36:45.359 INFO    thonny: sys.flags: sys.flags(debug=0, inspect=0, interactive=0, optimize=0, dont_write_bytecode=1, no_user_site=0, no_site=0, ignore_environment=0, verbose=0, bytes_warning=0, quiet=0, hash_randomization=1, isolated=0, dev_mode=False, utf8_mode=0, warn_default_encoding=0, safe_path=False, int_max_str_digits=4300)
-10:36:45.359 INFO    thonny: TIME/MODS 0.000 Before constructing backend (+2 modules)
-10:36:45.359 INFO    thonny: NEW MODS ['encodings.ascii', 'faulthandler']
-10:36:45.359 INFO    thonny: TIME/MODS 0.000 Before MainBackend 
-10:36:45.359 INFO    thonny: TIME/MODS 0.000 After MainBackend 
-10:36:45.361 INFO    thonny.backend: Loading plugins
-10:36:45.361 INFO    thonny: TIME/MODS 0.002 Before loading plugins (+6 modules)
-10:36:45.361 INFO    thonny: NEW MODS ['__future__', '_sysconfigdata__linux_aarch64-linux-gnu', 'pkgutil', 'platform', 'pydoc', 'sysconfig']
-10:36:45.361 INFO    thonny.common: Using THONNY_FRONTEND_SYS_PATH ['/usr/lib64/python312.zip', '/usr/lib64/python3.12', '/usr/lib64/python3.12/lib-dynload', '/usr/lib64/python3.12/site-packages', '/usr/lib/python3.12/site-packages', '/home/heinrich/.config/Thonny/plugins/lib/python3.12/site-packages']
-10:36:45.362 INFO    thonny.backend: Loading plugin 'thonny.plugins.backend.birdseye_backend'
-10:36:45.362 INFO    thonny.backend: Loading plugin 'thonny.plugins.backend.dock_user_windows_backend'
-10:36:45.362 INFO    thonny.backend: Loading plugin 'thonny.plugins.backend.flask_backend'
-10:36:45.362 INFO    thonny.backend: Loading plugin 'thonny.plugins.backend.matplotlib_backend'
-10:36:45.362 INFO    thonny.backend: Loading plugin 'thonny.plugins.backend.pgzero_backend'
-10:36:45.362 INFO    thonny: TIME/MODS 0.001 After loading plugins (+6 modules)
-10:36:45.362 INFO    thonny: NEW MODS ['thonny.plugins.backend', 'thonny.plugins.backend.birdseye_backend', 'thonny.plugins.backend.dock_user_windows_backend', 'thonny.plugins.backend.flask_backend', 'thonny.plugins.backend.matplotlib_backend', 'thonny.plugins.backend.pgzero_backend']
-10:36:45.362 INFO    thonny: TIME/MODS 0.000 Beginning of mainloop 
-10:36:45.362 INFO    thonny: TIME/MODS 0.000 Sending message ToplevelResponse 
-10:36:45.362 INFO    thonny.backend: Loading Jedi
-10:36:45.362 INFO    thonny: TIME/MODS 0.000 Before loading Jedi 
-10:36:45.362 INFO    thonny.common: Using THONNY_FRONTEND_SYS_PATH ['/usr/lib64/python312.zip', '/usr/lib64/python3.12', '/usr/lib64/python3.12/lib-dynload', '/usr/lib64/python3.12/site-packages', '/usr/lib/python3.12/site-packages', '/home/heinrich/.config/Thonny/plugins/lib/python3.12/site-packages']
-10:36:45.388 INFO    thonny: TIME/MODS 0.026 After loading Jedi (+136 modules)
-10:36:45.388 INFO    thonny: NEW MODS ['_blake2', '_bz2', '_compat_pickle', '_compression', '_ctypes', '_hashlib', '_json', '_lzma', '_pickle', '_struct', 'binascii', 'bz2', 'colorama', 'colorama.ansi', 'colorama.ansitowin32', 'colorama.initialise', 'colorama.win32', 'colorama.winterm', 'ctypes', 'ctypes._endian', 'difflib', 'filecmp', 'gc', 'hashlib', 'jedi', 'jedi._compatibility', 'jedi.api', 'jedi.api.classes', 'jedi.api.completion', 'jedi.api.completion_cache', 'jedi.api.environment', 'jedi.api.errors', 'jedi.api.exceptions', 'jedi.api.file_name', 'jedi.api.helpers', 'jedi.api.interpreter', 'jedi.api.keywords', 'jedi.api.project', 'jedi.api.refactoring', 'jedi.api.refactoring.extract', 'jedi.api.strings', 'jedi.cache', 'jedi.common', 'jedi.debug', 'jedi.file_io', 'jedi.inference', 'jedi.inference.analysis', 'jedi.inference.arguments', 'jedi.inference.base_value', 'jedi.inference.cache', 'jedi.inference.compiled', 'jedi.inference.compiled.access', 'jedi.inference.compiled.getattr_static', 'jedi.inference.compiled.mixed', 'jedi.inference.compiled.subprocess', 'jedi.inference.compiled.subprocess.functions', 'jedi.inference.compiled.value', 'jedi.inference.context', 'jedi.inference.docstring_utils', 'jedi.inference.docstrings', 'jedi.inference.filters', 'jedi.inference.flow_analysis', 'jedi.inference.gradual', 'jedi.inference.gradual.annotation', 'jedi.inference.gradual.base', 'jedi.inference.gradual.conversion', 'jedi.inference.gradual.generics', 'jedi.inference.gradual.stub_value', 'jedi.inference.gradual.type_var', 'jedi.inference.gradual.typeshed', 'jedi.inference.gradual.typing', 'jedi.inference.gradual.utils', 'jedi.inference.helpers', 'jedi.inference.imports', 'jedi.inference.lazy_value', 'jedi.inference.names', 'jedi.inference.param', 'jedi.inference.parser_cache', 'jedi.inference.recursion', 'jedi.inference.references', 'jedi.inference.signature', 'jedi.inference.syntax_tree', 'jedi.inference.sys_path', 'jedi.inference.utils', 'jedi.inference.value', 'jedi.inference.value.decorator', 'jedi.inference.value.dynamic_arrays', 'jedi.inference.value.function', 'jedi.inference.value.instance', 'jedi.inference.value.iterable', 'jedi.inference.value.klass', 'jedi.inference.value.module', 'jedi.inference.value.namespace', 'jedi.parser_utils', 'jedi.plugins', 'jedi.plugins.django', 'jedi.plugins.flask', 'jedi.plugins.pytest', 'jedi.plugins.registry', 'jedi.plugins.stdlib', 'jedi.settings', 'json', 'json.decoder', 'json.encoder', 'json.scanner', 'lzma', 'parso', 'parso._compatibility', 'parso.cache', 'parso.file_io', 'parso.grammar', 'parso.normalizer', 'parso.parser', 'parso.pgen2', 'parso.pgen2.generator', 'parso.pgen2.grammar_parser', 'parso.python', 'parso.python.diff', 'parso.python.errors', 'parso.python.parser', 'parso.python.pep8', 'parso.python.prefix', 'parso.python.token', 'parso.python.tokenize', 'parso.python.tree', 'parso.tree', 'parso.utils', 'pickle', 'pydoc_data', 'pydoc_data.topics', 'shutil', 'struct', 'zipfile', 'zipfile._path', 'zipfile._path.glob', 'zlib']
-10:37:38.574 INFO    thonny: TIME/MODS 53.186 Sending message highlight_occurrences_response (+1 modules)
-10:37:38.574 INFO    thonny: NEW MODS ['thonny.jedi_utils']
+18:13:13.285 INFO    thonny: Thonny version: 4.0.2
+18:13:13.286 INFO    thonny: cwd: /home/heinrich
+18:13:13.286 INFO    thonny: original argv: ['/usr/bin/python3', '-u', '-B', '/usr/lib/python3.12/site-packages/thonny/plugins/rp2040/rp2040_back.py', "{'clean': False, 'port': '/dev/ttyACM0', 'dtr': None, 'rts': None, 'submit_mode': 'raw_paste', 'interrupt_on_connect': True, 'write_block_size': 64, 'write_block_delay': None, 'proxy_class': 'RaspberryPiPicoBackendProxy', 'sync_time': True, 'validate_time': False, 'local_rtc': True}"]
+18:13:13.286 INFO    thonny: sys.executable: /usr/bin/python3
+18:13:13.286 INFO    thonny: sys.argv: ['/usr/lib/python3.12/site-packages/thonny/plugins/rp2040/rp2040_back.py', "{'clean': False, 'port': '/dev/ttyACM0', 'dtr': None, 'rts': None, 'submit_mode': 'raw_paste', 'interrupt_on_connect': True, 'write_block_size': 64, 'write_block_delay': None, 'proxy_class': 'RaspberryPiPicoBackendProxy', 'sync_time': True, 'validate_time': False, 'local_rtc': True}"]
+18:13:13.286 INFO    thonny: sys.path: ['/usr/lib/python3.12/site-packages/thonny/plugins/rp2040', '/usr/lib64/python312.zip', '/usr/lib64/python3.12', '/usr/lib64/python3.12/lib-dynload', '/home/heinrich/.local/lib/python3.12/site-packages', '/usr/lib64/python3.12/site-packages', '/usr/lib/python3.12/site-packages']
+18:13:13.286 INFO    thonny: sys.flags: sys.flags(debug=0, inspect=0, interactive=0, optimize=0, dont_write_bytecode=1, no_user_site=0, no_site=0, ignore_environment=0, verbose=0, bytes_warning=0, quiet=0, hash_randomization=1, isolated=0, dev_mode=False, utf8_mode=0, warn_default_encoding=0, safe_path=False, int_max_str_digits=4300)
+18:13:13.286 INFO    thonny.plugins.micropython.bare_metal_backend: Starting backend, args: {'clean': False, 'port': '/dev/ttyACM0', 'dtr': None, 'rts': None, 'submit_mode': 'raw_paste', 'interrupt_on_connect': True, 'write_block_size': 64, 'write_block_delay': None, 'proxy_class': 'RaspberryPiPicoBackendProxy', 'sync_time': True, 'validate_time': False, 'local_rtc': True}
+18:13:13.289 INFO    thonny.plugins.micropython.bare_metal_backend: Initial submit_mode: raw_paste, write_block_size: 64, write_block_delay: 0, read_block_size: 0
+18:13:13.289 INFO    thonny.plugins.micropython.mp_back: Initializing MicroPythonBackend of type RP2040Backend
+18:13:13.289 INFO    thonny: TIME/MODS 0.206 before prepare (+75 modules)
+18:13:13.290 INFO    thonny: NEW MODS ['__future__', '_bz2', '_compression', '_datetime', '_heapq', '_locale', '_lzma', '_posixsubprocess', '_queue', '_struct', '_tkinter', 'array', 'binascii', 'bz2', 'datetime', 'encodings.ascii', 'errno', 'faulthandler', 'fcntl', 'fnmatch', 'gettext', 'heapq', 'ipaddress', 'locale', 'lzma', 'math', 'ntpath', 'pathlib', 'platform', 'queue', 'select', 'selectors', 'serial', 'serial.serialposix', 'serial.serialutil', 'shlex', 'shutil', 'signal', 'struct', 'subprocess', 'termios', 'thonny.backend', 'thonny.base_file_browser', 'thonny.codeview', 'thonny.config_ui', 'thonny.editors', 'thonny.languages', 'thonny.misc_utils', 'thonny.plugins', 'thonny.plugins.backend_config_page', 'thonny.plugins.micropython', 'thonny.plugins.micropython.bare_metal_backend', 'thonny.plugins.micropython.connection', 'thonny.plugins.micropython.mp_back', 'thonny.plugins.micropython.mp_common', 'thonny.plugins.micropython.mp_front', 'thonny.plugins.micropython.serial_connection', 'thonny.plugins.micropython.webrepl_connection', 'thonny.roughparse', 'thonny.running', 'thonny.tktextext', 'thonny.ui_utils', 'thonny.workdlg', 'tkinter', 'tkinter.commondialog', 'tkinter.constants', 'tkinter.dialog', 'tkinter.filedialog', 'tkinter.font', 'tkinter.messagebox', 'tkinter.simpledialog', 'tkinter.ttk', 'urllib', 'urllib.parse', 'zlib']
+18:13:13.290 INFO    thonny.plugins.micropython.mp_back: Sending interrupt
+18:13:13.290 INFO    thonny.plugins.micropython.mp_back: Done sending interrupt
+18:13:13.312 INFO    thonny: TIME/MODS 0.022 got welcome 
+18:13:13.313 INFO    thonny: TIME/MODS 0.001 bef preparing helpers 
+18:13:13.313 INFO    thonny.plugins.micropython.mp_back: Preparing helpers
+18:13:13.314 INFO    thonny: TIME/MODS 0.001 befsubcode 
+18:13:13.315 INFO    thonny.plugins.micropython.bare_metal_backend: Discarding stdout: '\r\n'
+18:13:13.325 INFO    thonny.plugins.micropython.bare_metal_backend: Discarding stdout: ''
+18:13:13.359 INFO    thonny: TIME/MODS 0.046 affsubcode 
+18:13:13.378 INFO    thonny: TIME/MODS 0.019 affforw 
+18:13:13.378 INFO    thonny: TIME/MODS 0.000 prepared helpers 
+18:13:13.378 INFO    thonny: TIME/MODS 0.000 befsubcode 
+18:13:13.381 INFO    thonny: TIME/MODS 0.003 affsubcode 
+18:13:13.393 INFO    thonny: TIME/MODS 0.012 affforw 
+18:13:13.393 INFO    thonny: TIME/MODS 0.000 got cwd 
+18:13:13.394 INFO    thonny: TIME/MODS 0.000 befsubcode 
+18:13:13.396 INFO    thonny: TIME/MODS 0.003 affsubcode 
+18:13:13.408 INFO    thonny: TIME/MODS 0.012 affforw 
+18:13:13.408 INFO    thonny: TIME/MODS 0.001 prepared 
+18:13:13.409 INFO    thonny.plugins.micropython.mp_back: Prepared
+18:13:13.409 INFO    thonny: TIME/MODS 0.000 befsubcode 
+18:13:13.411 INFO    thonny: TIME/MODS 0.002 affsubcode 
+18:13:13.433 INFO    thonny: TIME/MODS 0.022 affforw 
+18:13:13.434 INFO    thonny: TIME/MODS 0.001 befsubcode 
+18:13:13.441 INFO    thonny: TIME/MODS 0.007 affsubcode 
+18:13:13.457 INFO    thonny: TIME/MODS 0.016 affforw 
+18:13:13.458 INFO    thonny: TIME/MODS 0.001 befsubcode 
+18:13:13.469 INFO    thonny: TIME/MODS 0.011 affsubcode 
+18:13:13.485 INFO    thonny: TIME/MODS 0.016 affforw 
+18:13:13.486 INFO    thonny.backend: Loading Jedi
+18:13:13.486 INFO    thonny: TIME/MODS 0.001 Before loading Jedi 
+18:13:13.486 INFO    thonny.common: Using THONNY_FRONTEND_SYS_PATH ['/usr/lib64/python312.zip', '/usr/lib64/python3.12', '/usr/lib64/python3.12/lib-dynload', '/usr/lib64/python3.12/site-packages', '/usr/lib/python3.12/site-packages', '/home/heinrich/.config/Thonny/plugins/lib/python3.12/site-packages']
+18:13:13.663 INFO    thonny: TIME/MODS 0.177 After loading Jedi (+130 modules)
+18:13:13.663 INFO    thonny: NEW MODS ['_blake2', '_compat_pickle', '_ctypes', '_hashlib', '_json', '_pickle', '_sysconfigdata__linux_x86_64-linux-gnu', 'colorama', 'colorama.ansi', 'colorama.ansitowin32', 'colorama.initialise', 'colorama.win32', 'colorama.winterm', 'ctypes', 'ctypes._endian', 'difflib', 'filecmp', 'gc', 'hashlib', 'jedi', 'jedi._compatibility', 'jedi.api', 'jedi.api.classes', 'jedi.api.completion', 'jedi.api.completion_cache', 'jedi.api.environment', 'jedi.api.errors', 'jedi.api.exceptions', 'jedi.api.file_name', 'jedi.api.helpers', 'jedi.api.interpreter', 'jedi.api.keywords', 'jedi.api.project', 'jedi.api.refactoring', 'jedi.api.refactoring.extract', 'jedi.api.strings', 'jedi.cache', 'jedi.common', 'jedi.debug', 'jedi.file_io', 'jedi.inference', 'jedi.inference.analysis', 'jedi.inference.arguments', 'jedi.inference.base_value', 'jedi.inference.cache', 'jedi.inference.compiled', 'jedi.inference.compiled.access', 'jedi.inference.compiled.getattr_static', 'jedi.inference.compiled.mixed', 'jedi.inference.compiled.subprocess', 'jedi.inference.compiled.subprocess.functions', 'jedi.inference.compiled.value', 'jedi.inference.context', 'jedi.inference.docstring_utils', 'jedi.inference.docstrings', 'jedi.inference.filters', 'jedi.inference.flow_analysis', 'jedi.inference.gradual', 'jedi.inference.gradual.annotation', 'jedi.inference.gradual.base', 'jedi.inference.gradual.conversion', 'jedi.inference.gradual.generics', 'jedi.inference.gradual.stub_value', 'jedi.inference.gradual.type_var', 'jedi.inference.gradual.typeshed', 'jedi.inference.gradual.typing', 'jedi.inference.gradual.utils', 'jedi.inference.helpers', 'jedi.inference.imports', 'jedi.inference.lazy_value', 'jedi.inference.names', 'jedi.inference.param', 'jedi.inference.parser_cache', 'jedi.inference.recursion', 'jedi.inference.references', 'jedi.inference.signature', 'jedi.inference.syntax_tree', 'jedi.inference.sys_path', 'jedi.inference.utils', 'jedi.inference.value', 'jedi.inference.value.decorator', 'jedi.inference.value.dynamic_arrays', 'jedi.inference.value.function', 'jedi.inference.value.instance', 'jedi.inference.value.iterable', 'jedi.inference.value.klass', 'jedi.inference.value.module', 'jedi.inference.value.namespace', 'jedi.parser_utils', 'jedi.plugins', 'jedi.plugins.django', 'jedi.plugins.flask', 'jedi.plugins.pytest', 'jedi.plugins.registry', 'jedi.plugins.stdlib', 'jedi.settings', 'json', 'json.decoder', 'json.encoder', 'json.scanner', 'parso', 'parso._compatibility', 'parso.cache', 'parso.file_io', 'parso.grammar', 'parso.normalizer', 'parso.parser', 'parso.pgen2', 'parso.pgen2.generator', 'parso.pgen2.grammar_parser', 'parso.python', 'parso.python.diff', 'parso.python.errors', 'parso.python.parser', 'parso.python.pep8', 'parso.python.prefix', 'parso.python.token', 'parso.python.tokenize', 'parso.python.tree', 'parso.tree', 'parso.utils', 'pickle', 'pkgutil', 'pydoc', 'pydoc_data', 'pydoc_data.topics', 'sysconfig', 'zipfile', 'zipfile._path', 'zipfile._path.glob']
+18:13:13.663 INFO    thonny: TIME/MODS 0.000 sent ready 
+18:13:13.663 INFO    thonny: TIME/MODS 0.000 Beginning of mainloop 
+18:13:13.663 INFO    thonny: TIME/MODS 0.000 before get_globals 
+18:13:13.663 INFO    thonny: TIME/MODS 0.000 befsubcode 
+18:13:13.670 INFO    thonny: TIME/MODS 0.006 affsubcode 
+18:13:13.684 INFO    thonny: TIME/MODS 0.014 affforw 
+18:13:13.685 INFO    thonny: TIME/MODS 0.001 after get_globals 
+18:13:50.250 INFO    thonny: TIME/MODS 36.566 before get_dirs_children_info 
+18:13:50.251 INFO    thonny: TIME/MODS 0.001 befsubcode 
+18:13:50.264 INFO    thonny: TIME/MODS 0.013 affsubcode 
+18:13:50.279 INFO    thonny: TIME/MODS 0.015 affforw 
+18:13:50.279 INFO    thonny: TIME/MODS 0.001 after get_dirs_children_info 
+18:36:26.411 INFO    thonny.plugins.micropython.connection: Detected connection error
+18:36:26.423 INFO    thonny.backend: Handling connection error
