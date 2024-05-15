@@ -81,7 +81,6 @@ alias vim='nvim'
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 eval "$(zoxide init --cmd cd zsh)"
-eval "$(~/.rbenv/bin/rbenv init - zsh)"
 
 plugins=(git env wakatime autosuggestions)
 

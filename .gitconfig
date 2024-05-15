@@ -7,3 +7,5 @@
 [user]
 	email = 74563446+Heinrich-XIAO@users.noreply.github.com
 	name = Heinrich Xiao
+[init]
+	defaultBranch = main
