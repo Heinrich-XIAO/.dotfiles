@@ -5,30 +5,12 @@ opacity = 0.7
 padding.x = 0
 padding.y = 0
 
-decorations = "None"
+#decorations = "None"
 decorations_theme_variant = "Dark"
 
 
 [font]
 	size = 7
-
-	[font.normal]
-	family = "Hack Nerd Font Mono"
-	style = "Regular"
-	
-	[font.bold]
-	family = "Hack Nerd Font Mono"
-	style = "Bold"
-
-	[font.italic]
-	family = "Hack Nerd Font Mono"
-	style = "Italic"
-
-	[font.bold_italic]
-	family = "Hack Nerd Font Mono"
-	style = "Bold Italic"
-
-
 
 
 

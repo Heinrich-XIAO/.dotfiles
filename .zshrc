@@ -38,6 +38,7 @@ export EDITOR=nvim
 if command -v zinit >/dev/null 2>&1; then
     zinit self-update
 fi
+source /etc/zsh_command_not_found
 
 ### Added by Zinit's installer
 if [[ ! -f $HOME/.local/share/zinit/zinit.git/zinit.zsh ]]; then
@@ -69,9 +70,9 @@ export PATH="$HOME/Documents/programs/vesktop:$PATH"
 export PATH="$HOME/Documents/programs/zig:$PATH"
 export PATH="$HOME/Documents/programs/julia/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
-export DENO_INSTALL="/home/heinrich/.deno"
+export DENO_INSTALL="$HOME/.deno"
 export PATH="$DENO_INSTALL/bin:$PATH"
-export PATH="/home/heinrich/.cargo/bin:$PATH"
+export PATH="$HOME/.cargo/bin:$PATH"
 
 # Aliasies
 alias l='ls -lhAFa'
