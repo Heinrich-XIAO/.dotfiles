@@ -127,3 +127,9 @@ vim.api.nvim_create_autocmd('LspAttach', {
     end, opts)
   end,
 })
+-- Lua
+require('onedark').setup {
+    style = 'warmer',
+		transparent=true,
+}
+require('onedark').load()

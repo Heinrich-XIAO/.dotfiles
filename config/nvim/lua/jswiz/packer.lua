@@ -7,15 +7,8 @@ return require('packer').startup(function(use)
   use {'nvim-telescope/telescope.nvim', tag = '0.1.5',
     requires = { {'nvim-lua/plenary.nvim'} }
   }
-
-  use {
-    'sainnhe/everforest',
-    as = 'everforest',
-    config = function()
-      vim.cmd('colorscheme everforest')
-      vim.cmd('set background=dark')
-    end
-  }
+	-- Using Packer
+	use 'navarasu/onedark.nvim'
   use 'andweeb/presence.nvim'
   use 'mbbill/undotree'
   use 'alec-gibson/nvim-tetris'

@@ -104,12 +104,6 @@ _G.packer_plugins = {
     path = "/home/heinrichxiao/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
-  everforest = {
-    config = { "\27LJ\2\n^\0\0\3\0\4\0\t6\0\0\0009\0\1\0'\2\2\0B\0\2\0016\0\0\0009\0\1\0'\2\3\0B\0\2\1K\0\1\0\24set background=dark\27colorscheme everforest\bcmd\bvim\0" },
-    loaded = true,
-    path = "/home/heinrichxiao/.local/share/nvim/site/pack/packer/start/everforest",
-    url = "https://github.com/sainnhe/everforest"
-  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/home/heinrichxiao/.local/share/nvim/site/pack/packer/start/friendly-snippets",
@@ -139,6 +133,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/heinrichxiao/.local/share/nvim/site/pack/packer/start/nvimesweeper",
     url = "https://github.com/seandewar/nvimesweeper"
+  },
+  ["onedark.nvim"] = {
+    loaded = true,
+    path = "/home/heinrichxiao/.local/share/nvim/site/pack/packer/start/onedark.nvim",
+    url = "https://github.com/navarasu/onedark.nvim"
   },
   ["packer.nvim"] = {
     loaded = true,
@@ -183,10 +182,6 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: everforest
-time([[Config for everforest]], true)
-try_loadstring("\27LJ\2\n^\0\0\3\0\4\0\t6\0\0\0009\0\1\0'\2\2\0B\0\2\0016\0\0\0009\0\1\0'\2\3\0B\0\2\1K\0\1\0\24set background=dark\27colorscheme everforest\bcmd\bvim\0", "config", "everforest")
-time([[Config for everforest]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then
