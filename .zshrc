@@ -1,9 +1,6 @@
 # Set the default shell
 export SHELL="/bin/zsh"
 
-# Enable vi mode
-bindkey -v
-
 # Set the prompt
 PROMPT='%(?:%{[01;32m%}%1{➜%} :%{[01;31m%}%1{➜%} )  %{[36m%}%~%{[00m%} %# '
 #PROMPT='%B%m%~%b %# '
