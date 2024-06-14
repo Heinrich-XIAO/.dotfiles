@@ -35,7 +35,6 @@ export EDITOR=nvim
 if command -v zinit >/dev/null 2>&1; then
     zinit self-update
 fi
-source /etc/zsh_command_not_found
 
 ### Added by Zinit's installer
 if [[ ! -f $HOME/.local/share/zinit/zinit.git/zinit.zsh ]]; then
@@ -82,7 +81,7 @@ eval "$(zoxide init --cmd cd zsh)"
 
 plugins=(git env wakatime autosuggestions)
 
-neofetch 
+fastfetch 
 
 
 
