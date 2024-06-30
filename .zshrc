@@ -70,6 +70,22 @@ export DENO_INSTALL="$HOME/.deno"
 export PATH="$DENO_INSTALL/bin:$PATH"
 export PATH="$HOME/.cargo/bin:$PATH"
 
+# Enable ZSH history
+HISTFILE=~/.zsh_history
+HISTSIZE=1000000  # Number of commands to keep in memory
+SAVEHIST=1000000  # Number of commands to save to history file
+
+# Ignore duplicate commands and commands starting with a space
+# setopt HIST_IGNORE_DUPS
+# setopt HIST_IGNORE_SPACE
+
+# Append to history file instead of overwriting
+setopt APPEND_HISTORY
+
+# Share history across sessions
+setopt SHARE_HISTORY
+
+
 # Aliasies
 alias l='ls -lhAFa'
 alias py='python'
