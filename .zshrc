@@ -4,32 +4,6 @@ export SHELL="/bin/zsh"
 # Set the prompt
 PROMPT='%(?:%{[01;32m%}%1{➜%} :%{[01;31m%}%1{➜%} )  %{[36m%}%~%{[00m%} %# '
 #PROMPT='%B%m%~%b %# '
-# Enable syntax highlighting
-if command -v zinit >/dev/null 2>&1; then
-    zinit light zdharma/fast-syntax-highlighting
-fi
-
-# Enable autosuggestions
-if command -v zinit >/dev/null 2>&1; then
-    zinit light zsh-users/zsh-autosuggestions
-fi
-
-# Enable history substring search
-if command -v zinit >/dev/null 2>&1; then
-    zinit light zsh-users/zsh-history-substring-search
-fi
-
-if command -v zinit >/dev/null 2>&1; then
-    zinit light johnhamelink/env-zsh
-fi
-
-# Set the editor (change it to your preferred editor)
-export VISUAL=nvim
-export EDITOR=nvim
-
-# Add your customizations or additional plugins here
-
-# ... (your customizations)
 
 # Load zinit
 if command -v zinit >/dev/null 2>&1; then
@@ -56,6 +30,25 @@ zinit light-mode for \
     zdharma-continuum/zinit-annex-bin-gem-node \
     zdharma-continuum/zinit-annex-patch-dl \
      zdharma-continuum/zinit-annex-rust
+
+# Enable zinit plugins
+if command -v zinit >/dev/null 2>&1; then
+    zinit light zdharma/fast-syntax-highlighting
+    zinit light zsh-users/zsh-autosuggestions
+    zinit light zsh-users/zsh-history-substring-search
+    zinit light johnhamelink/env-zsh
+fi
+
+
+# Set the editor (change it to your preferred editor)
+export VISUAL=nvim
+export EDITOR=nvim
+
+# Add your customizations or additional plugins here
+
+# ... (your customizations)
+
+
 
 ### End of Zinit's installer chunk
 #
@@ -95,7 +88,7 @@ alias vim='nvim'
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 eval "$(zoxide init --cmd cd zsh)"
 
-plugins=(git env wakatime autosuggestions)
+plugins=(git env wakatime autosuggestions sudo zsh-history-substring-search)
 
 fastfetch 
 

@@ -17,3 +17,11 @@ decorations_theme_variant = "Dark"
 [shell]
   program = "/bin/zsh"
 #	args = ["-l", "-c", "tmux attach || tmux"]
+
+
+
+[[keyboard.bindings]]
+key = "Semicolon"
+mods = "Alt"
+action = "None"
+
