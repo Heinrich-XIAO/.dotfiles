@@ -1,0 +1,35 @@
+    OpenRGB v0.91
+    Commit: d7c3fd1fb14b4af57fa0a391a88ca67de0e73702 from 2024-07-07 01:46:58 -0500
+    Launched: 20240707_091900
+====================================================================================================
+
+1003  |Info:    Saving detector settings
+1005  |Info:    Initializing HID interfaces: Success
+1005  |Info:    ------------------------------------------------------
+1005  |Info:    |               Start device detection               |
+1005  |Info:    ------------------------------------------------------
+1008  |Info:    ------------------------------------------------------
+1008  |Info:    |             Detecting I2C interfaces               |
+1008  |Info:    ------------------------------------------------------
+1008  |Info:    Registering I2C interface: /dev/i2c-1 Device 0000:0000 Subsystem: 0000:0000
+1008  |Info:    Registering I2C interface: /dev/i2c-2 Device 0000:0000 Subsystem: 0000:0000
+1008  |Info:    Registering I2C interface: /dev/i2c-0 Device 0000:0000 Subsystem: 0000:0000
+1008  |Info:    ------------------------------------------------------
+1008  |Info:    |               Detecting I2C devices                |
+1008  |Info:    ------------------------------------------------------
+1019  |Info:    ------------------------------------------------------
+1019  |Info:    |               Detecting I2C PCI devices            |
+1019  |Info:    ------------------------------------------------------
+1020  |Info:    ------------------------------------------------------
+1020  |Info:    |               Detecting HID devices                |
+1020  |Info:    ------------------------------------------------------
+1020  |Info:    ------------------------------------------------------
+1020  |Info:    |            Detecting libusb HID devices            |
+1020  |Info:    ------------------------------------------------------
+1030  |Info:    ------------------------------------------------------
+1030  |Info:    |              Detecting other devices               |
+1030  |Info:    ------------------------------------------------------
+1031  |Info:    ------------------------------------------------------
+1031  |Info:    |                Detection completed                 |
+1031  |Info:    ------------------------------------------------------
+1031  |Dialog:  <h2>WARNING:</h2><p>The OpenRGB udev rules are not installed.</p><p>Most devices will not be available unless running OpenRGB as root.</p><p>If using AppImage, Flatpak, or self-compiled versions of OpenRGB you must install the udev rules manually</p><p>See <a href='https://openrgb.org/udev'>https://openrgb.org/udev</a> to install the udev rules manually</p>
