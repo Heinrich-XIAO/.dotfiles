@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=ArmCord
+Exec=/usr/bin/flatpak run --branch=stable --arch=aarch64 --command=startarmcord xyz.armcord.ArmCord
+Terminal=false
+Type=Application
+Icon=xyz.armcord.ArmCord
+StartupWMClass=ArmCord
+Keywords=Discord;WebCord;
+X-Flatpak=xyz.armcord.ArmCord
