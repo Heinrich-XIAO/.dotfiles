@@ -1,0 +1,2 @@
+[templates]
+Hyprland = { template = 'templates/colors-hyprland', target = '~/.config/hypr/hypr-colors.conf' }
