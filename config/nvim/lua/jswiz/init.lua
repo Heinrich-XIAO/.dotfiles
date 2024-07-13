@@ -133,3 +133,4 @@ require('onedark').setup {
 		transparent=true,
 }
 require('onedark').load()
+vim.keymap.set("n", "<leader>r", vim.lsp.buf.rename)
