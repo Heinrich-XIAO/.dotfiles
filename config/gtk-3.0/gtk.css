@@ -26,30 +26,75 @@
         margin: -2px -3px -2px 0px;
     }
 
-    /* Window Border */
-    window,
-    decoration,
-    decoration-overlay {
+    /* Window Border and Corner Radius */
+    window.csd, dialog.csd,
+    window.csd > decoration,
+    window.csd > decoration-overlay {
         border: 0px solid rgba(196, 82, 28, 0.75);
     }
-    window:backdrop,
-    decoration:backdrop,
-    decoration-overlay:backdrop {
+    window.csd:backdrop, dialog:backdrop.csd,
+    window.csd:backdrop > decoration,
+    window.csd:backdrop > decoration-overlay {
         border: 0px solid rgba(129.6, 61.199999999999996, 28.8, 0.75);
     }
-    window.maximized,
-    window.maximized > decoration,
-    window.maximized > decoration-overlay,
+    window.csd.maximized, window.csd.maximized > decoration, window.csd.maximized > decoration-overlay,
+    window.csd.maximized > headerbar, window.csd.maximized > .top-bar, window.csd.maximized > .titlebar,
+    window.csd.fullscreen, window.csd.fullscreen > decoration, window.csd.fullscreen > decoration-overlay,
+    window.csd.fullscreen > headerbar, window.csd.fullscreen > .top-bar, window.csd.fullscreen > .titlebar,
     tooltip > decoration, tooltip > decoration-overlay {    
         border: none;
-        /*border-radius: 0px;*/
+        border-radius: 0px;
     }
-    /*window, 
-    decoration,
-    decoration-overlay {
-        border-radius: 20px;
-    }*/
+    window.csd.tiled, window.csd.tiled-top, window.csd.tiled-right, window.csd.tiled-bottom, window.csd.tiled-left,
+    window.csd.tiled > decoration, window.csd.tiled > decoration-overlay,
+    window.csd.tiled > headerbar, window.csd.tiled > .top-bar, window.csd.tiled > .titlebar {
+        border-radius: 0px;
+    }
+    window.csd .tiled-top .tiled-right .tiled-bottom .tiled-left {
+      border: none;
+    }
     
+        window.csd {
+            border: none;
+        }        
+        window.popup > decoration {
+            border: none;
+            border-radius: 6px;
+        }
+        
+        /* Gnome Terminal */
+        terminal-window > decoration, terminal-window:backdrop > decoration {
+            border: none;
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+        }
+        terminal-window > box > notebook > stack > terminal-screen-container > box {      
+            border: 0px solid rgba(196, 82, 28, 0.75);
+            border-top: none;
+        }
+        terminal-window > headerbar {
+            border: 0px solid rgba(196, 82, 28, 0.75);
+            border-bottom: none;
+        }
+        terminal-window:backdrop > box > notebook > stack > terminal-screen-container > box {      
+            border: 0px solid rgba(129.6, 61.199999999999996, 28.8, 0.75);
+            border-top: none;
+        }
+        terminal-window:backdrop > headerbar {
+            border: 0px solid rgba(129.6, 61.199999999999996, 28.8, 0.75);
+            border-bottom: none;
+        }
+        terminal-window > box > notebook > stack > terminal-screen-container > box > box > scrollbar > contents > trough > slider {
+            background-color: rgba(196, 82, 28, 0.5);
+        }
+        terminal-window.maximized > box > notebook > stack > terminal-screen-container > box, terminal-window.maximized > headerbar {
+            border: none;
+            border-radius: 0px;
+        }
+        terminal-window.tiled > decoration, terminal-window.tiled > headerbar {
+            border-radius: 0px;
+        }        
+        
         @define-color sidebar_bg_color rgba(46.6, 35.2, 29.8, 0.5);
         @define-color sidebar_backdrop_color rgba(38.3, 32.6, 29.9, 0.5);
         @define-color sidebar_fg_color rgba(255, 255, 255, 0.9);
