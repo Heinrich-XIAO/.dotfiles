@@ -1,9 +1,15 @@
+typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
 # Set the default shell
 export SHELL="/bin/zsh"
 
 # Set the prompt
-PROMPT='%(?:%{[01;32m%}%1{➜%} :%{[01;31m%}%1{➜%} )  %{[36m%}%~%{[00m%} %# '
-#PROMPT='%B%m%~%b %# '
 
 # Load zinit
 if command -v zinit >/dev/null 2>&1; then
@@ -62,6 +68,7 @@ export PATH="$HOME/.local/bin:$PATH"
 export DENO_INSTALL="$HOME/.deno"
 export PATH="$DENO_INSTALL/bin:$PATH"
 export PATH="$HOME/.cargo/bin:$PATH"
+export PATH="$HOME/Documents/dmojcli:$PATH"
 
 # Enable ZSH history
 HISTFILE=~/.zsh_history
@@ -90,7 +97,6 @@ eval "$(zoxide init --cmd cd zsh)"
 
 plugins=(git env wakatime autosuggestions sudo zsh-history-substring-search)
 
-fastfetch 
 
 
 
@@ -103,3 +109,16 @@ export PATH
 
 # <<< juliaup initialize <<<
 
+source ~/powerlevel10k/powerlevel10k.zsh-theme
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+fastfetch
+
+# bun completions
+[ -s "/home/heinrichxiao/.bun/_bun" ] && source "/home/heinrichxiao/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
