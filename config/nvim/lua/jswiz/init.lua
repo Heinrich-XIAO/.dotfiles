@@ -130,7 +130,16 @@ vim.api.nvim_create_autocmd('LspAttach', {
 -- Lua
 require('onedark').setup {
     style = 'warmer',
-		transparent=true,
+		transparent=false,
 }
 require('onedark').load()
 vim.keymap.set("n", "<leader>r", vim.lsp.buf.rename)
+
+require('Comment').setup()
+
+vim.g.user_emmet_mode = 'i'
+vim.g.user_emmet_leader_key = '<C-Z>'
+
+require('nvim-autopairs').setup{}
+
+require('gitsigns').setup()

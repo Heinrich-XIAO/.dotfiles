@@ -37,4 +37,34 @@ return require('packer').startup(function(use)
 	use "rafamadriz/friendly-snippets"
 
 	use 'ThePrimeagen/vim-be-good'
+
+
+  use {
+    'kawre/leetcode.nvim',
+    build = ':TSUpdate html',
+    dependencies = {
+      'nvim-telescope/telescope.nvim',
+      'nvim-lua/plenary.nvim',
+      'MunifTanjim/nui.nvim',
+      -- optional
+      'nvim-treesitter/nvim-treesitter',
+      'rcarriga/nvim-notify',
+      'nvim-tree/nvim-web-devicons',
+    },
+    config = function()
+      -- Your configuration goes here
+    end,
+  }
+
+	use {
+    'numToStr/Comment.nvim',
+    config = function()
+        require('Comment').setup()
+    end
+	}
+
+	use 'm4xshen/autoclose.nvim'
+	use 'windwp/nvim-autopairs'
+	use 'mattn/emmet-vim'
+	use 'lewis6991/gitsigns.nvim'
 end)
