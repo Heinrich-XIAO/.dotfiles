@@ -1,5 +1,5 @@
 token = 'AAHN9Vfw07PDr_B2Lu-IRIikZSAX8MZ0HNlYZ0HyNFfc19Jw'
 
 [ext_key_map]
-py = 'py3'
 cpp = 'cpp14'
+py = 'py3'
