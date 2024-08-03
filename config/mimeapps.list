@@ -46,3 +46,4 @@ audio/x-ms-wma=org.strawberrymusicplayer.strawberry.desktop;
 audio/x-musepack=org.strawberrymusicplayer.strawberry.desktop;
 audio/x-pn-realaudio=org.strawberrymusicplayer.strawberry.desktop;
 audio/x-scpls=org.strawberrymusicplayer.strawberry.desktop;
+image/heic=org.mozilla.firefox.desktop;
