@@ -165,4 +165,15 @@ if hardmode then
     -- vim.api.nvim_set_keymap('n', '<BS>', msg, { noremap = true, silent = false })
 end
 
-vim.api.nvim_set_keymap('n', 'i', ':nohlsearch<CR>i', { noremap = true, silent = true })
+local opts = { noremap = true, silent = true }
+vim.api.nvim_set_keymap('n', 'i', ':nohlsearch<CR>i', opts)
+vim.api.nvim_set_keymap('n', 'I', ':nohlsearch<CR>I', opts)
+vim.api.nvim_set_keymap('n', 'a', ':nohlsearch<CR>a', opts)
+vim.api.nvim_set_keymap('n', 'A', ':nohlsearch<CR>A', opts)
+vim.api.nvim_set_keymap('n', 'o', ':nohlsearch<CR>o', opts)
+vim.api.nvim_set_keymap('n', 'O', ':nohlsearch<CR>O', opts)
+vim.api.nvim_set_keymap('n', 'c', ':nohlsearch<CR>c', opts)
+vim.api.nvim_set_keymap('n', 'C', ':nohlsearch<CR>C', opts)
+vim.api.nvim_set_keymap('n', 's', ':nohlsearch<CR>s', opts)
+vim.api.nvim_set_keymap('n', 'S', ':nohlsearch<CR>S', opts)
+
