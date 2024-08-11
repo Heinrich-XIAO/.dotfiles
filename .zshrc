@@ -1,3 +1,5 @@
+autoload -Uz compinit
+
 typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
@@ -90,6 +92,10 @@ alias l='ls -lhAFa'
 alias py='python'
 alias dog='cat'
 alias vim='nvim'
+
+alias gp='git push'
+alias ga='git add'
+alias gc='git commit'
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 eval "$(zoxide init --cmd cd zsh)"
