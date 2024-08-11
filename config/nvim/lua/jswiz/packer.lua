@@ -67,4 +67,6 @@ return require('packer').startup(function(use)
 	use 'windwp/nvim-autopairs'
 	use 'mattn/emmet-vim'
 	use 'lewis6991/gitsigns.nvim'
+
+	use 'ThePrimeagen/harpoon'
 end)

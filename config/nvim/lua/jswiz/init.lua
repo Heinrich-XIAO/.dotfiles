@@ -177,3 +177,8 @@ vim.api.nvim_set_keymap('n', 'C', ':nohlsearch<CR>C', opts)
 vim.api.nvim_set_keymap('n', 's', ':nohlsearch<CR>s', opts)
 vim.api.nvim_set_keymap('n', 'S', ':nohlsearch<CR>S', opts)
 
+
+
+-- harpoon
+vim.keymap.set("n", "<space>h", require("harpoon.ui").toggle_quick_menu)
+vim.keymap.set("n", "<space>a", require("harpoon.mark").add_file)
