@@ -6,6 +6,11 @@
 	helper = !/usr/bin/gh auth git-credential
 [user]
 	email = 74563446+Heinrich-XIAO@users.noreply.github.com
-	name = Heinrich Xiao
+	name = Heinrich-XIAO
 [init]
 	defaultBranch = main
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
