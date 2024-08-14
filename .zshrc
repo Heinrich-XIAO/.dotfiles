@@ -92,10 +92,12 @@ alias l='ls -lhAFa'
 alias py='python'
 alias dog='cat'
 alias vim='nvim'
+alias vi='nvim'
 
 alias gp='git push'
 alias ga='git add'
 alias gc='git commit'
+alias gs='git status'
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 eval "$(zoxide init --cmd cd zsh)"
