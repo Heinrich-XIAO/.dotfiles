@@ -1,6 +1,7 @@
 {
     "version": "2.0.1",
     "autoload": {
-        "Apple Internal Keyboard / Trackpad 2": "new preset"
+        "Apple Internal Keyboard / Trackpad 2": "new preset",
+        "GEM GEM80": "Numbers"
     }
 }
