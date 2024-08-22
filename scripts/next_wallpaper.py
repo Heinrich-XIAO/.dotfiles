@@ -13,7 +13,7 @@ def choose_random_png(directory):
     return os.path.join(directory, random_png)
 
 def set_wallpaper_and_terminal_bg(png_file):
-    subprocess.run(f'wallust run "{png_file}"&swww img "{png_file}" -t grow --transition-pos 0.75,0.6 --transition-bezier 0.0,0.5,0.5,1.0,5.0&', shell=True)
+    print(subprocess.check_output(f'~/.cargo/bin/wallust run "{png_file}"&swww img "{png_file}" -t grow --transition-pos 0.75,0.6 --transition-bezier 0.0,0.5,0.5,1.0,5.0&', shell=True))
 
 if __name__ == '__main__':
     # Directory containing PNG wallpapers
