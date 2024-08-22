@@ -1,0 +1,52 @@
+[[remap]]
+input = ["KEY_RIGHTSHIFT", "KEY_E"]
+output = ["3"]
+
+[[remap]]
+input = ["KEY_RIGHTSHIFT", "KEY_O"]
+output = ["9"]
+
+[[remap]]
+input = ["KEY_RIGHTSHIFT", "KEY_I"]
+output = ["8"]
+
+[[remap]]
+input = ["KEY_RIGHTSHIFT", "KEY_Q"]
+output = ["1"]
+
+[[remap]]
+input = ["KEY_RIGHTSHIFT", "KEY_U"]
+output = ["7"]
+
+[[remap]]
+input = ["KEY_RIGHTSHIFT", "KEY_T"]
+output = ["5"]
+
+[[remap]]
+input = ["KEY_RIGHTSHIFT", "KEY_W"]
+output = ["2"]
+
+[[remap]]
+input = ["KEY_RIGHTSHIFT", "KEY_R"]
+output = ["4"]
+
+[[remap]]
+input = ["KEY_RIGHTSHIFT", "KEY_Y"]
+output = ["6"]
+
+[[remap]]
+input = ["KEY_RIGHTSHIFT", "KEY_P"]
+output = ["0"]
+
+[[remap]]
+input = ["KEY_CAPSLOCK"]
+output = ["KEY_ESC"]
+
+[[remap]]
+input = ["KEY_LEFTMETA"]
+output = ["KEY_LEFTALT"]
+
+[[remap]]
+input = ["KEY_LEFTALT"]
+output = ["KEY_LEFTMETA"]
+

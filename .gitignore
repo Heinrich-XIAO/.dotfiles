@@ -3,3 +3,4 @@ config/ibus
 config/enchant
 config/hypr/hypr-colors.conf
 config/dconf
+config/nvim/undo
