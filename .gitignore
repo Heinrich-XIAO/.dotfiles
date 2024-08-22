@@ -1,6 +1,6 @@
-config/vesktop
-config/ibus
-config/enchant
-config/hypr/hypr-colors.conf
-config/dconf
-config/nvim/undo
+config/nvim/undo/
+config/vesktop/
+config/ibus/
+config/enchant/
+config/hypr/hypr-colors.conf/
+config/dconf/
