@@ -1,2 +1,3 @@
 [templates]
-Hyprland = { template = 'templates/colors-hyprland', target = '~/.config/hypr/hypr-colors.conf' }
+Hyprlock = { template = 'hyprlock', target = '~/.config/hypr/hyprlock-background.conf' }
+Hyprland = { template = 'colors-hyprland', target = '~/.config/hypr/hypr-colors.conf' }

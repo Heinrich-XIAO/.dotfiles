@@ -1,0 +1,6 @@
+background {
+  monitor =
+  path = {{ wallpaper }}
+  blur_passes = 1
+  color = $base
+}
