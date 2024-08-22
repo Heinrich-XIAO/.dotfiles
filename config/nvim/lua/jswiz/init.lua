@@ -182,3 +182,18 @@ vim.api.nvim_set_keymap('n', 'S', ':nohlsearch<CR>S', opts)
 -- harpoon
 vim.keymap.set("n", "<space>h", require("harpoon.ui").toggle_quick_menu)
 vim.keymap.set("n", "<space>a", require("harpoon.mark").add_file)
+
+
+
+-- Create an undo directory if it doesn't exist
+local undo_dir = vim.fn.expand('~/.config/nvim/undo')
+if not vim.fn.isdirectory(undo_dir) then
+  vim.fn.mkdir(undo_dir, "p")
+end
+
+-- Set undo options
+vim.opt.undofile = true
+vim.opt.undodir = undo_dir
+vim.opt.undolevels = 1000       -- Number of undo levels
+vim.opt.undoreload = 10000      -- Number of lines to save for undo
+
