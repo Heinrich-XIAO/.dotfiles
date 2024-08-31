@@ -6,3 +6,5 @@ config/hypr/hypr-colors.conf/
 config/dconf/
 config/cmus/search-history
 config/cmus/command-history
+config/cmus/cache
+config/cmus/autosave
