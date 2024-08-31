@@ -4,3 +4,5 @@ config/ibus/
 config/enchant/
 config/hypr/hypr-colors.conf/
 config/dconf/
+config/cmus/search-history
+config/cmus/command-history
