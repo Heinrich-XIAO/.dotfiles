@@ -2,7 +2,8 @@ config/nvim/undo/
 config/vesktop/
 config/ibus/
 config/enchant/
-config/hypr/hypr-colors.conf/
+config/hypr/hypr-colors.conf
+config/hypr/hyprlock-background.conf
 config/dconf/
 config/cmus/search-history
 config/cmus/command-history
