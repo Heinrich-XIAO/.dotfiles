@@ -1,4 +1,3 @@
-config/nvim/undo/
 config/vesktop/
 config/ibus/
 config/enchant/
@@ -9,3 +8,5 @@ config/cmus/search-history
 config/cmus/command-history
 config/cmus/cache
 config/cmus/autosave
+config/nvim/plugin/packer_compiled.lua
+config/nvim/undo/
