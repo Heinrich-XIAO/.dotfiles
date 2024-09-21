@@ -1,3 +1,4 @@
+/home/heinzketchup/Music/Electrify - The Path Untrodden.mp3
 /home/heinzketchup/Music/ColBreakz - 10.000.mp3
 /home/heinzketchup/Music/Creo - Carnivores.mp3
 /home/heinzketchup/Music/Creo - Sphere.mp3
