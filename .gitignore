@@ -11,3 +11,4 @@ config/cmus/autosave
 config/nvim/plugin/packer_compiled.lua
 config/nvim/undo/
 config/libreoffice
+config/pavucontrol.ini
