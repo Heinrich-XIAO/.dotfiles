@@ -69,4 +69,11 @@ return require('packer').startup(function(use)
 	use 'lewis6991/gitsigns.nvim'
 
 	use 'ThePrimeagen/harpoon'
+
+	use {
+		"supermaven-inc/supermaven-nvim",
+		config = function()
+			require("supermaven-nvim").setup({})
+		end,
+	}
 end)
