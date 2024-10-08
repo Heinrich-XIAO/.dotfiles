@@ -13,3 +13,5 @@ config/nvim/undo/
 config/libreoffice
 config/pavucontrol.ini
 config/goofcord
+config/totem/state.ini
+config/fcitx5/profile
