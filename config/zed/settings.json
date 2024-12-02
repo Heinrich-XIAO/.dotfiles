@@ -7,8 +7,21 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "assistant": {
+    "default_model": {
+      "provider": "ollama",
+      "model": "mistral:latest"
+    },
+    "version": "2"
+  },
+  "features": {
+    "inline_completion_provider": "supermaven"
+  },
   "terminal": {
-    "dock": "bottom"
+    "dock": "bottom",
+    "shell": {
+      "program": "zsh"
+    }
   },
   "base_keymap": "VSCode",
   "vim_mode": true,
@@ -25,7 +38,7 @@
   },
   "theme": {
     "mode": "system",
-    "light": "One Light",
+    "light": "Ayu Dark",
     "dark": "Catppuccin Mocha"
   }
 }
