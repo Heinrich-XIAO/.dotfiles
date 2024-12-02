@@ -5,5 +5,17 @@
       "ctrl-w": "pane::CloseActiveItem", // Don't pass ctrl-w to terminal, let Zed handle it.
       "ctrl-`": "workspace::ToggleBottomDock" // match vscode behavior
     }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-b": "workspace::ToggleLeftDock"
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-b": "workspace::ToggleLeftDock"
+    }
   }
 ]
