@@ -1,0 +1,31 @@
+
+--- 2024-11-05T21:33:41.338Z debug
+🪵  Writing logs to "/home/heinzketchup/.config/.wrangler/logs/wrangler-2024-11-05_21-33-41_235.log"
+---
+
+--- 2024-11-05T21:33:41.338Z log
+
+ ⛅️ wrangler 3.63.2 (update available [32m3.84.1[39m)
+[38;2;255;136;0m-------------------------------------------------------[39m
+
+---
+
+--- 2024-11-05T21:33:41.339Z debug
+No experimental flag store instantiated
+---
+
+--- 2024-11-05T21:33:41.339Z debug
+Attempted to use flag "JSON_CONFIG_FILE" which has not been instantiated
+---
+
+--- 2024-11-05T21:33:41.342Z debug
+Configuration file belonging to ⚡️ Pages ⚡️ project detected.
+---
+
+--- 2024-11-05T21:33:41.343Z debug
+Compiling worker to "/home/heinzketchup/Downloads/bolt.new-any-llm/.wrangler/tmp/pages-i85usz/functionsWorker-0.45049599022864095.mjs"...
+---
+
+--- 2024-11-05T21:33:41.441Z log
+
+---

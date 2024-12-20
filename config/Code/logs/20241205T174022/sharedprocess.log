@@ -1,0 +1,3 @@
+2024-12-05 17:40:23.888 [info] Started initializing default profile extensions in extensions installation folder. file:///home/heinzketchup/.vscode/extensions
+2024-12-05 17:40:23.925 [warning] Failed to create default profile extensions manifest in extensions installation folder. file:///home/heinzketchup/.vscode/extensions Unable to create file 'vscode-userdata:/home/heinzketchup/.vscode/extensions/extensions.json' that already exists when overwrite flag is not set
+2024-12-05 17:40:23.925 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/heinzketchup/.vscode/extensions

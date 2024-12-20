@@ -1,0 +1,208 @@
+
+--- 2024-11-05T21:33:48.123Z debug
+🪵  Writing logs to "/home/heinzketchup/.config/.wrangler/logs/wrangler-2024-11-05_21-33-48_038.log"
+---
+
+--- 2024-11-05T21:33:48.123Z debug
+No experimental flag store instantiated
+---
+
+--- 2024-11-05T21:33:48.123Z debug
+Attempted to use flag "JSON_CONFIG_FILE" which has not been instantiated
+---
+
+--- 2024-11-05T21:33:48.126Z debug
+Configuration file belonging to ⚡️ Pages ⚡️ project detected.
+---
+
+--- 2024-11-05T21:33:48.127Z debug
+Failed to load .env file "/home/heinzketchup/Downloads/bolt.new-any-llm/.dev.vars": Error: ENOENT: no such file or directory, open '/home/heinzketchup/Downloads/bolt.new-any-llm/.dev.vars'
+    at Object.openSync (node:fs:573:18)
+    at Object.readFileSync (node:fs:452:35)
+    at tryLoadDotEnv (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/wrangler@3.63.2_@cloudflare+workers-types@4.20240620.0/node_modules/wrangler/wrangler-dist/cli.js:159140:72)
+    at loadDotEnv (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/wrangler@3.63.2_@cloudflare+workers-types@4.20240620.0/node_modules/wrangler/wrangler-dist/cli.js:159149:12)
+    at getVarsForDev (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/wrangler@3.63.2_@cloudflare+workers-types@4.20240620.0/node_modules/wrangler/wrangler-dist/cli.js:198891:18)
+    at getBindings (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/wrangler@3.63.2_@cloudflare+workers-types@4.20240620.0/node_modules/wrangler/wrangler-dist/cli.js:208529:10)
+    at getMiniflareOptionsFromConfig (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/wrangler@3.63.2_@cloudflare+workers-types@4.20240620.0/node_modules/wrangler/wrangler-dist/cli.js:210539:20)
+    at /home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/wrangler@3.63.2_@cloudflare+workers-types@4.20240620.0/node_modules/wrangler/wrangler-dist/cli.js:210515:11
+    at AsyncLocalStorage.run (node:async_hooks:346:14)
+    at run (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/wrangler@3.63.2_@cloudflare+workers-types@4.20240620.0/node_modules/wrangler/wrangler-dist/cli.js:152593:60)
+    at getPlatformProxy (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/wrangler@3.63.2_@cloudflare+workers-types@4.20240620.0/node_modules/wrangler/wrangler-dist/cli.js:210509:34)
+    at configureServer (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/@remix-run+dev@2.10.0_@remix-run+react@2.10.2_react-dom@18.3.1_react@18.3.1__react@18.3.1_typ_qwyxqdhnwp3srgtibfrlais3ge/node_modules/@remix-run/dev/dist/vite/cloudflare-proxy-plugin.js:55:17)
+    at async _createServer (file:///home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/vite@5.3.1_@types+node@20.14.9_sass@1.77.6/node_modules/vite/dist/node/chunks/dep-BcXSligG.js:63299:20)
+    at async configResolved (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/@remix-run+dev@2.10.0_@remix-run+react@2.10.2_react-dom@18.3.1_react@18.3.1__react@18.3.1_typ_qwyxqdhnwp3srgtibfrlais3ge/node_modules/@remix-run/dev/dist/vite/plugin.js:750:27)
+    at async Promise.all (index 4)
+    at async Module.resolveConfig (file:///home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/vite@5.3.1_@types+node@20.14.9_sass@1.77.6/node_modules/vite/dist/node/chunks/dep-BcXSligG.js:66626:3)
+    at async Object.resolveViteConfig (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/@remix-run+dev@2.10.0_@remix-run+react@2.10.2_react-dom@18.3.1_react@18.3.1__react@18.3.1_typ_qwyxqdhnwp3srgtibfrlais3ge/node_modules/@remix-run/dev/dist/vite/plugin.js:71:20)
+    at async build (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/@remix-run+dev@2.10.0_@remix-run+react@2.10.2_react-dom@18.3.1_react@18.3.1__react@18.3.1_typ_qwyxqdhnwp3srgtibfrlais3ge/node_modules/@remix-run/dev/dist/vite/build.js:192:20)
+    at async Object.viteBuild (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/@remix-run+dev@2.10.0_@remix-run+react@2.10.2_react-dom@18.3.1_react@18.3.1__react@18.3.1_typ_qwyxqdhnwp3srgtibfrlais3ge/node_modules/@remix-run/dev/dist/cli/commands.js:183:5)
+    at async Object.run (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/@remix-run+dev@2.10.0_@remix-run+react@2.10.2_react-dom@18.3.1_react@18.3.1__react@18.3.1_typ_qwyxqdhnwp3srgtibfrlais3ge/node_modules/@remix-run/dev/dist/cli/run.js:252:7) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/heinzketchup/Downloads/bolt.new-any-llm/.dev.vars'
+}
+---
+
+--- 2024-11-05T21:33:48.379Z debug
+Failed to load .env file "/home/heinzketchup/Downloads/bolt.new-any-llm/.dev.vars": Error: ENOENT: no such file or directory, open '/home/heinzketchup/Downloads/bolt.new-any-llm/.dev.vars'
+    at Object.openSync (node:fs:573:18)
+    at Object.readFileSync (node:fs:452:35)
+    at tryLoadDotEnv (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/wrangler@3.63.2_@cloudflare+workers-types@4.20240620.0/node_modules/wrangler/wrangler-dist/cli.js:159140:72)
+    at loadDotEnv (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/wrangler@3.63.2_@cloudflare+workers-types@4.20240620.0/node_modules/wrangler/wrangler-dist/cli.js:159149:12)
+    at getVarsForDev (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/wrangler@3.63.2_@cloudflare+workers-types@4.20240620.0/node_modules/wrangler/wrangler-dist/cli.js:198891:18)
+    at getPlatformProxy (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/wrangler@3.63.2_@cloudflare+workers-types@4.20240620.0/node_modules/wrangler/wrangler-dist/cli.js:210523:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async configureServer (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/@remix-run+dev@2.10.0_@remix-run+react@2.10.2_react-dom@18.3.1_react@18.3.1__react@18.3.1_typ_qwyxqdhnwp3srgtibfrlais3ge/node_modules/@remix-run/dev/dist/vite/cloudflare-proxy-plugin.js:55:11)
+    at async _createServer (file:///home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/vite@5.3.1_@types+node@20.14.9_sass@1.77.6/node_modules/vite/dist/node/chunks/dep-BcXSligG.js:63299:20)
+    at async configResolved (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/@remix-run+dev@2.10.0_@remix-run+react@2.10.2_react-dom@18.3.1_react@18.3.1__react@18.3.1_typ_qwyxqdhnwp3srgtibfrlais3ge/node_modules/@remix-run/dev/dist/vite/plugin.js:750:27)
+    at async Promise.all (index 4)
+    at async Module.resolveConfig (file:///home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/vite@5.3.1_@types+node@20.14.9_sass@1.77.6/node_modules/vite/dist/node/chunks/dep-BcXSligG.js:66626:3)
+    at async Object.resolveViteConfig (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/@remix-run+dev@2.10.0_@remix-run+react@2.10.2_react-dom@18.3.1_react@18.3.1__react@18.3.1_typ_qwyxqdhnwp3srgtibfrlais3ge/node_modules/@remix-run/dev/dist/vite/plugin.js:71:20)
+    at async build (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/@remix-run+dev@2.10.0_@remix-run+react@2.10.2_react-dom@18.3.1_react@18.3.1__react@18.3.1_typ_qwyxqdhnwp3srgtibfrlais3ge/node_modules/@remix-run/dev/dist/vite/build.js:192:20)
+    at async Object.viteBuild (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/@remix-run+dev@2.10.0_@remix-run+react@2.10.2_react-dom@18.3.1_react@18.3.1__react@18.3.1_typ_qwyxqdhnwp3srgtibfrlais3ge/node_modules/@remix-run/dev/dist/cli/commands.js:183:5)
+    at async Object.run (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/@remix-run+dev@2.10.0_@remix-run+react@2.10.2_react-dom@18.3.1_react@18.3.1__react@18.3.1_typ_qwyxqdhnwp3srgtibfrlais3ge/node_modules/@remix-run/dev/dist/cli/run.js:252:7) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/heinzketchup/Downloads/bolt.new-any-llm/.dev.vars'
+}
+---
+
+--- 2024-11-05T21:33:49.093Z debug
+No experimental flag store instantiated
+---
+
+--- 2024-11-05T21:33:49.093Z debug
+Attempted to use flag "JSON_CONFIG_FILE" which has not been instantiated
+---
+
+--- 2024-11-05T21:33:49.094Z debug
+Configuration file belonging to ⚡️ Pages ⚡️ project detected.
+---
+
+--- 2024-11-05T21:33:49.094Z debug
+Failed to load .env file "/home/heinzketchup/Downloads/bolt.new-any-llm/.dev.vars": Error: ENOENT: no such file or directory, open '/home/heinzketchup/Downloads/bolt.new-any-llm/.dev.vars'
+    at Object.openSync (node:fs:573:18)
+    at Object.readFileSync (node:fs:452:35)
+    at tryLoadDotEnv (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/wrangler@3.63.2_@cloudflare+workers-types@4.20240620.0/node_modules/wrangler/wrangler-dist/cli.js:159140:72)
+    at loadDotEnv (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/wrangler@3.63.2_@cloudflare+workers-types@4.20240620.0/node_modules/wrangler/wrangler-dist/cli.js:159149:12)
+    at getVarsForDev (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/wrangler@3.63.2_@cloudflare+workers-types@4.20240620.0/node_modules/wrangler/wrangler-dist/cli.js:198891:18)
+    at getBindings (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/wrangler@3.63.2_@cloudflare+workers-types@4.20240620.0/node_modules/wrangler/wrangler-dist/cli.js:208529:10)
+    at getMiniflareOptionsFromConfig (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/wrangler@3.63.2_@cloudflare+workers-types@4.20240620.0/node_modules/wrangler/wrangler-dist/cli.js:210539:20)
+    at /home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/wrangler@3.63.2_@cloudflare+workers-types@4.20240620.0/node_modules/wrangler/wrangler-dist/cli.js:210515:11
+    at AsyncLocalStorage.run (node:async_hooks:346:14)
+    at run (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/wrangler@3.63.2_@cloudflare+workers-types@4.20240620.0/node_modules/wrangler/wrangler-dist/cli.js:152593:60)
+    at getPlatformProxy (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/wrangler@3.63.2_@cloudflare+workers-types@4.20240620.0/node_modules/wrangler/wrangler-dist/cli.js:210509:34)
+    at configureServer (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/@remix-run+dev@2.10.0_@remix-run+react@2.10.2_react-dom@18.3.1_react@18.3.1__react@18.3.1_typ_qwyxqdhnwp3srgtibfrlais3ge/node_modules/@remix-run/dev/dist/vite/cloudflare-proxy-plugin.js:55:17)
+    at async _createServer (file:///home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/vite@5.3.1_@types+node@20.14.9_sass@1.77.6/node_modules/vite/dist/node/chunks/dep-BcXSligG.js:63299:20)
+    at async configResolved (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/@remix-run+dev@2.10.0_@remix-run+react@2.10.2_react-dom@18.3.1_react@18.3.1__react@18.3.1_typ_qwyxqdhnwp3srgtibfrlais3ge/node_modules/@remix-run/dev/dist/vite/plugin.js:750:27)
+    at async Promise.all (index 4)
+    at async resolveConfig (file:///home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/vite@5.3.1_@types+node@20.14.9_sass@1.77.6/node_modules/vite/dist/node/chunks/dep-BcXSligG.js:66626:3)
+    at async Module.build (file:///home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/vite@5.3.1_@types+node@20.14.9_sass@1.77.6/node_modules/vite/dist/node/chunks/dep-BcXSligG.js:65459:18)
+    at async viteBuild (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/@remix-run+dev@2.10.0_@remix-run+react@2.10.2_react-dom@18.3.1_react@18.3.1__react@18.3.1_typ_qwyxqdhnwp3srgtibfrlais3ge/node_modules/@remix-run/dev/dist/vite/build.js:212:5)
+    at async build (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/@remix-run+dev@2.10.0_@remix-run+react@2.10.2_react-dom@18.3.1_react@18.3.1__react@18.3.1_typ_qwyxqdhnwp3srgtibfrlais3ge/node_modules/@remix-run/dev/dist/vite/build.js:236:3)
+    at async Object.viteBuild (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/@remix-run+dev@2.10.0_@remix-run+react@2.10.2_react-dom@18.3.1_react@18.3.1__react@18.3.1_typ_qwyxqdhnwp3srgtibfrlais3ge/node_modules/@remix-run/dev/dist/cli/commands.js:183:5)
+    at async Object.run (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/@remix-run+dev@2.10.0_@remix-run+react@2.10.2_react-dom@18.3.1_react@18.3.1__react@18.3.1_typ_qwyxqdhnwp3srgtibfrlais3ge/node_modules/@remix-run/dev/dist/cli/run.js:252:7) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/heinzketchup/Downloads/bolt.new-any-llm/.dev.vars'
+}
+---
+
+--- 2024-11-05T21:33:49.132Z debug
+Failed to load .env file "/home/heinzketchup/Downloads/bolt.new-any-llm/.dev.vars": Error: ENOENT: no such file or directory, open '/home/heinzketchup/Downloads/bolt.new-any-llm/.dev.vars'
+    at Object.openSync (node:fs:573:18)
+    at Object.readFileSync (node:fs:452:35)
+    at tryLoadDotEnv (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/wrangler@3.63.2_@cloudflare+workers-types@4.20240620.0/node_modules/wrangler/wrangler-dist/cli.js:159140:72)
+    at loadDotEnv (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/wrangler@3.63.2_@cloudflare+workers-types@4.20240620.0/node_modules/wrangler/wrangler-dist/cli.js:159149:12)
+    at getVarsForDev (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/wrangler@3.63.2_@cloudflare+workers-types@4.20240620.0/node_modules/wrangler/wrangler-dist/cli.js:198891:18)
+    at getPlatformProxy (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/wrangler@3.63.2_@cloudflare+workers-types@4.20240620.0/node_modules/wrangler/wrangler-dist/cli.js:210523:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async configureServer (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/@remix-run+dev@2.10.0_@remix-run+react@2.10.2_react-dom@18.3.1_react@18.3.1__react@18.3.1_typ_qwyxqdhnwp3srgtibfrlais3ge/node_modules/@remix-run/dev/dist/vite/cloudflare-proxy-plugin.js:55:11)
+    at async _createServer (file:///home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/vite@5.3.1_@types+node@20.14.9_sass@1.77.6/node_modules/vite/dist/node/chunks/dep-BcXSligG.js:63299:20)
+    at async configResolved (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/@remix-run+dev@2.10.0_@remix-run+react@2.10.2_react-dom@18.3.1_react@18.3.1__react@18.3.1_typ_qwyxqdhnwp3srgtibfrlais3ge/node_modules/@remix-run/dev/dist/vite/plugin.js:750:27)
+    at async Promise.all (index 4)
+    at async resolveConfig (file:///home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/vite@5.3.1_@types+node@20.14.9_sass@1.77.6/node_modules/vite/dist/node/chunks/dep-BcXSligG.js:66626:3)
+    at async Module.build (file:///home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/vite@5.3.1_@types+node@20.14.9_sass@1.77.6/node_modules/vite/dist/node/chunks/dep-BcXSligG.js:65459:18)
+    at async viteBuild (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/@remix-run+dev@2.10.0_@remix-run+react@2.10.2_react-dom@18.3.1_react@18.3.1__react@18.3.1_typ_qwyxqdhnwp3srgtibfrlais3ge/node_modules/@remix-run/dev/dist/vite/build.js:212:5)
+    at async build (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/@remix-run+dev@2.10.0_@remix-run+react@2.10.2_react-dom@18.3.1_react@18.3.1__react@18.3.1_typ_qwyxqdhnwp3srgtibfrlais3ge/node_modules/@remix-run/dev/dist/vite/build.js:236:3)
+    at async Object.viteBuild (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/@remix-run+dev@2.10.0_@remix-run+react@2.10.2_react-dom@18.3.1_react@18.3.1__react@18.3.1_typ_qwyxqdhnwp3srgtibfrlais3ge/node_modules/@remix-run/dev/dist/cli/commands.js:183:5)
+    at async Object.run (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/@remix-run+dev@2.10.0_@remix-run+react@2.10.2_react-dom@18.3.1_react@18.3.1__react@18.3.1_typ_qwyxqdhnwp3srgtibfrlais3ge/node_modules/@remix-run/dev/dist/cli/run.js:252:7) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/heinzketchup/Downloads/bolt.new-any-llm/.dev.vars'
+}
+---
+
+--- 2024-11-05T21:34:06.389Z debug
+No experimental flag store instantiated
+---
+
+--- 2024-11-05T21:34:06.390Z debug
+Attempted to use flag "JSON_CONFIG_FILE" which has not been instantiated
+---
+
+--- 2024-11-05T21:34:06.393Z debug
+Configuration file belonging to ⚡️ Pages ⚡️ project detected.
+---
+
+--- 2024-11-05T21:34:06.394Z debug
+Failed to load .env file "/home/heinzketchup/Downloads/bolt.new-any-llm/.dev.vars": Error: ENOENT: no such file or directory, open '/home/heinzketchup/Downloads/bolt.new-any-llm/.dev.vars'
+    at Object.openSync (node:fs:573:18)
+    at Object.readFileSync (node:fs:452:35)
+    at tryLoadDotEnv (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/wrangler@3.63.2_@cloudflare+workers-types@4.20240620.0/node_modules/wrangler/wrangler-dist/cli.js:159140:72)
+    at loadDotEnv (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/wrangler@3.63.2_@cloudflare+workers-types@4.20240620.0/node_modules/wrangler/wrangler-dist/cli.js:159149:12)
+    at getVarsForDev (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/wrangler@3.63.2_@cloudflare+workers-types@4.20240620.0/node_modules/wrangler/wrangler-dist/cli.js:198891:18)
+    at getBindings (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/wrangler@3.63.2_@cloudflare+workers-types@4.20240620.0/node_modules/wrangler/wrangler-dist/cli.js:208529:10)
+    at getMiniflareOptionsFromConfig (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/wrangler@3.63.2_@cloudflare+workers-types@4.20240620.0/node_modules/wrangler/wrangler-dist/cli.js:210539:20)
+    at /home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/wrangler@3.63.2_@cloudflare+workers-types@4.20240620.0/node_modules/wrangler/wrangler-dist/cli.js:210515:11
+    at AsyncLocalStorage.run (node:async_hooks:346:14)
+    at run (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/wrangler@3.63.2_@cloudflare+workers-types@4.20240620.0/node_modules/wrangler/wrangler-dist/cli.js:152593:60)
+    at getPlatformProxy (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/wrangler@3.63.2_@cloudflare+workers-types@4.20240620.0/node_modules/wrangler/wrangler-dist/cli.js:210509:34)
+    at configureServer (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/@remix-run+dev@2.10.0_@remix-run+react@2.10.2_react-dom@18.3.1_react@18.3.1__react@18.3.1_typ_qwyxqdhnwp3srgtibfrlais3ge/node_modules/@remix-run/dev/dist/vite/cloudflare-proxy-plugin.js:55:17)
+    at async _createServer (file:///home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/vite@5.3.1_@types+node@20.14.9_sass@1.77.6/node_modules/vite/dist/node/chunks/dep-BcXSligG.js:63299:20)
+    at async configResolved (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/@remix-run+dev@2.10.0_@remix-run+react@2.10.2_react-dom@18.3.1_react@18.3.1__react@18.3.1_typ_qwyxqdhnwp3srgtibfrlais3ge/node_modules/@remix-run/dev/dist/vite/plugin.js:750:27)
+    at async Promise.all (index 4)
+    at async resolveConfig (file:///home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/vite@5.3.1_@types+node@20.14.9_sass@1.77.6/node_modules/vite/dist/node/chunks/dep-BcXSligG.js:66626:3)
+    at async Module.build (file:///home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/vite@5.3.1_@types+node@20.14.9_sass@1.77.6/node_modules/vite/dist/node/chunks/dep-BcXSligG.js:65459:18)
+    at async viteBuild (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/@remix-run+dev@2.10.0_@remix-run+react@2.10.2_react-dom@18.3.1_react@18.3.1__react@18.3.1_typ_qwyxqdhnwp3srgtibfrlais3ge/node_modules/@remix-run/dev/dist/vite/build.js:212:5)
+    at async Promise.all (index 0)
+    at async build (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/@remix-run+dev@2.10.0_@remix-run+react@2.10.2_react-dom@18.3.1_react@18.3.1__react@18.3.1_typ_qwyxqdhnwp3srgtibfrlais3ge/node_modules/@remix-run/dev/dist/vite/build.js:245:3)
+    at async Object.viteBuild (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/@remix-run+dev@2.10.0_@remix-run+react@2.10.2_react-dom@18.3.1_react@18.3.1__react@18.3.1_typ_qwyxqdhnwp3srgtibfrlais3ge/node_modules/@remix-run/dev/dist/cli/commands.js:183:5)
+    at async Object.run (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/@remix-run+dev@2.10.0_@remix-run+react@2.10.2_react-dom@18.3.1_react@18.3.1__react@18.3.1_typ_qwyxqdhnwp3srgtibfrlais3ge/node_modules/@remix-run/dev/dist/cli/run.js:252:7) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/heinzketchup/Downloads/bolt.new-any-llm/.dev.vars'
+}
+---
+
+--- 2024-11-05T21:34:06.514Z debug
+Failed to load .env file "/home/heinzketchup/Downloads/bolt.new-any-llm/.dev.vars": Error: ENOENT: no such file or directory, open '/home/heinzketchup/Downloads/bolt.new-any-llm/.dev.vars'
+    at Object.openSync (node:fs:573:18)
+    at Object.readFileSync (node:fs:452:35)
+    at tryLoadDotEnv (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/wrangler@3.63.2_@cloudflare+workers-types@4.20240620.0/node_modules/wrangler/wrangler-dist/cli.js:159140:72)
+    at loadDotEnv (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/wrangler@3.63.2_@cloudflare+workers-types@4.20240620.0/node_modules/wrangler/wrangler-dist/cli.js:159149:12)
+    at getVarsForDev (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/wrangler@3.63.2_@cloudflare+workers-types@4.20240620.0/node_modules/wrangler/wrangler-dist/cli.js:198891:18)
+    at getPlatformProxy (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/wrangler@3.63.2_@cloudflare+workers-types@4.20240620.0/node_modules/wrangler/wrangler-dist/cli.js:210523:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async configureServer (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/@remix-run+dev@2.10.0_@remix-run+react@2.10.2_react-dom@18.3.1_react@18.3.1__react@18.3.1_typ_qwyxqdhnwp3srgtibfrlais3ge/node_modules/@remix-run/dev/dist/vite/cloudflare-proxy-plugin.js:55:11)
+    at async _createServer (file:///home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/vite@5.3.1_@types+node@20.14.9_sass@1.77.6/node_modules/vite/dist/node/chunks/dep-BcXSligG.js:63299:20)
+    at async configResolved (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/@remix-run+dev@2.10.0_@remix-run+react@2.10.2_react-dom@18.3.1_react@18.3.1__react@18.3.1_typ_qwyxqdhnwp3srgtibfrlais3ge/node_modules/@remix-run/dev/dist/vite/plugin.js:750:27)
+    at async Promise.all (index 4)
+    at async resolveConfig (file:///home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/vite@5.3.1_@types+node@20.14.9_sass@1.77.6/node_modules/vite/dist/node/chunks/dep-BcXSligG.js:66626:3)
+    at async Module.build (file:///home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/vite@5.3.1_@types+node@20.14.9_sass@1.77.6/node_modules/vite/dist/node/chunks/dep-BcXSligG.js:65459:18)
+    at async viteBuild (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/@remix-run+dev@2.10.0_@remix-run+react@2.10.2_react-dom@18.3.1_react@18.3.1__react@18.3.1_typ_qwyxqdhnwp3srgtibfrlais3ge/node_modules/@remix-run/dev/dist/vite/build.js:212:5)
+    at async Promise.all (index 0)
+    at async build (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/@remix-run+dev@2.10.0_@remix-run+react@2.10.2_react-dom@18.3.1_react@18.3.1__react@18.3.1_typ_qwyxqdhnwp3srgtibfrlais3ge/node_modules/@remix-run/dev/dist/vite/build.js:245:3)
+    at async Object.viteBuild (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/@remix-run+dev@2.10.0_@remix-run+react@2.10.2_react-dom@18.3.1_react@18.3.1__react@18.3.1_typ_qwyxqdhnwp3srgtibfrlais3ge/node_modules/@remix-run/dev/dist/cli/commands.js:183:5)
+    at async Object.run (/home/heinzketchup/Downloads/bolt.new-any-llm/node_modules/.pnpm/@remix-run+dev@2.10.0_@remix-run+react@2.10.2_react-dom@18.3.1_react@18.3.1__react@18.3.1_typ_qwyxqdhnwp3srgtibfrlais3ge/node_modules/@remix-run/dev/dist/cli/run.js:252:7) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/heinzketchup/Downloads/bolt.new-any-llm/.dev.vars'
+}
+---

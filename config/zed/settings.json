@@ -15,7 +15,7 @@
     "version": "2"
   },
   "features": {
-    "inline_completion_provider": "supermaven"
+    "inline_completion_provider": "none"
   },
   "terminal": {
     "dock": "bottom",

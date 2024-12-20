@@ -1,0 +1,76 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="$Undo">
+      <i c="1" l="1733422957026" />
+    </e>
+    <e n="CloseProject">
+      <i c="1" l="1733422717306" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="3" l="1733422965025" />
+    </e>
+    <e n="EditorPaste">
+      <i c="2" l="1733422962360" />
+    </e>
+    <e n="MoreRunToolbarActions">
+      <i c="1" l="1733420043395" />
+    </e>
+    <e n="RedesignedRunConfigurationSelector">
+      <i c="2" l="1733420054719" />
+    </e>
+    <e n="WelcomeScreen.OpenProject">
+      <i c="1" l="1733419994999" />
+    </e>
+    <e n="WelcomeScreen.RunAndroidSdkManager">
+      <i c="7" l="1733434954806" />
+    </e>
+    <e n="WelcomeScreen.RunDeviceManager2">
+      <i c="2" l="1733422977553" />
+    </e>
+    <e n="com.android.tools.adtui.actions.DropDownAction">
+      <i c="1" l="1733420067434" />
+    </e>
+    <e n="com.android.tools.idea.devicemanagerv2.DeviceManagerPanel$toAnAction$2">
+      <i c="1" l="1733420069000" />
+    </e>
+    <e n="com.android.tools.idea.devicemanagerv2.OpenDeviceExplorerAction">
+      <i c="1" l="1733420340031" />
+    </e>
+    <e n="com.android.tools.idea.diagnostics.AndroidStudioSystemHealthMonitor$5">
+      <i c="1" l="1733419347221" />
+    </e>
+    <e n="com.android.tools.idea.layoutinspector.toggle.layout.inspector.action">
+      <i c="1" l="1733420192582" />
+    </e>
+    <e n="com.android.tools.idea.streaming.core.StreamingToolWindowManager$NewTabAction">
+      <i c="1" l="1733420173779" />
+    </e>
+    <e n="com.android.tools.idea.streaming.core.StreamingToolWindowManager$StartDeviceMirroringAction">
+      <i c="1" l="1733420174699" />
+    </e>
+    <e n="com.intellij.execution.ui.RunToolbarPopupKt$createRunConfigurationWithInlines$result$1">
+      <i c="1" l="1733420058135" />
+    </e>
+    <e n="com.intellij.notification.NotificationAction$Simple">
+      <i c="2" l="1733420180401" />
+    </e>
+    <e n="com.intellij.openapi.actionSystem.AnActionWrapper">
+      <i c="1" l="1733422870086" />
+    </e>
+    <e n="com.intellij.openapi.actionSystem.DefaultActionGroup">
+      <i c="8" l="1733434953029" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.SquareAnActionButton">
+      <i c="8" l="1733420332941" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.customFrameDecorations.header.toolbar.MainMenuButton$ShowMenuAction">
+      <i c="1" l="1733422714265" />
+    </e>
+    <e n="com.intellij.toolWindow.ToolWindowHeader$HideAction">
+      <i c="4" l="1733420226289" />
+    </e>
+    <e n="com.intellij.toolWindow.ToolWindowHeader$ShowOptionsAction">
+      <i c="1" l="1733420327882" />
+    </e>
+  </component>
+</application>

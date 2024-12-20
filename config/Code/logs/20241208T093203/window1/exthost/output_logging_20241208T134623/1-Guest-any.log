@@ -1,0 +1,12 @@
+[Error - 2:05:15 PM] Request textDocument/codeAction failed.
+  Message: Request languageServerProvider-any.request failed with message: Canceled
+  Code: -32603 
+[Error - 2:05:23 PM] Request textDocument/codeAction failed.
+  Message: Request languageServerProvider-any.request failed with message: Canceled
+  Code: -32603 
+[Error - 2:05:24 PM] Request textDocument/codeAction failed.
+  Message: Request languageServerProvider-any.request failed with message: Canceled
+  Code: -32603 
+[Error - 2:49:42 PM] Request textDocument/codeLens failed.
+  Message: Request textDocument/codeLens failed with message: Connection is disposed.
+  Code: -32603 

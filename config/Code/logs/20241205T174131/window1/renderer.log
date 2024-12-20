@@ -1,0 +1,57 @@
+2024-12-05 17:41:32.619 [info] Settings Sync: Updating due to initialize
+2024-12-05 17:41:32.620 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-12-05 17:41:32.620 [info] Settings Sync: Authentication providers updated []
+2024-12-05 17:41:32.644 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-12-05 17:41:32.644 [info] Settings Sync: Authentication providers updated ["github"]
+2024-12-05 17:41:32.644 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-12-05 17:41:32.645 [info] Settings Sync: Authentication providers updated ["github"]
+2024-12-05 17:41:32.645 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-12-05 17:41:32.646 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-12-05 17:41:32.646 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-12-05 17:41:32.646 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-12-05 17:41:32.662 [info] Settings Sync: Updating due to declared authentication providers changed
+2024-12-05 17:41:32.662 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-12-05 17:41:32.662 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-12-05 17:41:32.662 [info] Settings Sync: Updating due to declared authentication providers changed
+2024-12-05 17:41:32.662 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-12-05 17:41:32.662 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-12-05 17:41:33.055 [info] Started local extension host with pid 60305.
+2024-12-05 17:41:34.993 [info] [perf] Render performance baseline is 41ms
+2024-12-05 17:41:41.580 [error] [network] #5: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled
+2024-12-05 17:42:03.441 [info] Started local extension host with pid 60463.
+2024-12-05 17:42:03.733 [info] Settings Sync: Updating due to initialize
+2024-12-05 17:42:03.733 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-12-05 17:42:03.734 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-12-05 17:42:06.059 [info] [perf] Render performance baseline is 20ms
+2024-12-05 17:42:07.015 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-12-05 17:42:07.015 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-12-05 17:42:12.063 [error] Method not found: toJSON: CodeExpectedError: Method not found: toJSON
+    at Object.call (file:///usr/share/code/resources/app/out/main.js:36:4634)
+    at df.s (file:///usr/share/code/resources/app/out/main.js:34:19676)
+    at df.q (file:///usr/share/code/resources/app/out/main.js:34:19199)
+    at qo.value (file:///usr/share/code/resources/app/out/main.js:34:18601)
+    at P.B (file:///usr/share/code/resources/app/out/main.js:33:746)
+    at P.C (file:///usr/share/code/resources/app/out/main.js:33:816)
+    at P.fire (file:///usr/share/code/resources/app/out/main.js:33:1033)
+    at qo.value (file:///usr/share/code/resources/app/out/main.js:28:4908)
+    at P.B (file:///usr/share/code/resources/app/out/main.js:33:746)
+    at P.fire (file:///usr/share/code/resources/app/out/main.js:33:964)
+    at qo.value (file:///usr/share/code/resources/app/out/main.js:28:5092)
+    at P.B (file:///usr/share/code/resources/app/out/main.js:33:746)
+    at P.fire (file:///usr/share/code/resources/app/out/main.js:33:964)
+    at T (file:///usr/share/code/resources/app/out/main.js:28:7343)
+    at IpcMainImpl.i (file:///usr/share/code/resources/app/out/main.js:36:21224)
+    at IpcMainImpl.emit (node:events:519:28)
+    at WebContents.<anonymous> (node:electron/js2c/browser_init:2:85782)
+    at WebContents.emit (node:events:519:28)
+2024-12-05 17:44:40.326 [error] TreeError [DebugRepl] Tree input not set: Error: TreeError [DebugRepl] Tree input not set
+    at Yd.C (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:416:30917)
+    at Yd.updateChildren (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:416:30824)
+    at vZ.value (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2054:35241)
+    at x.B (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:747)
+    at x.C (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:817)
+    at x.fire (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:1034)
+    at Fme.setVisible (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:532:2801)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:648:11845
+    at Array.map (<anonymous>)
+    at sh.setVisible (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:648:11836)

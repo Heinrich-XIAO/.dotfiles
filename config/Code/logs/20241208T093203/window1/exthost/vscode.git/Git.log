@@ -1,0 +1,227 @@
+2024-12-08 09:32:04.922 [info] [main] Log level: Info
+2024-12-08 09:32:04.922 [info] [main] Validating found git in: "git"
+2024-12-08 09:32:04.922 [info] [main] Using git "2.47.0" from "git"
+2024-12-08 09:32:04.922 [info] [Model][doInitialScan] Initial repository scan started
+2024-12-08 09:32:04.922 [info] > git rev-parse --show-toplevel [62ms]
+2024-12-08 09:32:04.922 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-12-08 09:32:04.922 [info] [Model][openRepository] Opened repository: /home/heinzketchup/Documents/Musify
+2024-12-08 09:32:04.926 [info] > git rev-parse --show-toplevel [27ms]
+2024-12-08 09:32:04.926 [info] > git config --get commit.template [31ms]
+2024-12-08 09:32:04.935 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/make-interface-intuitive refs/remotes/make-interface-intuitive [3ms]
+2024-12-08 09:32:04.943 [info] > git status -z -uall [4ms]
+2024-12-08 09:32:04.948 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2024-12-08 09:32:04.958 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/make-interface-intuitive refs/remotes/make-interface-intuitive [6ms]
+2024-12-08 09:32:04.962 [info] > git rev-parse --show-toplevel [15ms]
+2024-12-08 09:32:04.967 [info] > git config --local branch.make-interface-intuitive.vscode-merge-base [5ms]
+2024-12-08 09:32:04.970 [info] > git config --get commit.template [14ms]
+2024-12-08 09:32:04.978 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [8ms]
+2024-12-08 09:32:04.982 [info] > git rev-parse --show-toplevel [16ms]
+2024-12-08 09:32:05.009 [info] > git merge-base refs/heads/make-interface-intuitive refs/remotes/origin/make-interface-intuitive [28ms]
+2024-12-08 09:32:05.027 [info] > git diff --name-status -z --diff-filter=ADMR 6defd97bbceb5a07dc1c7d25810742269219b01e...refs/remotes/origin/make-interface-intuitive [16ms]
+2024-12-08 09:32:05.027 [info] > git rev-parse --show-toplevel [19ms]
+2024-12-08 09:32:05.027 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/make-interface-intuitive refs/remotes/make-interface-intuitive [22ms]
+2024-12-08 09:32:05.032 [info] > git rev-parse --show-toplevel [3ms]
+2024-12-08 09:32:05.042 [info] > git status -z -uall [5ms]
+2024-12-08 09:32:05.042 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-12-08 09:32:05.043 [info] > git rev-parse --show-toplevel [9ms]
+2024-12-08 09:32:05.047 [info] > git rev-parse --show-toplevel [1ms]
+2024-12-08 09:32:05.049 [info] > git rev-parse --show-toplevel [0ms]
+2024-12-08 09:32:05.051 [info] > git rev-parse --show-toplevel [0ms]
+2024-12-08 09:32:05.058 [info] > git rev-parse --show-toplevel [4ms]
+2024-12-08 09:32:05.061 [info] > git rev-parse --show-toplevel [1ms]
+2024-12-08 09:32:05.065 [info] > git rev-parse --show-toplevel [1ms]
+2024-12-08 09:32:05.071 [info] > git rev-parse --show-toplevel [3ms]
+2024-12-08 09:32:05.075 [info] > git rev-parse --show-toplevel [1ms]
+2024-12-08 09:32:05.080 [info] > git rev-parse --show-toplevel [1ms]
+2024-12-08 09:32:05.081 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-12-08 09:32:05.223 [info] > git show --textconv :lib/widgets/song_bar.dart [4ms]
+2024-12-08 09:32:05.224 [info] > git ls-files --stage -- /home/heinzketchup/Documents/Musify/lib/widgets/song_bar.dart [1ms]
+2024-12-08 09:32:05.227 [info] > git cat-file -s 691586fe73e3383033997319dccec2b24647a4e2 [1ms]
+2024-12-08 09:32:05.434 [info] > git check-ignore -v -z --stdin [1ms]
+2024-12-08 09:32:06.820 [info] > git config --get commit.template [2ms]
+2024-12-08 09:32:06.828 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/make-interface-intuitive refs/remotes/make-interface-intuitive [2ms]
+2024-12-08 09:32:06.839 [info] > git status -z -uall [6ms]
+2024-12-08 09:32:06.842 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-12-08 09:32:06.916 [info] > git ls-files --stage -- /home/heinzketchup/Documents/Musify/lib/widgets/song_bar.dart [1ms]
+2024-12-08 09:32:06.924 [info] > git cat-file -s 691586fe73e3383033997319dccec2b24647a4e2 [2ms]
+2024-12-08 09:32:06.933 [info] > git show --textconv :lib/widgets/song_bar.dart [1ms]
+2024-12-08 09:32:15.039 [info] > git show --textconv :lib/services/audio_service.dart [5ms]
+2024-12-08 09:32:15.042 [info] > git ls-files --stage -- /home/heinzketchup/Documents/Musify/lib/services/audio_service.dart [4ms]
+2024-12-08 09:32:15.047 [info] > git cat-file -s 923271a18c909739bfe1cb5f901453baf0bf5bd3 [1ms]
+2024-12-08 09:32:15.387 [info] > git check-ignore -v -z --stdin [2ms]
+2024-12-08 09:32:37.725 [info] > git config --get commit.template [2ms]
+2024-12-08 09:32:37.734 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/make-interface-intuitive refs/remotes/make-interface-intuitive [1ms]
+2024-12-08 09:32:37.756 [info] > git status -z -uall [12ms]
+2024-12-08 09:32:37.756 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-12-08 09:32:37.822 [info] > git ls-files --stage -- /home/heinzketchup/Documents/Musify/lib/services/audio_service.dart [1ms]
+2024-12-08 09:32:37.833 [info] > git cat-file -s 923271a18c909739bfe1cb5f901453baf0bf5bd3 [2ms]
+2024-12-08 09:32:37.845 [info] > git show --textconv :lib/services/audio_service.dart [1ms]
+2024-12-08 09:32:41.852 [info] > git ls-files --stage -- /home/heinzketchup/Documents/Musify/lib/services/audio_service.dart [0ms]
+2024-12-08 09:32:41.861 [info] > git cat-file -s 923271a18c909739bfe1cb5f901453baf0bf5bd3 [2ms]
+2024-12-08 09:32:41.871 [info] > git show --textconv :lib/services/audio_service.dart [2ms]
+2024-12-08 09:32:42.779 [info] > git config --get commit.template [1ms]
+2024-12-08 09:32:42.795 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-12-08 09:32:42.800 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/heinzketchup/Documents/Musify/.git/refs/remotes/origin/master'
+2024-12-08 09:32:42.802 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2024-12-08 09:32:42.816 [info] > git status -z -uall [8ms]
+2024-12-08 09:32:42.816 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-12-08 09:32:42.828 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-12-08 09:32:42.836 [info] > git config --local branch.master.vscode-merge-base [1ms]
+2024-12-08 09:32:42.836 [warning] [Git][config] git config failed: Failed to execute git
+2024-12-08 09:32:42.842 [info] > git reflog master --grep-reflog=branch: Created from *. [2ms]
+2024-12-08 09:32:42.847 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-12-08 09:32:42.851 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [1ms]
+2024-12-08 09:32:42.856 [info] > git config --local branch.master.vscode-merge-base origin/master [1ms]
+2024-12-08 09:32:42.864 [info] > git config --get commit.template [1ms]
+2024-12-08 09:32:42.869 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-12-08 09:32:42.875 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/heinzketchup/Documents/Musify/.git/refs/remotes/origin/master'
+2024-12-08 09:32:42.875 [info] > git rev-parse refs/remotes/origin/master [0ms]
+2024-12-08 09:32:42.883 [info] > git status -z -uall [4ms]
+2024-12-08 09:32:42.884 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-12-08 09:32:42.894 [info] > git merge-base refs/heads/master refs/remotes/origin/master [1ms]
+2024-12-08 09:32:42.899 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [10ms]
+2024-12-08 09:32:42.905 [info] > git config --local branch.master.vscode-merge-base [2ms]
+2024-12-08 09:32:42.909 [info] > git diff --name-status -z --diff-filter=ADMR c42117256419060d5004558d9fce8659e62511b1...refs/remotes/origin/master [10ms]
+2024-12-08 09:32:42.911 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [2ms]
+2024-12-08 09:32:44.988 [info] > git ls-files --stage -- /home/heinzketchup/Documents/Musify/lib/services/audio_service.dart [2ms]
+2024-12-08 09:32:44.993 [info] > git cat-file -s 923271a18c909739bfe1cb5f901453baf0bf5bd3 [2ms]
+2024-12-08 09:32:44.999 [info] > git show --textconv :lib/services/audio_service.dart [1ms]
+2024-12-08 09:32:46.636 [info] > git ls-files --stage -- /home/heinzketchup/Documents/Musify/lib/services/audio_service.dart [1ms]
+2024-12-08 09:32:46.641 [info] > git cat-file -s 923271a18c909739bfe1cb5f901453baf0bf5bd3 [1ms]
+2024-12-08 09:32:46.648 [info] > git show --textconv :lib/services/audio_service.dart [1ms]
+2024-12-08 09:32:47.843 [info] > git config --get commit.template [8ms]
+2024-12-08 09:32:47.844 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-12-08 09:32:47.856 [info] > git status -z -uall [6ms]
+2024-12-08 09:32:47.857 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-12-08 09:32:47.867 [info] > git merge-base refs/heads/master refs/remotes/origin/master [2ms]
+2024-12-08 09:32:47.877 [info] > git diff --name-status -z --diff-filter=ADMR 48c756eb8bd35addf1e234ce16a45ebc05e1e72f...refs/remotes/origin/master [2ms]
+2024-12-08 09:33:20.450 [info] > git config --get commit.template [2ms]
+2024-12-08 09:33:20.460 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-12-08 09:33:20.474 [info] > git status -z -uall [8ms]
+2024-12-08 09:33:20.474 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-12-08 09:33:20.546 [info] > git ls-files --stage -- /home/heinzketchup/Documents/Musify/lib/services/audio_service.dart [1ms]
+2024-12-08 09:33:20.552 [info] > git cat-file -s 923271a18c909739bfe1cb5f901453baf0bf5bd3 [1ms]
+2024-12-08 09:33:20.560 [info] > git show --textconv :lib/services/audio_service.dart [1ms]
+2024-12-08 09:33:25.160 [info] > git ls-files --stage -- /home/heinzketchup/Documents/Musify/lib/services/audio_service.dart [1ms]
+2024-12-08 09:33:25.169 [info] > git cat-file -s 923271a18c909739bfe1cb5f901453baf0bf5bd3 [1ms]
+2024-12-08 09:33:25.185 [info] > git show --textconv :lib/services/audio_service.dart [1ms]
+2024-12-08 09:33:25.491 [info] > git config --get commit.template [1ms]
+2024-12-08 09:33:25.497 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-12-08 09:33:25.508 [info] > git status -z -uall [6ms]
+2024-12-08 09:33:25.509 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-12-08 09:33:38.583 [info] > git config --get commit.template [1ms]
+2024-12-08 09:33:38.588 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-12-08 09:33:38.602 [info] > git status -z -uall [5ms]
+2024-12-08 09:33:38.602 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-12-08 09:40:52.810 [info] [main] Log level: Info
+2024-12-08 09:40:52.810 [info] [main] Validating found git in: "git"
+2024-12-08 09:40:52.810 [info] [main] Using git "2.47.0" from "git"
+2024-12-08 09:40:52.810 [info] [Model][doInitialScan] Initial repository scan started
+2024-12-08 09:40:52.810 [info] > git rev-parse --show-toplevel [3ms]
+2024-12-08 09:40:52.810 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-08 09:40:52.813 [warning] [Model][traverseWorkspaceFolder] Unable to read workspace folder '/root': Error: EACCES: permission denied, scandir '/root'
+2024-12-08 09:40:52.816 [info] > git rev-parse --show-toplevel [0ms]
+2024-12-08 09:40:52.816 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-08 09:40:52.819 [info] > git rev-parse --show-toplevel [1ms]
+2024-12-08 09:40:52.819 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-12-08 09:40:52.821 [info] > git rev-parse --show-toplevel [0ms]
+2024-12-08 09:40:52.821 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-12-08 09:40:52.824 [info] > git rev-parse --show-toplevel [1ms]
+2024-12-08 09:40:52.824 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-08 09:40:52.827 [info] > git rev-parse --show-toplevel [1ms]
+2024-12-08 09:40:52.827 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-08 09:40:52.833 [info] > git rev-parse --show-toplevel [3ms]
+2024-12-08 09:40:52.833 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-12-08 09:40:52.835 [info] > git rev-parse --show-toplevel [0ms]
+2024-12-08 09:40:52.835 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-08 09:40:52.838 [info] > git rev-parse --show-toplevel [1ms]
+2024-12-08 09:40:52.838 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-08 09:40:52.840 [info] > git rev-parse --show-toplevel [1ms]
+2024-12-08 09:40:52.840 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-08 09:40:52.842 [info] > git rev-parse --show-toplevel [1ms]
+2024-12-08 09:40:52.842 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-12-08 09:40:52.843 [info] > git rev-parse --show-toplevel [0ms]
+2024-12-08 09:40:52.843 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-12-08 09:40:52.845 [info] > git rev-parse --show-toplevel [1ms]
+2024-12-08 09:40:52.845 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-08 09:40:52.847 [info] > git rev-parse --show-toplevel [0ms]
+2024-12-08 09:40:52.847 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-12-08 09:40:52.848 [info] > git rev-parse --show-toplevel [0ms]
+2024-12-08 09:40:52.848 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-12-08 09:40:52.852 [info] > git rev-parse --show-toplevel [1ms]
+2024-12-08 09:40:52.852 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-08 09:40:52.855 [info] > git rev-parse --show-toplevel [0ms]
+2024-12-08 09:40:52.855 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-08 09:40:52.856 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-12-08 12:07:18.318 [info] [main] Log level: Info
+2024-12-08 12:07:18.318 [info] [main] Validating found git in: "git"
+2024-12-08 12:07:18.318 [info] [main] Using git "2.47.0" from "git"
+2024-12-08 12:07:18.318 [info] [Model][doInitialScan] Initial repository scan started
+2024-12-08 12:07:18.318 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-12-08 13:46:39.577 [info] [main] Log level: Info
+2024-12-08 13:46:39.577 [info] [main] Validating found git in: "git"
+2024-12-08 13:46:39.577 [info] [main] Using git "2.47.0" from "git"
+2024-12-08 13:46:39.577 [info] [Model][doInitialScan] Initial repository scan started
+2024-12-08 13:46:39.580 [info] > git rev-parse --show-toplevel [3ms]
+2024-12-08 13:46:39.580 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-08 13:46:39.584 [warning] [Model][traverseWorkspaceFolder] Unable to read workspace folder '/root': Error: EACCES: permission denied, scandir '/root'
+2024-12-08 13:46:39.588 [info] > git rev-parse --show-toplevel [1ms]
+2024-12-08 13:46:39.588 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-08 13:46:39.591 [info] > git rev-parse --show-toplevel [1ms]
+2024-12-08 13:46:39.591 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-12-08 13:46:39.596 [info] > git rev-parse --show-toplevel [2ms]
+2024-12-08 13:46:39.596 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-12-08 13:46:39.606 [info] > git rev-parse --show-toplevel [0ms]
+2024-12-08 13:46:39.606 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-08 13:46:39.610 [info] > git rev-parse --show-toplevel [3ms]
+2024-12-08 13:46:39.610 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-08 13:46:39.614 [info] > git rev-parse --show-toplevel [1ms]
+2024-12-08 13:46:39.614 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-12-08 13:46:39.617 [info] > git rev-parse --show-toplevel [1ms]
+2024-12-08 13:46:39.617 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-08 13:46:39.625 [info] > git rev-parse --show-toplevel [1ms]
+2024-12-08 13:46:39.625 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-08 13:46:39.631 [info] > git rev-parse --show-toplevel [0ms]
+2024-12-08 13:46:39.631 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-08 13:46:39.636 [info] > git rev-parse --show-toplevel [0ms]
+2024-12-08 13:46:39.636 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-12-08 13:46:39.638 [info] > git rev-parse --show-toplevel [0ms]
+2024-12-08 13:46:39.638 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-12-08 13:46:39.641 [info] > git rev-parse --show-toplevel [0ms]
+2024-12-08 13:46:39.641 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-08 13:46:39.644 [info] > git rev-parse --show-toplevel [1ms]
+2024-12-08 13:46:39.644 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-12-08 13:46:39.649 [info] > git rev-parse --show-toplevel [2ms]
+2024-12-08 13:46:39.649 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-12-08 13:46:39.652 [info] > git rev-parse --show-toplevel [0ms]
+2024-12-08 13:46:39.652 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-08 13:46:39.654 [info] > git rev-parse --show-toplevel [1ms]
+2024-12-08 13:46:39.654 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-08 13:46:39.655 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-12-08 14:27:20.697 [info] > git rev-parse --show-toplevel [9ms]
+2024-12-08 14:27:20.697 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-08 14:46:33.503 [info] > git rev-parse --show-toplevel [3ms]
+2024-12-08 14:46:33.503 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-08 14:48:31.429 [info] > git rev-parse --show-toplevel [3ms]
+2024-12-08 14:48:31.429 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-08 14:48:35.975 [info] > git rev-parse --show-toplevel [5ms]
+2024-12-08 14:48:35.975 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-08 14:49:50.619 [info] [main] Log level: Info
+2024-12-08 14:49:50.619 [info] [main] Validating found git in: "git"
+2024-12-08 14:49:50.619 [info] [main] Using git "2.47.0" from "git"
+2024-12-08 14:49:50.619 [info] [Model][doInitialScan] Initial repository scan started
+2024-12-08 14:49:50.619 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)

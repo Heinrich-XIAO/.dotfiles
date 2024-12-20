@@ -1,0 +1,29 @@
+2024-12-05 17:41:43.692 [info] Getting Manifest... dart-code.dart-code
+2024-12-05 17:41:43.801 [info] Installing extension: dart-code.dart-code {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/heinzketchup/.vscode/extensions/extensions.json","path":"/home/heinzketchup/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.95.3","date":"2024-11-13T14:50:04.152Z"}}
+2024-12-05 17:41:46.455 [info] Extension signature verification result for dart-code.dart-code: UnknownError. Executed: true. Duration: 16ms.
+2024-12-05 17:41:52.269 [info] Getting Manifest... dart-code.flutter
+2024-12-05 17:41:52.314 [info] Installing extension: dart-code.flutter {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/heinzketchup/.vscode/extensions/extensions.json","path":"/home/heinzketchup/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.95.3","date":"2024-11-13T14:50:04.152Z"}}
+2024-12-05 17:41:52.678 [info] Getting Manifest... dart-code.dart-code
+2024-12-05 17:41:52.731 [info] Waiting for already requested installing extension dart-code.dart-code dart-code.flutter vscode-userdata:/home/heinzketchup/.vscode/extensions/extensions.json
+2024-12-05 17:41:52.894 [info] Extension signature verification result for dart-code.flutter: UnknownError. Executed: true. Duration: 7ms.
+2024-12-05 17:41:52.914 [info] Extracted extension to file:///home/heinzketchup/.vscode/extensions/dart-code.flutter-3.102.0: dart-code.flutter
+2024-12-05 17:41:52.920 [info] Renamed to /home/heinzketchup/.vscode/extensions/dart-code.flutter-3.102.0
+2024-12-05 17:41:53.018 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/heinzketchup/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/heinzketchup/.vscode/extensions/extensions.json.vsctmp'
+    at hm.create (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39254)
+    at Es (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39361)
+    at Fr.ib (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22677)
+    at Fr.stat (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:16010)
+    at async Zl.stat (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84491)
+    at async Jl.yb (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66605)
+2024-12-05 17:42:00.587 [info] Extracted extension to file:///home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0: dart-code.dart-code
+2024-12-05 17:42:00.595 [info] Renamed to /home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0
+2024-12-05 17:42:00.609 [info] Extension installed successfully: dart-code.dart-code vscode-userdata:/home/heinzketchup/.vscode/extensions/extensions.json
+2024-12-05 17:42:00.609 [info] Finished waiting for already requested installing extension dart-code.dart-code dart-code.flutter vscode-userdata:/home/heinzketchup/.vscode/extensions/extensions.json
+2024-12-05 17:42:00.610 [info] Extension installed successfully: dart-code.flutter vscode-userdata:/home/heinzketchup/.vscode/extensions/extensions.json
+2024-12-05 17:42:00.686 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/heinzketchup/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/heinzketchup/.vscode/extensions/extensions.json.vsctmp'
+    at hm.create (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39254)
+    at Es (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39361)
+    at Fr.ib (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22677)
+    at Fr.stat (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:16010)
+    at async Zl.stat (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84491)
+    at async Jl.yb (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66605)

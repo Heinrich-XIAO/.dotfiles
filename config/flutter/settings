@@ -1,0 +1,4 @@
+{
+  "enable-android": true,
+  "android-sdk": "/home/heinzketchup/Android/Sdk"
+}

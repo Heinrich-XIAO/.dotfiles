@@ -1,0 +1,910 @@
+2024-12-08 09:32:04.124 [info] Extension host with pid 10473 started
+2024-12-08 09:32:04.124 [info] Skipping acquiring lock for /home/heinzketchup/.config/Code/User/workspaceStorage/cdf2da5ce4b46811fba200145f2dcdd5.
+2024-12-08 09:32:04.227 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-12-08 09:32:04.239 [info] ExtensionService#_doActivateExtension Dart-Code.dart-code, startup: false, activationEvent: 'onLanguage:dart'
+2024-12-08 09:32:04.625 [info] ExtensionService#_doActivateExtension Dart-Code.flutter, startup: false, activationEvent: 'api', root cause: Dart-Code.dart-code
+2024-12-08 09:32:04.630 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-12-08 09:32:04.638 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-12-08 09:32:04.686 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-12-08 09:32:04.796 [info] Eager extensions activated
+2024-12-08 09:32:04.834 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-12-08 09:32:04.841 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-12-08 09:32:04.982 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-12-08 09:34:29.148 [info] ExtensionService#_doActivateExtension ms-vsliveshare.vsliveshare, startup: false, activationEvent: 'onView:liveshare.session'
+2024-12-08 09:40:36.453 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-12-08 09:40:36.487 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-12-08 09:40:36.535 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-12-08 09:40:39.968 [info] Extension host terminating: renderer closed the MessagePort
+2024-12-08 09:40:40.056 [error] Canceled: Canceled
+	at new tT (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:108738)
+	at py.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113348)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110842)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at mh.O [as value] (/usr/share/code/resources/app/extensions/git/dist/main.js:2:961845)
+	at D.B (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at D.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:816)
+	at D.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:1033)
+	at Object.p [as dispose] (/usr/share/code/resources/app/extensions/git/dist/main.js:2:983333)
+	at /usr/share/code/resources/app/extensions/git/dist/main.js:2:989455
+	at Array.forEach (<anonymous>)
+	at b.dispose (/usr/share/code/resources/app/extensions/git/dist/main.js:2:989441)
+	at V1.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:19994)
+	at V1.dispose (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:20090)
+	at V1.<anonymous> (/usr/share/code/resources/app/extensions/git/dist/main.js:2:964255)
+	at V1.dispose (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:20090)
+	at ci (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:24:699)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:14992
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:24:1009
+	at Object.dispose (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:2146)
+	at z_.eb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:11919)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9874
+	at Array.map (<anonymous>)
+	at z_.$ (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9862)
+	at z_.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10105)
+	at EC.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:1424)
+	at Zi (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:15084)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:11632)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2024-12-08 09:40:40.057 [error] Canceled: Canceled
+	at new tT (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:108738)
+	at py.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113348)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110842)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at set hasGitHubRepositories (/usr/share/code/resources/app/extensions/github/dist/extension.js:2:328633)
+	at /usr/share/code/resources/app/extensions/github/dist/extension.js:2:329592
+	at mh.value (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1073936)
+	at D.B (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at D.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:816)
+	at D.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:1033)
+	at Object.p [as dispose] (/usr/share/code/resources/app/extensions/git/dist/main.js:2:983333)
+	at /usr/share/code/resources/app/extensions/git/dist/main.js:2:989455
+	at Array.forEach (<anonymous>)
+	at b.dispose (/usr/share/code/resources/app/extensions/git/dist/main.js:2:989441)
+	at V1.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:19994)
+	at V1.dispose (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:20090)
+	at V1.<anonymous> (/usr/share/code/resources/app/extensions/git/dist/main.js:2:964255)
+	at V1.dispose (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:20090)
+	at ci (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:24:699)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:14992
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:24:1009
+	at Object.dispose (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:2146)
+	at z_.eb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:11919)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9874
+	at Array.map (<anonymous>)
+	at z_.$ (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9862)
+	at z_.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10105)
+	at EC.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:1424)
+	at Zi (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:15084)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:11632)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2024-12-08 09:40:40.058 [error] Canceled: Canceled
+	at new tT (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:108738)
+	at py.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113348)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110842)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at setCommandVisiblity (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14263:22)
+	at /home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14238:26
+	at tryCleanup (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14272:15)
+	at Object.deactivate (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14238:9)
+	at z_.eb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:11724)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9874
+	at Array.map (<anonymous>)
+	at z_.$ (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9862)
+	at z_.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10105)
+	at EC.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:1424)
+	at Zi (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:15084)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:11632)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2024-12-08 09:40:40.058 [error] Canceled: Canceled
+	at new tT (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:108738)
+	at py.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113348)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110842)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at setCommandVisiblity (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14264:22)
+	at /home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14238:26
+	at tryCleanup (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14272:15)
+	at Object.deactivate (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14238:9)
+	at z_.eb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:11724)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9874
+	at Array.map (<anonymous>)
+	at z_.$ (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9862)
+	at z_.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10105)
+	at EC.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:1424)
+	at Zi (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:15084)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:11632)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2024-12-08 09:40:40.058 [error] Canceled: Canceled
+	at new tT (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:108738)
+	at py.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113348)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110842)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at setCommandVisiblity (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14265:22)
+	at /home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14238:26
+	at tryCleanup (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14272:15)
+	at Object.deactivate (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14238:9)
+	at z_.eb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:11724)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9874
+	at Array.map (<anonymous>)
+	at z_.$ (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9862)
+	at z_.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10105)
+	at EC.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:1424)
+	at Zi (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:15084)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:11632)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2024-12-08 09:40:40.058 [error] Canceled: Canceled
+	at new tT (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:108738)
+	at py.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113348)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110842)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at setCommandVisiblity (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14266:22)
+	at /home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14238:26
+	at tryCleanup (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14272:15)
+	at Object.deactivate (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14238:9)
+	at z_.eb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:11724)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9874
+	at Array.map (<anonymous>)
+	at z_.$ (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9862)
+	at z_.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10105)
+	at EC.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:1424)
+	at Zi (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:15084)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:11632)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2024-12-08 09:40:40.058 [error] Canceled: Canceled
+	at new tT (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:108738)
+	at py.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113348)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110842)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at /home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14241:38
+	at tryCleanup (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14272:15)
+	at Object.deactivate (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14241:9)
+	at z_.eb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:11724)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9874
+	at Array.map (<anonymous>)
+	at z_.$ (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9862)
+	at z_.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10105)
+	at EC.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:1424)
+	at Zi (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:15084)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:11632)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2024-12-08 09:40:40.058 [error] Canceled: Canceled
+	at new tT (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:108738)
+	at py.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113348)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110842)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at VsCodeDartToolingDaemon.dispose (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:12177:32)
+	at ci (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:24:699)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:14992
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:24:1009
+	at Object.dispose (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:2146)
+	at z_.eb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:11919)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9874
+	at Array.map (<anonymous>)
+	at z_.$ (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9862)
+	at z_.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10105)
+	at EC.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:1424)
+	at Zi (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:15084)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:11632)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2024-12-08 09:40:40.069 [error] TypeError: Cannot read properties of undefined (reading 'stop')
+	at SessionTelemetry.endSession (/home/heinzketchup/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.5941/extension.js:1:584970)
+	at SessionContext.updateTelemetryContext (/home/heinzketchup/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.5941/extension.js:1:159195)
+	at SessionContext.onSessionStateChanged (/home/heinzketchup/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.5941/extension.js:1:162533)
+	at D.B (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at D.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:816)
+	at D.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:1033)
+	at SessionStateTracker.setState (/home/heinzketchup/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.5941/extension.js:1:167078)
+	at SessionStateTracker.transition (/home/heinzketchup/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.5941/extension.js:1:166787)
+	at LeaveCollaborationCommand.invoke (/home/heinzketchup/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.5941/extension.js:1:1655700)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-12-08 09:40:40.079 [error] Canceled: Canceled
+	at new tT (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:108738)
+	at py.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113348)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110842)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at VsCodeDartToolingDaemon.dispose (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:12177:32)
+	at VsCodeDartToolingDaemon.handleClose (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:27481:14)
+	at VsCodeDartToolingDaemon.handleClose (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:12140:15)
+	at /home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:27347:58
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5) setContext undefined
+2024-12-08 09:40:40.080 [error] Canceled: Canceled
+	at new tT (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:108738)
+	at py.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113348)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110842)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at VsCodeDartToolingDaemon.dispose (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:12177:32)
+	at VsCodeDartToolingDaemon.handleClose (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:27481:14)
+	at VsCodeDartToolingDaemon.handleClose (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:12140:15)
+	at WebSocket.<anonymous> (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:27361:39)
+	at WebSocket.emit (node:events:519:28)
+	at WebSocket.emitClose (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:56605:10)
+	at Receiver.receiverOnFinish (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:57542:20)
+	at Receiver.emit (node:events:519:28)
+	at finish (node:internal/streams/writable:953:10)
+	at node:internal/streams/writable:934:13
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21) setContext undefined
+2024-12-08 09:40:40.091 [error] Error: Channel has been closed
+	at s (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2431)
+	at Object.appendLine (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2570)
+	at D.logOutputMessage (/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:285192)
+	at D.info (/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:284925)
+	at ChildProcess.<anonymous> (/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:503028)
+	at ChildProcess.emit (node:events:519:28)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-12-08 09:40:40.281 [info] Extension host with pid 10473 exiting with code 0
+2024-12-08 09:40:40.669 [info] Extension host with pid 14793 started
+2024-12-08 09:40:40.669 [info] Skipping acquiring lock for /home/heinzketchup/.config/Code/User/workspaceStorage/299d777d758d5a30a0a2649f164caa78.
+2024-12-08 09:40:40.719 [info] ExtensionService#_doActivateExtension ms-vsliveshare.vsliveshare, startup: false, activationEvent: 'onFileSystem:vsls'
+2024-12-08 09:40:41.119 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-12-08 09:40:41.122 [info] Eager extensions activated
+2024-12-08 09:40:41.127 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-12-08 09:40:41.137 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-12-08 09:40:44.192 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-12-08 09:40:44.208 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-12-08 09:40:44.259 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-12-08 09:40:44.292 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-12-08 09:40:52.614 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2024-12-08 09:40:52.722 [info] ExtensionService#_doActivateExtension Dart-Code.dart-code, startup: false, activationEvent: 'workspaceContains:pubspec.yaml'
+2024-12-08 09:51:59.986 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2024-12-08 09:52:00.010 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2024-12-08 09:52:00.563 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2024-12-08 10:26:09.485 [error] Error: Invalid debug adapter
+    at b4t.p (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:615:95)
+    at b4t.$acceptDAMessage (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:614:32925)
+    at Pht.S (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3124:41686)
+    at Pht.Q (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3124:41464)
+    at Pht.M (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3124:40552)
+    at Pht.L (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3124:39656)
+    at vZ.value (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3124:38450)
+    at x.B (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:747)
+    at x.fire (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:965)
+    at D6.fire (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:630:10348)
+2024-12-08 10:29:04.754 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-12-08 10:32:54.468 [error] Error: Request sourceEvent.fireEvent failed with message: Connection is disposed.
+	at handleResponse (/home/heinzketchup/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.5941/vendor.js:110:187150)
+	at processMessageQueue (/home/heinzketchup/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.5941/vendor.js:110:187444)
+	at Immediate.<anonymous> (/home/heinzketchup/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.5941/vendor.js:110:187844)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-12-08 12:07:17.556 [info] Extension host terminating: renderer closed the MessagePort
+2024-12-08 12:07:17.589 [error] Canceled: Canceled
+	at new tT (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:108738)
+	at py.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113348)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110842)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at setCommandVisiblity (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14263:22)
+	at /home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14238:26
+	at tryCleanup (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14272:15)
+	at Object.deactivate (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14238:9)
+	at z_.eb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:11724)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9874
+	at Array.map (<anonymous>)
+	at z_.$ (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9862)
+	at z_.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10105)
+	at EC.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:1424)
+	at Zi (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:15084)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:11632)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2024-12-08 12:07:17.589 [error] Canceled: Canceled
+	at new tT (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:108738)
+	at py.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113348)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110842)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at setCommandVisiblity (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14264:22)
+	at /home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14238:26
+	at tryCleanup (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14272:15)
+	at Object.deactivate (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14238:9)
+	at z_.eb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:11724)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9874
+	at Array.map (<anonymous>)
+	at z_.$ (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9862)
+	at z_.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10105)
+	at EC.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:1424)
+	at Zi (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:15084)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:11632)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2024-12-08 12:07:17.589 [error] Canceled: Canceled
+	at new tT (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:108738)
+	at py.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113348)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110842)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at setCommandVisiblity (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14265:22)
+	at /home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14238:26
+	at tryCleanup (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14272:15)
+	at Object.deactivate (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14238:9)
+	at z_.eb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:11724)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9874
+	at Array.map (<anonymous>)
+	at z_.$ (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9862)
+	at z_.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10105)
+	at EC.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:1424)
+	at Zi (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:15084)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:11632)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2024-12-08 12:07:17.589 [error] Canceled: Canceled
+	at new tT (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:108738)
+	at py.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113348)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110842)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at setCommandVisiblity (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14266:22)
+	at /home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14238:26
+	at tryCleanup (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14272:15)
+	at Object.deactivate (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14238:9)
+	at z_.eb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:11724)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9874
+	at Array.map (<anonymous>)
+	at z_.$ (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9862)
+	at z_.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10105)
+	at EC.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:1424)
+	at Zi (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:15084)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:11632)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2024-12-08 12:07:17.589 [error] Canceled: Canceled
+	at new tT (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:108738)
+	at py.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113348)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110842)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at /home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14241:38
+	at tryCleanup (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14272:15)
+	at Object.deactivate (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14241:9)
+	at z_.eb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:11724)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9874
+	at Array.map (<anonymous>)
+	at z_.$ (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9862)
+	at z_.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10105)
+	at EC.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:1424)
+	at Zi (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:15084)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:11632)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2024-12-08 12:07:17.590 [error] Canceled: Canceled
+	at new tT (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:108738)
+	at py.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113348)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110842)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at VsCodeDartToolingDaemon.dispose (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:12177:32)
+	at ci (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:24:699)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:14992
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:24:1009
+	at Object.dispose (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:2146)
+	at z_.eb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:11919)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9874
+	at Array.map (<anonymous>)
+	at z_.$ (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9862)
+	at z_.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10105)
+	at EC.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:1424)
+	at Zi (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:15084)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:11632)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2024-12-08 12:07:17.601 [error] Canceled: Canceled
+	at new tT (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:108738)
+	at py.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113348)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110842)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at VsCodeDartToolingDaemon.dispose (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:12177:32)
+	at VsCodeDartToolingDaemon.handleClose (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:27481:14)
+	at VsCodeDartToolingDaemon.handleClose (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:12140:15)
+	at /home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:27347:58
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5) setContext undefined
+2024-12-08 12:07:17.602 [error] Canceled: Canceled
+	at new tT (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:108738)
+	at py.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113348)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110842)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at VsCodeDartToolingDaemon.dispose (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:12177:32)
+	at VsCodeDartToolingDaemon.handleClose (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:27481:14)
+	at VsCodeDartToolingDaemon.handleClose (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:12140:15)
+	at WebSocket.<anonymous> (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:27361:39)
+	at WebSocket.emit (node:events:519:28)
+	at WebSocket.emitClose (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:56605:10)
+	at Socket.socketOnClose (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:57674:15)
+	at Socket.emit (node:events:519:28)
+	at TCP.<anonymous> (node:net:339:12) setContext undefined
+2024-12-08 12:07:17.614 [error] Error: Channel has been closed
+	at s (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2431)
+	at Object.appendLine (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2570)
+	at D.logOutputMessage (/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:285192)
+	at D.info (/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:284925)
+	at ChildProcess.<anonymous> (/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:503028)
+	at ChildProcess.emit (node:events:519:28)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-12-08 12:07:17.796 [info] Extension host with pid 14793 exiting with code 0
+2024-12-08 12:07:18.194 [info] Extension host with pid 19138 started
+2024-12-08 12:07:18.215 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-12-08 12:07:18.221 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-12-08 12:07:18.257 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-12-08 12:07:18.317 [info] Eager extensions activated
+2024-12-08 12:07:18.343 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-12-08 12:07:18.345 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-12-08 13:38:52.785 [info] ExtensionService#_doActivateExtension ms-vsliveshare.vsliveshare, startup: false, activationEvent: 'onView:liveshare.session'
+2024-12-08 13:38:53.264 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-12-08 13:46:23.252 [info] Extension host terminating: renderer closed the MessagePort
+2024-12-08 13:46:23.335 [error] TypeError: Cannot read properties of undefined (reading 'stop')
+	at SessionTelemetry.endSession (/home/heinzketchup/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.5941/extension.js:1:584970)
+	at SessionContext.updateTelemetryContext (/home/heinzketchup/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.5941/extension.js:1:159195)
+	at SessionContext.onSessionStateChanged (/home/heinzketchup/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.5941/extension.js:1:162533)
+	at D.B (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at D.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:816)
+	at D.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:1033)
+	at SessionStateTracker.setState (/home/heinzketchup/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.5941/extension.js:1:167078)
+	at SessionStateTracker.transition (/home/heinzketchup/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.5941/extension.js:1:166787)
+	at LeaveCollaborationCommand.invoke (/home/heinzketchup/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.5941/extension.js:1:1655700)
+2024-12-08 13:46:23.349 [info] Extension host with pid 19138 exiting with code 0
+2024-12-08 13:46:23.992 [info] Extension host with pid 29962 started
+2024-12-08 13:46:23.992 [info] Skipping acquiring lock for /home/heinzketchup/.config/Code/User/workspaceStorage/f7ca6b53b2c5f9582947186d009a710c.
+2024-12-08 13:46:24.013 [info] ExtensionService#_doActivateExtension ms-vsliveshare.vsliveshare, startup: false, activationEvent: 'onFileSystem:vsls'
+2024-12-08 13:46:24.440 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-12-08 13:46:24.445 [info] Eager extensions activated
+2024-12-08 13:46:24.449 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-12-08 13:46:24.461 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-12-08 13:46:26.844 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-12-08 13:46:26.916 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-12-08 13:46:26.923 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-12-08 13:46:26.955 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-12-08 13:46:39.396 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2024-12-08 13:46:39.466 [info] ExtensionService#_doActivateExtension Dart-Code.dart-code, startup: false, activationEvent: 'onLanguage:dart'
+2024-12-08 13:54:59.837 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sortMembers'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 13:54:59.837 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.organizeImports'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 13:54:59.837 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.fixAll'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 13:54:59.837 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.convert.classToMixin'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 13:54:59.837 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.move'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 13:55:02.193 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sortMembers'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 13:55:02.193 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.organizeImports'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 13:55:02.194 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.fixAll'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 13:55:02.194 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.convert.classToMixin'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 13:55:02.194 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.move'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 13:55:02.598 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sortMembers'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 13:55:02.599 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.organizeImports'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 13:55:02.599 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.fixAll'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 13:55:02.599 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.convert.classToMixin'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 13:55:02.599 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.move'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 13:55:23.185 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sortMembers'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 13:55:23.185 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.organizeImports'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 13:55:23.185 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.fixAll'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 13:55:23.185 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.add.diagnosticPropertyReference'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 13:55:23.185 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.encapsulateField'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 13:55:25.653 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sortMembers'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 13:55:25.653 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.organizeImports'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 13:55:25.653 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.fixAll'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 13:55:25.653 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.add.diagnosticPropertyReference'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 13:55:25.653 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.encapsulateField'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:04:52.548 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sortMembers'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:04:52.549 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.organizeImports'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:04:52.549 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.fixAll'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:04:52.549 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.convert.bodyToAsync'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:04:52.549 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.extract'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:04:52.549 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.inline'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:04:56.536 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sortMembers'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:04:56.536 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.organizeImports'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:04:56.536 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.fixAll'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:04:56.536 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.convert.bodyToAsync'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:04:56.536 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.extract'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:04:56.536 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.inline'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:04:56.839 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sortMembers'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:04:56.839 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.organizeImports'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:04:56.839 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.fixAll'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:04:56.839 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.convert.bodyToAsync'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:04:56.839 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.extract'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:04:56.839 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.inline'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:04:57.248 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sortMembers'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:04:57.248 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.organizeImports'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:04:57.248 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.fixAll'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:04:57.249 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.convert.bodyToAsync'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:04:57.249 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.extract'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:04:57.249 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.inline'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:04:57.561 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sortMembers'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:04:57.561 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.organizeImports'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:04:57.561 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.fixAll'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:04:57.561 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.convert.bodyToAsync'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:04:57.561 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.add.typeAnnotation'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:04:57.561 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.extract'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:26.310 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sortMembers'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:26.310 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.organizeImports'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:26.310 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.fixAll'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:26.310 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.convert.bodyToAsync'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:26.310 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.extract'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:26.310 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.inline'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:28.148 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sortMembers'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:28.148 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.organizeImports'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:28.148 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.fixAll'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:28.148 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.add.typeAnnotation'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:28.148 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.destructureLocalVariableAssignment'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:28.148 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.inline'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:29.167 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sortMembers'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:29.167 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.organizeImports'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:29.167 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.fixAll'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:29.168 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.add.typeAnnotation'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:29.168 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.destructureLocalVariableAssignment'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:29.168 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.inline'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:29.899 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sortMembers'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:29.899 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.organizeImports'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:29.899 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.fixAll'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:29.899 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.add.typeAnnotation'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:29.899 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.destructureLocalVariableAssignment'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:29.899 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.inline'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:30.810 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sortMembers'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:30.810 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.organizeImports'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:30.810 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.fixAll'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:30.810 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.flutter.wrap.generic'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:30.810 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.flutter.wrap.builder'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:30.810 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.flutter.wrap.streamBuilder'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:30.810 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.flutter.wrap.center'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:30.810 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.flutter.wrap.container'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:30.811 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.flutter.wrap.padding'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:30.811 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.flutter.wrap.sizedBox'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:30.811 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.flutter.wrap.column'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:30.811 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.flutter.wrap.row'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:30.811 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.extract'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:30.811 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.extract'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:31.036 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sortMembers'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:31.036 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.organizeImports'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:31.036 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.fixAll'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:31.036 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.flutter.wrap.generic'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:31.036 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.flutter.wrap.builder'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:31.036 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.flutter.wrap.streamBuilder'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:31.036 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.flutter.wrap.center'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:31.036 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.flutter.wrap.container'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:31.037 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.flutter.wrap.padding'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:31.037 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.flutter.wrap.sizedBox'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:31.037 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.flutter.wrap.column'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:31.037 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.flutter.wrap.row'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:31.037 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.extract'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:31.037 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.extract'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:31.570 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sortMembers'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:31.570 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.organizeImports'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:31.570 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.fixAll'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:31.570 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.flutter.wrap.generic'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:31.570 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.flutter.wrap.builder'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:31.570 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.flutter.wrap.streamBuilder'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:31.570 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.flutter.wrap.center'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:31.570 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.flutter.wrap.container'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:31.570 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.flutter.wrap.padding'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:31.570 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.flutter.wrap.sizedBox'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:31.570 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.flutter.wrap.column'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:31.570 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.flutter.wrap.row'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:31.570 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.extract'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:31.570 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.extract'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:33.982 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sortMembers'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:33.982 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.organizeImports'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:33.982 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.fixAll'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:33.982 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.flutter.wrap.generic'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:33.982 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.flutter.wrap.builder'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:33.982 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.flutter.wrap.streamBuilder'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:33.982 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.flutter.wrap.center'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:33.982 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.flutter.wrap.container'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:33.982 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.flutter.wrap.padding'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:33.982 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.flutter.wrap.sizedBox'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:33.982 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.flutter.wrap.column'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:33.982 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.flutter.wrap.row'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:33.982 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.extract'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:33.982 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.extract'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:34.787 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sortMembers'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:34.787 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.organizeImports'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:34.787 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.fixAll'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:34.787 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.extract'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:05:34.787 [warning] ms-vsliveshare.vsliveshare - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.extract'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-12-08 14:22:55.816 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-12-08 14:49:49.861 [info] Extension host terminating: renderer closed the MessagePort
+2024-12-08 14:49:49.899 [error] Canceled: Canceled
+	at new tT (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:108738)
+	at py.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113348)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110842)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at setCommandVisiblity (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14263:22)
+	at /home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14238:26
+	at tryCleanup (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14272:15)
+	at Object.deactivate (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14238:9)
+	at z_.eb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:11724)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9874
+	at Array.map (<anonymous>)
+	at z_.$ (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9862)
+	at z_.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10105)
+	at EC.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:1424)
+	at Zi (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:15084)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:11632)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2024-12-08 14:49:49.899 [error] Canceled: Canceled
+	at new tT (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:108738)
+	at py.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113348)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110842)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at setCommandVisiblity (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14264:22)
+	at /home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14238:26
+	at tryCleanup (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14272:15)
+	at Object.deactivate (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14238:9)
+	at z_.eb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:11724)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9874
+	at Array.map (<anonymous>)
+	at z_.$ (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9862)
+	at z_.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10105)
+	at EC.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:1424)
+	at Zi (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:15084)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:11632)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2024-12-08 14:49:49.899 [error] Canceled: Canceled
+	at new tT (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:108738)
+	at py.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113348)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110842)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at setCommandVisiblity (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14265:22)
+	at /home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14238:26
+	at tryCleanup (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14272:15)
+	at Object.deactivate (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14238:9)
+	at z_.eb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:11724)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9874
+	at Array.map (<anonymous>)
+	at z_.$ (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9862)
+	at z_.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10105)
+	at EC.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:1424)
+	at Zi (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:15084)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:11632)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2024-12-08 14:49:49.899 [error] Canceled: Canceled
+	at new tT (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:108738)
+	at py.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113348)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110842)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at setCommandVisiblity (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14266:22)
+	at /home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14238:26
+	at tryCleanup (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14272:15)
+	at Object.deactivate (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14238:9)
+	at z_.eb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:11724)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9874
+	at Array.map (<anonymous>)
+	at z_.$ (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9862)
+	at z_.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10105)
+	at EC.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:1424)
+	at Zi (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:15084)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:11632)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2024-12-08 14:49:49.899 [error] Canceled: Canceled
+	at new tT (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:108738)
+	at py.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113348)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110842)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at /home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14241:38
+	at tryCleanup (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14272:15)
+	at Object.deactivate (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14241:9)
+	at z_.eb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:11724)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9874
+	at Array.map (<anonymous>)
+	at z_.$ (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9862)
+	at z_.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10105)
+	at EC.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:1424)
+	at Zi (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:15084)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:11632)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2024-12-08 14:49:49.900 [error] Canceled: Canceled
+	at new tT (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:108738)
+	at py.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113348)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110842)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at VsCodeDartToolingDaemon.dispose (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:12177:32)
+	at ci (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:24:699)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:14992
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:24:1009
+	at Object.dispose (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:2146)
+	at z_.eb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:11919)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9874
+	at Array.map (<anonymous>)
+	at z_.$ (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9862)
+	at z_.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10105)
+	at EC.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:1424)
+	at Zi (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:15084)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:11632)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2024-12-08 14:49:49.907 [error] Canceled: Canceled
+	at new tT (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:108738)
+	at py.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113348)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110842)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at VsCodeDartToolingDaemon.dispose (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:12177:32)
+	at VsCodeDartToolingDaemon.handleClose (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:27481:14)
+	at VsCodeDartToolingDaemon.handleClose (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:12140:15)
+	at /home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:27347:58
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5) setContext undefined
+2024-12-08 14:49:49.907 [error] Canceled: Canceled
+	at new tT (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:108738)
+	at py.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113348)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110842)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at VsCodeDartToolingDaemon.dispose (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:12177:32)
+	at VsCodeDartToolingDaemon.handleClose (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:27481:14)
+	at VsCodeDartToolingDaemon.handleClose (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:12140:15)
+	at WebSocket.<anonymous> (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:27361:39)
+	at WebSocket.emit (node:events:519:28)
+	at WebSocket.emitClose (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:56605:10)
+	at Receiver.receiverOnFinish (/home/heinzketchup/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:57542:20)
+	at Receiver.emit (node:events:519:28)
+	at finish (node:internal/streams/writable:953:10)
+	at node:internal/streams/writable:934:13
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21) setContext undefined
+2024-12-08 14:49:49.919 [error] Error: Channel has been closed
+	at s (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2431)
+	at Object.appendLine (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2570)
+	at D.logOutputMessage (/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:285192)
+	at D.info (/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:284925)
+	at ChildProcess.<anonymous> (/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:503028)
+	at ChildProcess.emit (node:events:519:28)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-12-08 14:49:50.107 [info] Extension host with pid 29962 exiting with code 0
+2024-12-08 14:49:50.484 [info] Extension host with pid 36585 started
+2024-12-08 14:49:50.496 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-12-08 14:49:50.499 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-12-08 14:49:50.537 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-12-08 14:49:50.592 [info] Eager extensions activated
+2024-12-08 14:49:50.596 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-12-08 14:49:50.598 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'

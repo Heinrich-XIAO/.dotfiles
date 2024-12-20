@@ -24,7 +24,7 @@
     <logicalmonitor>
       <x>0</x>
       <y>521</y>
-      <scale>2</scale>
+      <scale>1</scale>
       <monitor>
         <monitorspec>
           <connector>Meta-0</connector>

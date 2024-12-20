@@ -16,3 +16,5 @@
 	process = git-lfs filter-process
 [credential]
 	helper = store
+[safe]
+	directory = /usr/lib64/flutter
