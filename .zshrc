@@ -71,6 +71,9 @@ export DENO_INSTALL="$HOME/.deno"
 export PATH="$DENO_INSTALL/bin:$PATH"
 export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="$PATH:/usr/local/go/bin"
+export PATH="$PATH:/usr/share/tomcat/bin"
+export PATH="$PATH:$HOME/Documents/ccc_grader"
+export PATH="$PATH:$HOME/Documents/scripts"
 
 # Enable ZSH history
 HISTFILE=~/.zsh_history
@@ -145,3 +148,8 @@ esac
 # pnpm End
 
 export PATH="/home/heinzketchup/development/flutter/bin:$PATH"
+export PATH="/home/heinrich/.local/bin:$PATH"
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
