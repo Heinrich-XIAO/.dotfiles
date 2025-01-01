@@ -5,8 +5,25 @@ uri=qemu+unix:///session
 save-on-quit=true
 
 [display 9a13c8fd-4bfe-4fe6-9c58-6a716216682f]
-last-seen-name=archlinux-x86_64 4
+last-seen-name=archlinux-x86_64
 uuid=9a13c8fd-4bfe-4fe6-9c58-6a716216682f
 acceleration-3d=false
 run-in-bg=false
 access-last-time=1709484893089955
+
+[display c57c0c61-c73f-4380-9f63-55e16ab1e691]
+last-seen-name=kali-linux-2024 2
+uuid=c57c0c61-c73f-4380-9f63-55e16ab1e691
+acceleration-3d=false
+run-in-bg=true
+access-last-time=1735235868812145
+access-ntimes=1
+
+[display 1cc40802-4795-4836-af7b-bf5b4ac2425b]
+last-seen-name=kali-linux-2024 3
+uuid=1cc40802-4795-4836-af7b-bf5b4ac2425b
+acceleration-3d=false
+run-in-bg=false
+access-last-time=1735236299266216
+access-ntimes=2
+access-total-time=94
