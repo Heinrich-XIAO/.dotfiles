@@ -1,9 +1,13 @@
 <application>
   <component name="DimensionService">
     <location key="WELCOME_SCREEN.0.0.1280.800" x="640" y="375" />
+    <size key="GridCell.Tab.0.left.0.0.1920.1080" width="1830" height="296" />
+    <size key="GridCell.Tab.0.center.0.0.1920.1080" width="1830" height="296" />
+    <size key="GridCell.Tab.0.right.0.0.1920.1080" width="1830" height="296" />
+    <size key="GridCell.Tab.0.bottom.0.0.1920.1080" width="1830" height="296" />
   </component>
   <component name="WindowManager">
-    <frame x="-2" y="46" width="1282" height="752" />
+    <frame x="4" y="46" width="1912" height="1030" />
   </component>
   <component name="WindowStateApplicationService">
     <state x="428" y="192" key="FileChooserDialogImpl" timestamp="1733420009536">
@@ -14,10 +18,11 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="227" y="175" key="IDE.errors.dialog/0.0.1280.800" timestamp="1733422717705" />
-    <state x="639" y="424" width="1272" height="750" key="WELCOME_SCREEN" timestamp="1733436150352">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state x="978" y="571" width="1912" height="1030" key="WELCOME_SCREEN" timestamp="1735315575150">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="639" y="424" width="1272" height="750" key="WELCOME_SCREEN/0.0.1280.800" timestamp="1733436150352" />
+    <state x="978" y="571" width="1912" height="1030" key="WELCOME_SCREEN/0.0.1920.1080" timestamp="1735315575150" />
     <state x="3" y="49" width="1272" height="750" key="com.android.tools.idea.devicemanagerv2.DeviceManagerWelcomeScreenFrame" timestamp="1733423285989">
       <screen x="0" y="0" width="1280" height="800" />
     </state>

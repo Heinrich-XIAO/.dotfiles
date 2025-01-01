@@ -334,10 +334,11 @@
 }</component>
       <component name="VcsDirectoryMappings" defaultProject="true" />
       <component name="WindowStateProjectService">
-        <state x="98" y="82" width="1112" height="700" key="SettingsEditor" timestamp="1733436150181">
-          <screen x="0" y="0" width="1280" height="800" />
+        <state x="147" y="111" width="1112" height="700" key="SettingsEditor" timestamp="1735315628019">
+          <screen x="0" y="0" width="1920" height="1080" />
         </state>
         <state x="98" y="82" width="1112" height="700" key="SettingsEditor/0.0.1280.800" timestamp="1733436150181" />
+        <state x="147" y="111" key="SettingsEditor/0.0.1920.1080" timestamp="1735315628019" />
       </component>
     </defaultProject>
   </component>

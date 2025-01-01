@@ -3,26 +3,59 @@
     <e n="$Undo">
       <i c="1" l="1733422957026" />
     </e>
+    <e n="AndroidConnectDebuggerAction">
+      <i c="1" l="1735315293930" />
+    </e>
+    <e n="AttachDebuggerAction">
+      <i c="2" l="1735315104505" />
+    </e>
     <e n="CloseProject">
-      <i c="1" l="1733422717306" />
+      <i c="2" l="1735315572559" />
+    </e>
+    <e n="CreateDesktopEntry">
+      <i c="1" l="1735314008332" />
+    </e>
+    <e n="Debug">
+      <i c="2" l="1735317035136" />
     </e>
     <e n="EditorBackSpace">
-      <i c="3" l="1733422965025" />
+      <i c="9" l="1735316848398" />
     </e>
     <e n="EditorPaste">
       <i c="2" l="1733422962360" />
     </e>
+    <e n="Exit">
+      <i c="2" l="1735315545086" />
+    </e>
+    <e n="Find">
+      <i c="1" l="1735316844479" />
+    </e>
     <e n="MoreRunToolbarActions">
-      <i c="1" l="1733420043395" />
+      <i c="4" l="1735315930657" />
     </e>
     <e n="RedesignedRunConfigurationSelector">
       <i c="2" l="1733420054719" />
+    </e>
+    <e n="Rerun">
+      <i c="2" l="1735317112224" />
+    </e>
+    <e n="Resume">
+      <i c="1" l="1735314306333" />
+    </e>
+    <e n="Run">
+      <i c="9" l="1735317377162" />
+    </e>
+    <e n="Stop">
+      <i c="2" l="1735317033760" />
+    </e>
+    <e n="ToggleLineBreakpoint">
+      <i c="2" l="1735316874530" />
     </e>
     <e n="WelcomeScreen.OpenProject">
       <i c="1" l="1733419994999" />
     </e>
     <e n="WelcomeScreen.RunAndroidSdkManager">
-      <i c="7" l="1733434954806" />
+      <i c="8" l="1735315595381" />
     </e>
     <e n="WelcomeScreen.RunDeviceManager2">
       <i c="2" l="1733422977553" />
@@ -30,8 +63,14 @@
     <e n="com.android.tools.adtui.actions.DropDownAction">
       <i c="1" l="1733420067434" />
     </e>
+    <e n="com.android.tools.idea.devicemanagerv2.DeleteAction">
+      <i c="3" l="1735314601999" />
+    </e>
     <e n="com.android.tools.idea.devicemanagerv2.DeviceManagerPanel$toAnAction$2">
       <i c="1" l="1733420069000" />
+    </e>
+    <e n="com.android.tools.idea.devicemanagerv2.EditDeviceAction">
+      <i c="1" l="1735314816469" />
     </e>
     <e n="com.android.tools.idea.devicemanagerv2.OpenDeviceExplorerAction">
       <i c="1" l="1733420340031" />
@@ -43,7 +82,7 @@
       <i c="1" l="1733420192582" />
     </e>
     <e n="com.android.tools.idea.streaming.core.StreamingToolWindowManager$NewTabAction">
-      <i c="1" l="1733420173779" />
+      <i c="2" l="1735314781838" />
     </e>
     <e n="com.android.tools.idea.streaming.core.StreamingToolWindowManager$StartDeviceMirroringAction">
       <i c="1" l="1733420174699" />
@@ -51,26 +90,53 @@
     <e n="com.intellij.execution.ui.RunToolbarPopupKt$createRunConfigurationWithInlines$result$1">
       <i c="1" l="1733420058135" />
     </e>
+    <e n="com.intellij.find.SearchReplaceComponent$CloseAction">
+      <i c="1" l="1735316866464" />
+    </e>
+    <e n="com.intellij.find.editorHeaderActions.NextOccurrenceAction">
+      <i c="19" l="1735316864073" />
+    </e>
     <e n="com.intellij.notification.NotificationAction$Simple">
-      <i c="2" l="1733420180401" />
+      <i c="3" l="1735314020446" />
     </e>
     <e n="com.intellij.openapi.actionSystem.AnActionWrapper">
       <i c="1" l="1733422870086" />
     </e>
     <e n="com.intellij.openapi.actionSystem.DefaultActionGroup">
-      <i c="8" l="1733434953029" />
+      <i c="9" l="1735315593686" />
+    </e>
+    <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
+      <i c="2" l="1735314666257" />
+    </e>
+    <e n="com.intellij.openapi.ui.DialogWrapper$5">
+      <i c="1" l="1735315658563" />
     </e>
     <e n="com.intellij.openapi.wm.impl.SquareAnActionButton">
-      <i c="8" l="1733420332941" />
+      <i c="26" l="1735317388558" />
     </e>
     <e n="com.intellij.openapi.wm.impl.customFrameDecorations.header.toolbar.MainMenuButton$ShowMenuAction">
-      <i c="1" l="1733422714265" />
+      <i c="5" l="1735315566415" />
     </e>
     <e n="com.intellij.toolWindow.ToolWindowHeader$HideAction">
       <i c="4" l="1733420226289" />
     </e>
     <e n="com.intellij.toolWindow.ToolWindowHeader$ShowOptionsAction">
       <i c="1" l="1733420327882" />
+    </e>
+    <e n="com.intellij.xdebugger.impl.breakpoints.RemoveBreakpointGutterIconAction">
+      <i c="1" l="1735317146017" />
+    </e>
+    <e n="editRunConfigurations">
+      <i c="1" l="1735315931342" />
+    </e>
+    <e n="io.flutter.actions.DeviceSelectorAction$SelectDeviceAction">
+      <i c="3" l="1735317376298" />
+    </e>
+    <e n="io.flutter.actions.OpenEmulatorAction">
+      <i c="3" l="1735317106515" />
+    </e>
+    <e n="io.flutter.actions.RestartFlutterDaemonAction">
+      <i c="10" l="1735315315119" />
     </e>
   </component>
 </application>

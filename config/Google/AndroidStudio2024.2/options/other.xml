@@ -1,62 +1,69 @@
 <application>
-  <component name="FileEditorProviderManager"><![CDATA[{}]]></component>
+  <component name="FileEditorProviderManager">{}</component>
   <component name="NotRoamableUiSettings">
     <option name="fontSize" value="12.0" />
     <option name="presentationModeIdeScale" value="1.75" />
   </component>
-  <component name="PropertyService"><![CDATA[{
-  "keyToString": {
-    "ATTACHED_TOOL_WINDOW.DEFAULT.Layout Inspector.PROPERTIES.AUTO_HIDE": "false",
-    "ATTACHED_TOOL_WINDOW.DEFAULT.Layout Inspector.PROPERTIES.LEFT": "false",
-    "ATTACHED_TOOL_WINDOW.DEFAULT.Layout Inspector.PROPERTIES.MINIMIZED": "false",
-    "ATTACHED_TOOL_WINDOW.DEFAULT.Layout Inspector.PROPERTIES.SPLIT": "true",
-    "ATTACHED_TOOL_WINDOW.DEFAULT.Layout Inspector.TOOL_ORDER": "TREE,PROPERTIES",
-    "ATTACHED_TOOL_WINDOW.DEFAULT.Layout Inspector.TREE.AUTO_HIDE": "false",
-    "ATTACHED_TOOL_WINDOW.DEFAULT.Layout Inspector.TREE.LEFT": "true",
-    "ATTACHED_TOOL_WINDOW.DEFAULT.Layout Inspector.TREE.MINIMIZED": "false",
-    "ATTACHED_TOOL_WINDOW.DEFAULT.Layout Inspector.TREE.SPLIT": "true",
-    "ATTACHED_TOOL_WINDOW.Layout Inspector.PROPERTIES.SPLIT": "true",
-    "ATTACHED_TOOL_WINDOW.Layout Inspector.TOOL_ORDER": "TREE,PROPERTIES",
-    "ATTACHED_TOOL_WINDOW.Layout Inspector.TREE.LEFT": "true",
-    "ATTACHED_TOOL_WINDOW.Layout Inspector.TREE.SPLIT": "true",
-    "FLUTTER_LAST_SURVEY_CONTENT_CHECK_KEY": "1733420015561",
-    "InstalledPluginsSearchHistory": "cmdline-tools",
-    "LAST_CALCULATED_COLOR_INDEX_KEY": "6",
-    "MarketplacePluginsSearchHistory": "cmdline-tools",
-    "RunOnceActivity.VFSInitializationConditionsToFusReporter": "true",
-    "RunOnceActivity.cidr.test.framework.showIndexingAsTask": "true",
-    "RunOnceActivity.cidr.test.roots.only": "true",
-    "SettingsSearchHistory": "cmdline-tools",
-    "android.sdk.path": "/home/heinzketchup/Android/Sdk",
-    "com.android.tools.idea.layoutinspector.runningdevices.ui.uiconfigkey": "HORIZONTAL",
-    "experimental.ui.used.version": "242.23339.11.2421.12700392",
-    "fileTypeChangedCounter": "1",
-    "fontSizeToResetConsole": "12.0",
-    "fontSizeToResetEditor": "12.0",
-    "ide.memory.adjusted": "true",
-    "ignore.ide.script.launcher.used": "true",
-    "ignore.unsupported.jvm.openjdk.message": "true",
-    "installed.kotlin.plugin.version": "242.23339.11.2421.12700392-AS",
-    "io.flutter.console.preferencesSet": "true",
-    "last_opened_file_path": "/home/heinzketchup/Documents/Musify",
-    "migrated.non.roamable.values.from.general.settings": "true",
-    "previousColorScheme": "_@user_Dark",
-    "registry.to.advanced.settings.migration.build": "AI-242.23339.11.2421.12700392",
-    "updater.configure.tools.details.checkbox.selected": "true"
+  <component name="PropertyService">{
+  &quot;keyToString&quot;: {
+    &quot;ATTACHED_TOOL_WINDOW.DEFAULT.Layout Inspector.PROPERTIES.AUTO_HIDE&quot;: &quot;false&quot;,
+    &quot;ATTACHED_TOOL_WINDOW.DEFAULT.Layout Inspector.PROPERTIES.LEFT&quot;: &quot;false&quot;,
+    &quot;ATTACHED_TOOL_WINDOW.DEFAULT.Layout Inspector.PROPERTIES.MINIMIZED&quot;: &quot;false&quot;,
+    &quot;ATTACHED_TOOL_WINDOW.DEFAULT.Layout Inspector.PROPERTIES.SPLIT&quot;: &quot;true&quot;,
+    &quot;ATTACHED_TOOL_WINDOW.DEFAULT.Layout Inspector.TOOL_ORDER&quot;: &quot;TREE,PROPERTIES&quot;,
+    &quot;ATTACHED_TOOL_WINDOW.DEFAULT.Layout Inspector.TREE.AUTO_HIDE&quot;: &quot;false&quot;,
+    &quot;ATTACHED_TOOL_WINDOW.DEFAULT.Layout Inspector.TREE.LEFT&quot;: &quot;true&quot;,
+    &quot;ATTACHED_TOOL_WINDOW.DEFAULT.Layout Inspector.TREE.MINIMIZED&quot;: &quot;false&quot;,
+    &quot;ATTACHED_TOOL_WINDOW.DEFAULT.Layout Inspector.TREE.SPLIT&quot;: &quot;true&quot;,
+    &quot;ATTACHED_TOOL_WINDOW.Layout Inspector.PROPERTIES.SPLIT&quot;: &quot;true&quot;,
+    &quot;ATTACHED_TOOL_WINDOW.Layout Inspector.TOOL_ORDER&quot;: &quot;TREE,PROPERTIES&quot;,
+    &quot;ATTACHED_TOOL_WINDOW.Layout Inspector.TREE.LEFT&quot;: &quot;true&quot;,
+    &quot;ATTACHED_TOOL_WINDOW.Layout Inspector.TREE.SPLIT&quot;: &quot;true&quot;,
+    &quot;FLUTTER_LAST_SURVEY_CONTENT_CHECK_KEY&quot;: &quot;1735314661755&quot;,
+    &quot;InstalledPluginsSearchHistory&quot;: &quot;cmdline-tools&quot;,
+    &quot;LAST_CALCULATED_COLOR_INDEX_KEY&quot;: &quot;6&quot;,
+    &quot;MarketplacePluginsSearchHistory&quot;: &quot;/suggested\ncmdline-tools&quot;,
+    &quot;RunOnceActivity.VFSInitializationConditionsToFusReporter&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.test.framework.showIndexingAsTask&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.test.roots.only&quot;: &quot;true&quot;,
+    &quot;SettingsSearchHistory&quot;: &quot;cmdline-tools&quot;,
+    &quot;android.sdk.path&quot;: &quot;/home/heinrich/Android/Sdk&quot;,
+    &quot;com.android.tools.idea.layoutinspector.runningdevices.ui.uiconfigkey&quot;: &quot;HORIZONTAL&quot;,
+    &quot;experimental.ui.used.version&quot;: &quot;242.23339.11.2421.12700392&quot;,
+    &quot;fileTypeChangedCounter&quot;: &quot;1&quot;,
+    &quot;fontSizeToResetConsole&quot;: &quot;12.0&quot;,
+    &quot;fontSizeToResetEditor&quot;: &quot;12.0&quot;,
+    &quot;got.it.tooltip.new.terminal.promotion.242&quot;: &quot;1&quot;,
+    &quot;ide.memory.adjusted&quot;: &quot;true&quot;,
+    &quot;ignore.ide.script.launcher.used&quot;: &quot;true&quot;,
+    &quot;ignore.unsupported.jvm.openjdk.message&quot;: &quot;true&quot;,
+    &quot;input.method.disabler.muted&quot;: &quot;true&quot;,
+    &quot;installed.kotlin.plugin.version&quot;: &quot;242.23339.11.2421.12700392-AS&quot;,
+    &quot;io.flutter.console.preferencesSet&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/heinzketchup/Documents/Musify&quot;,
+    &quot;migrated.non.roamable.values.from.general.settings&quot;: &quot;true&quot;,
+    &quot;previousColorScheme&quot;: &quot;_@user_Dark&quot;,
+    &quot;registry.to.advanced.settings.migration.build&quot;: &quot;AI-242.23339.11.2421.12700392&quot;,
+    &quot;updater.configure.tools.details.checkbox.selected&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "FLUTTER_SDK_KNOWN_PATHS": [
-      "/usr"
+  &quot;keyToStringList&quot;: {
+    &quot;FLUTTER_SDK_KNOWN_PATHS&quot;: [
+      &quot;/usr&quot;
     ],
-    "file.chooser.recent.files": [
-      "/home/heinzketchup/Documents/Musify"
+    &quot;file.chooser.recent.files&quot;: [
+      &quot;/home/heinzketchup/Documents/Musify&quot;
     ],
-    "fileTypeDetectors": [
-      "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
-      "com.jetbrains.cidr.lang.OCHeaderFileTypeDetector",
-      "com.android.tools.idea.profilers.capture.MemoryCaptureFileType$Detector",
-      "org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector"
+    &quot;fileTypeDetectors&quot;: [
+      &quot;com.intellij.ide.scratch.ScratchFileServiceImpl$Detector&quot;,
+      &quot;com.jetbrains.cidr.lang.OCHeaderFileTypeDetector&quot;,
+      &quot;com.android.tools.idea.profilers.capture.MemoryCaptureFileType$Detector&quot;,
+      &quot;org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector&quot;
     ]
   }
-}]]></component>
+}</component>
+  <component name="TerminalCommandHistoryManager">
+    <command-history-files>
+      <command-history-file filename="Musify-history" project-path="/home/heinrich/Documents/Musify" last-access-time="1735316481661" />
+    </command-history-files>
+  </component>
 </application>
