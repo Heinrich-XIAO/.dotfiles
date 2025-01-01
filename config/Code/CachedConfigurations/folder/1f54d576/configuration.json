@@ -1,1 +1,0 @@
-{"content":{"settings":"{}","tasks":"{}","launch":"{\n\"version\": \"0.2.0\",\n\"configurations\": [\n{\n\"name\": \"Flutter Run with Flavor F-Droid\",\n\"type\": \"dart\",\n\"request\": \"launch\",\n\"program\": \"lib/main.dart\",\n\"args\": [\n\"--machine\",\n\"--flavor\",\n\"fdroid\",\n\"--debug\"\n]\n}\n]\n}\n  "}}

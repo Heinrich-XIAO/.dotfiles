@@ -1,6 +1,0 @@
-2024-12-05 17:40:23.611 [info] Started local extension host with pid 59366.
-2024-12-05 17:40:23.754 [info] Started initializing default profile extensions in extensions installation folder. file:///home/heinzketchup/.vscode/extensions
-2024-12-05 17:40:23.870 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/heinzketchup/.vscode/extensions
-2024-12-05 17:40:23.934 [info] Settings Sync: Updating due to initialize
-2024-12-05 17:40:23.934 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
-2024-12-05 17:40:23.934 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
