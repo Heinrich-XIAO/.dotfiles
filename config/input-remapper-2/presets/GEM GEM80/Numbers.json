@@ -354,7 +354,7 @@
             }
         ],
         "target_uinput": "keyboard",
-        "output_symbol": "*",
+        "output_symbol": "KEY_KPASTERISK",
         "mapping_type": "key_macro"
     },
     {
@@ -376,7 +376,7 @@
             }
         ],
         "target_uinput": "keyboard",
-        "output_symbol": "(",
+        "output_symbol": "parenleft",
         "mapping_type": "key_macro"
     },
     {
@@ -398,7 +398,7 @@
             }
         ],
         "target_uinput": "keyboard",
-        "output_symbol": ")",
+        "output_symbol": "parenright",
         "mapping_type": "key_macro"
     }
 ]
