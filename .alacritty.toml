@@ -8,12 +8,6 @@ padding.y = 0
 #decorations = "None"
 decorations_theme_variant = "Dark"
 
-
-[font]
-	size = 7
-
-
-
 [terminal.shell]
   program = "/bin/zsh"
 #	args = ["-l", "-c", "tmux attach || tmux"]
