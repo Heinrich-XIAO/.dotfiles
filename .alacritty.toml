@@ -14,7 +14,7 @@ decorations_theme_variant = "Dark"
 
 
 
-[shell]
+[terminal.shell]
   program = "/bin/zsh"
 #	args = ["-l", "-c", "tmux attach || tmux"]
 
@@ -24,4 +24,6 @@ decorations_theme_variant = "Dark"
 key = "Semicolon"
 mods = "Alt"
 action = "None"
+
+[terminal]
 
